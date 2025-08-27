@@ -1,0 +1,21 @@
+filters:
+  and:
+    - type == "api-collection"
+    - type == "api-collection"
+formulas:
+  Untitled: |2
+     - type == "api-endpoint"
+     - file.hasTag("app/intranet")
+     - file.hasTag("env/prod")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - tags
+      - rest
+    sort:
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: ASC

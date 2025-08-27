@@ -1,0 +1,35 @@
+---
+type: api-endpoint
+title: "Tests — pub (IntraDev)"
+tags:
+  - project/intrexx-rest-discovery
+  - system/intrexx
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - collection/tests
+  - status/wip
+  - spec/none
+  - lang/de
+  - endpoint/pub
+  - method/get
+  - flag/method-unclear
+owner: "Team Integration"
+app_id: "88B66AF9F56B3E785C0527589ACD282E2F19BED3"
+base_url: "[[BaseURL_intraDev]]"
+path: "/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub"
+url: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub"
+method: "GET"
+collection_ref: "[[Intrexx-IntraDev-API-Tests]]"
+last_checked: 2025-08-27
+---
+
+# `pub` — Contract
+- **Method:** GET *(unbestätigt)*
+- **URL:** <[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub>
+- **Auth:** _tbd_
+- **Query-Params:** _tbd_
+- **Response:** _tbd_
+
+## Relations
+Parent:: [[Intrexx-IntraDev-API-Tests]]

@@ -1,0 +1,39 @@
+---
+type: api-endpoint
+title: "Studiengänge — studigaenge (Intranet)"
+tags:
+  - project/intrexx-rest-discovery
+  - system/intrexx
+  - app/intranet
+  - env/prod
+  - exposure/internal-live
+  - status/wip
+  - spec/none
+  - lang/de
+  - collection/studiengaenge
+  - endpoint/studigaenge
+  - method/get
+owner: "Team Integration"
+app_id: "07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
+base_url: "[[BaseURL_Intranet]]"
+path: "/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
+url: "[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
+method: "GET"
+collection_ref: "[[Intrexx-Intranet-API-Studiengänge]]"
+last_checked: YYYY-MM-DD
+---
+
+# `studigaenge` — Contract
+- **Method:** GET  
+- **URL:** <[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge>  
+- **Auth:** _tbd_  
+- **Query-Params:** _tbd_  
+- **Response:** _tbd_
+
+## Status & Health
+- [ ] 200 OK
+- [ ] Pagination/Filter
+- [ ] Fehlermodell
+
+## Relations
+Parent:: [[Intrexx_Intranet_Studiengänge]]

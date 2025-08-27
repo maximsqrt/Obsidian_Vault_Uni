@@ -1,0 +1,34 @@
+---
+type: api-endpoint
+title: "Studiengänge — infolinks (IntraDev)"
+tags:
+  - project/intrexx-rest-discovery
+  - system/intrexx
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - collection/studiengaenge
+  - status/wip
+  - spec/none
+  - lang/de
+  - endpoint/infolinks
+  - method/get
+owner: "Team Integration"
+app_id: "EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F"
+base_url: "[[BaseURL_intraDev]]"
+path: "/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/infolinks"
+url: "[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/infolinks"
+method: "GET"
+collection_ref: "[[Intrexx-IntraDev-API-Studiengaenge]]"
+last_checked: 2025-08-26
+---
+
+# `infolinks` — Contract
+- **Method:** GET  
+- **URL:** <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/infolinks>  
+- **Auth:** _tbd_  
+- **Query-Params:** _tbd_  
+- **Response:** _tbd_
+
+## Relations
+Parent:: [[Intrexx-IntraDev-API-Studiengaenge]]

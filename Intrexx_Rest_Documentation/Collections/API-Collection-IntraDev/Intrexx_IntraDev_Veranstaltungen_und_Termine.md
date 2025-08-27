@@ -1,0 +1,56 @@
+---
+type: api-collection
+title: "Intrexx IntraDev API — Veranstaltungen und Termine"
+tags:
+  - project/intrexx-rest-discovery
+  - system/intrexx
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - status/wip
+  - spec/none
+  - lang/de
+  - collection/veranstaltungen-und-termine
+owner: "Team Integration"
+app_id: "1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
+base_url: "[[BaseURL_intraDev]]"
+api_base: "[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
+endpoints_count: 7
+last_checked: YYYY-MM-DD
+---
+
+# Veranstaltungen und Termine — Analyse (IntraDev)
+
+## Endpoints
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen>
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}>
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten>
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}>
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen>
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine>
+- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}>
+
+## Status & Health
+- [ ] 200 OK je Endpoint
+- [ ] Auth / Rollen (Session/Cookie/Token) geklärt
+- [ ] Pagination/Filter (Listen)
+- [ ] Fehlermodell konsistent
+- [ ] Rate Limits/Quotas dokumentiert
+
+## Auth & Keys
+- Typ: _(oauth2 | bearer | basic | apikey | none)_  
+- Übergabe/Scopes: _…_
+
+## Nutzung & Owner
+- Consumer: _…_  
+- Nutzung: _aktiv / selten / unklar_
+
+## Probleme / Risiken
+- _…_
+
+## Maßnahmen / Nächste Schritte
+- _…_
+
+## Relations
+Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
+Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]

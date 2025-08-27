@@ -1,0 +1,8 @@
+filters:
+  and:
+    - file.hasProperty("method")
+    - file.hasTag("method/get", "method/post")
+    - base_url == "[[BaseURL_intraDev]]"
+views:
+  - type: table
+    name: Table

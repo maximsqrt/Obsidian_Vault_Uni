@@ -1,0 +1,5 @@
+/* Test: Alle Ordnerzeilen (nicht Dateien) im linken Navigator */
+.nav-files-container .tree-item:has(> .nav-folder-children) > :is(.tree-item-self, .tree-item-inner) {
+  background: #7d2cff !important;
+  border-radius: 6px;
+}

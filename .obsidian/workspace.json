@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "769b9d71eb15112b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c8e3c86ba598ff2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbad6682bc013c80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API_Endpoints/IntraDev/IntraDev_Stellenausschreibungen/Intrexx_IntraDev_Stelle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intrexx_IntraDev_Stelle"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a2ff33cefe7bda4",
+    "type": "split",
+    "children": [
+      {
+        "id": "635ea2b5bd5bbc22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f763360bcf2c5b13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "560f569224cf2cb2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "^\\s*base[_-]?url\\s*:\\s*[\"']?(?:https?:\\/\\/)?intradev\\.zv\\.uni-freiburg\\.de\\/?[\"']?\\s*$",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c80bc6e9df98c58a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "7617cac4f6feafbf",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 358.5
+  },
+  "right": {
+    "id": "50b686ce88c7f880",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dc7bb92aff68e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67711df4fc61f1c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "API-Dossier - Vorlage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for API-Dossier - Vorlage"
+            }
+          },
+          {
+            "id": "45377bf2688a0947",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "35d4c2fb5870d1eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "287b47d9ffa6eca7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Endpoints/IntraDev/IntraDev_Publikationen/IntraDev_Publikationen.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of IntraDev_Publikationen"
+            }
+          },
+          {
+            "id": "0954e7d74916c034",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "c13505d007d11328",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4f03b378f13031f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Notizen mit Thorsten coffee chat.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Notizen mit Thorsten coffee chat"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "bbad6682bc013c80",
+  "lastOpenFiles": [
+    "API_Endpoints/Intranet/BaseURL_Intranet.md",
+    "API_Endpoints/IntraDev/BaseURL_IntraDev.md",
+    "API_Endpoints/IntraDev/IntraDev_Stellenausschreibungen/Intrexx_IntraDev_Kategorien.md",
+    "API_Endpoints/API_Endpoints.md",
+    "Intrexx_Rest_Documentation/Intrexx-Intranet-Documentation.md",
+    "Templates/API Endpoints.md",
+    "Intrexx_Rest_Documentation/Intrexx_Rest_Documentation.md",
+    "Tags/#endpoint+fahrraeder",
+    "Tags/#collection+fahrraeder",
+    "Tags/#exposure+internal-live",
+    "Tags/#env+prod",
+    "Tags/#app+intranet",
+    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Logout.md",
+    "Tags/#system",
+    "Tags/#project",
+    "Tags/#method+get",
+    "Tags/#endpoint+fundsachen",
+    "Tags/#collection+fundsachen",
+    "API_Endpoints/IntraDev/IntraDev_Stellenausschreibungen/Intrexx_IntraDev_Stelle.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Termingruppe.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachschaften.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Faecher.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Geodaten.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Veranstaltungen.md",
+    "Vault.md",
+    "API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung/Intrexx_IntraDev_Fahrraeder.md",
+    "APIs_intraDev.md",
+    "Plan.md",
+    "Intrexx Map.canvas.canvas",
+    "Intrexx Intranet API.md",
+    "Aufgaben.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Nachrichten.md",
+    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md"
+  ]
+}
