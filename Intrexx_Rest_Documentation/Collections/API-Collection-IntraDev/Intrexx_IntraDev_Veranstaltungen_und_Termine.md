@@ -22,13 +22,20 @@ last_checked: YYYY-MM-DD
 # Veranstaltungen und Termine — Analyse (IntraDev)
 
 ## Endpoints
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}>
+
+- [[Intrexx_IntraDev_Termine]]
+    
+- [[Intrexx_IntraDev_Termin_StrId]]
+    
+- [[Intrexx_IntraDev_Themen]]
+    
+- [[Intrexx_IntraDev_Varten]]
+    
+- [[Intrexx_IntraDev_Vart_StrId]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Veranstaltungen_und_Termine/Intrexx_intraDev_Veranstaltungen|Intrexx_intraDev_Veranstaltungen]]
+    
+- [[Intrexx_intraDev_Veranstaltungen_StrId]]
 
 ## Status & Health
 - [ ] 200 OK je Endpoint

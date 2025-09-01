@@ -15,9 +15,9 @@ tags:
   - method/get
 owner: Team Integration
 app_id: E14074D19E1FB8644E124BC295F886FDED6CBE51
-base_url: [[BaseURL_intraDev]]
+base_url: "[[BaseURL_intraDev]]"
 path: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt
-url: [[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt
+url: "[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt"
 method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Vergebene-Auftraege]]"
 last_checked: 2025-08-27

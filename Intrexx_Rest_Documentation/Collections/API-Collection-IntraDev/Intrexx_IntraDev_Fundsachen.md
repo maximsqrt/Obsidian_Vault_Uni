@@ -13,8 +13,8 @@ tags:
   - exposure/internal-nonprod
 owner: Team Integration
 app_id: 56E423A507C34F76FD114442921B0AF44BA57B88
-base_url: [[BaseURL_intraDev]]
-api_base: [[BaseURL_intraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88
+base_url: "[[BaseURL_intraDev]]"
+api_base: "[[BaseURL_intraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88"
 endpoints_count: 2
 last_checked: YYYY-MM-DD
 ---

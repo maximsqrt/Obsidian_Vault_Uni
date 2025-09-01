@@ -1,6 +1,6 @@
 ---
 aliases: [BASEURL]
-url: https://intradev.zv.uni-freiburg.de/
+url: https://intradev.zv.uni-freiburg.de
 tags: [api, baseurl]
 ---
 
@@ -9,7 +9,7 @@ tags: [api, baseurl]
 
 
 > [!tip] Verwendung
-> **Basis-URL:** https://intradev.zv.uni-freiburg.de/
+> **Basis-URL:** https://intradev.zv.uni-freiburg.de
 
 > [!note] Dataview (optional)
 > Frontmatter-URL anzeigen: `= this.url`

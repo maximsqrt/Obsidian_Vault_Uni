@@ -22,10 +22,14 @@ last_checked: YYYY-MM-DD
 # Tests — Analyse (IntraDev)
 
 ## Endpoints
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/projekte>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/new_pub>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/study>
+
+- [[API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Projekte|Intrexx_IntraDev_Projekte]]
+
+- [[Intrexx_IntraDev_Pub]]
+
+- [[Intrexx_intraDev_New_Pub]]
+    
+- [[Intrexx_intraDev_Study]]
 
 ## Status & Health
 - [ ] 200 OK je Endpoint

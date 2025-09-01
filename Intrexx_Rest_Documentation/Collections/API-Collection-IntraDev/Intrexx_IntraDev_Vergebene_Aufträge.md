@@ -22,8 +22,8 @@ last_checked: YYYY-MM-DD
 # Vergebene Aufträge — Analyse (IntraDev)
 
 ## Endpoints
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vob>
+- [[Intrexx_IntraDev_Binnenmarkt]]
+- [[Intrexx_IntraDev_VOB]]
 - `<GET?>` <[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben>
 - `<GET?>` <[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege>
 

@@ -10,9 +10,9 @@ Bezug: [[Intrexx-Intradev-Documentation]] · Inventar: [[Inventory-Intrexx]]
 ## Woche 1 — Discovery (2025-08-25–2025-08-31)
 
 ### Kritisch
-- [ ] Zugänge, Keys und Token inventarisieren (alle Systeme, Vault, Umgebungen)  start: 2025-08-25 scheduled: 2025-08-26 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery
-- [ ] Basis-URLs und API-Hosts ermitteln (DNS, Reverse Proxy, App-Konfiguration)  start: 2025-08-25 scheduled: 2025-08-27 due: 2025-08-29 priority: high  #Projekt/Intrexx-REST-Discovery
-- [ ] Initiales API-Inventar anlegen (Dossiers je Endpoint beginnen)  start: 2025-08-26 scheduled: 2025-08-27 due: 2025-08-29 priority: high  #Projekt/Intrexx-REST-Discovery
+- [x] Zugänge, Keys und Token inventarisieren (alle Systeme, Vault, Umgebungen)  start: 2025-08-25 scheduled: 2025-08-26 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery ✅ 2025-09-01
+- [x] Basis-URLs und API-Hosts ermitteln (DNS, Reverse Proxy, App-Konfiguration)  start: 2025-08-25 scheduled: 2025-08-27 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery ✅ 2025-09-01
+- [x] Initiales API-Inventar anlegen (Dossiers je Endpoint beginnen)  start: 2025-08-26 scheduled: 2025-08-27 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery ✅ 2025-09-01
 - [ ] Logquellen und Metriken identifizieren (Access-/App-Logs, Proxy, APM)  start: 2025-08-26 scheduled: 2025-08-28 due: 2025-08-29 priority: high  #Projekt/Intrexx-REST-Discovery
 - [ ] Test-Harness bereitstellen (curl/httpie, Postman-Collection, Python httpx)  start: 2025-08-27 scheduled: 2025-08-28 due: 2025-08-29 priority: high  #Projekt/Intrexx-REST-Discovery
 

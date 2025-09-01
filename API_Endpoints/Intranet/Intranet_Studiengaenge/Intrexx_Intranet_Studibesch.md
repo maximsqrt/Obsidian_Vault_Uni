@@ -15,9 +15,9 @@ tags:
   - method/get
 owner: Team Integration
 app_id: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
-base_url: [[BaseURL_Intranet]]
-path: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch
-url: [[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch
+base_url: "[[BaseURL_Intranet]]"
+path: "/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch"
+url: "[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch"
 method: GET
 collection_ref: "[[Intrexx-Intranet-API-Studiengänge]]"
 last_checked: YYYY-MM-DD

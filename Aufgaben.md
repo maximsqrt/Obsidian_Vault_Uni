@@ -1,5 +1,6 @@
 ---
 aliases:
+color: ""
 ---
 
 # Fix Endpoints 

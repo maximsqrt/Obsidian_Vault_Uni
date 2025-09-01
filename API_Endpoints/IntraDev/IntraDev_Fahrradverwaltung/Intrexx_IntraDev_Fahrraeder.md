@@ -15,13 +15,16 @@ tags:
   - method/get
 owner: Team Integration
 app_id: E8F7687AE12876495F0A5B3C43321B695AA48561
-base_url: [[BaseURL_intraDev]]
-path: /api/app/E8F7687AE12876495F0A5B3C43321B695AA48561/user
-url: [[BaseURL_intraDev]]/api/app/E8F7687AE12876495F0A5B3C43321B695AA48561/user
+
+# WICHTIG: Wikilinks IMMER quoten
+base_url: '[[BaseURL_intraDev]]'   # Typ: Link
+path: '/api/app/E8F7687AE12876495F0A5B3C43321B695AA48561/user'  # Typ: Text
+
 method: GET
-collection_ref: "[[API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe]]"
+collection_ref: '[[API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe]]'
 last_checked: 2025-08-26
 ---
+
 
 # `user` — Contract
 - **Method:** GET  

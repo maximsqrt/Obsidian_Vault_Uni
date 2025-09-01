@@ -22,11 +22,11 @@ last_checked: YYYY-MM-DD
 # Stellenausschreibungen — Analyse (IntraDev)
 
 ## Endpoints
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/stelle>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/stellen>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/Textbausteine>
+- [[Intrexx_IntraDev_Einstellungen]]
+- [[Intrexx_IntraDev_Kategorien]]
+- [[Intrexx_IntraDev_Stelle]]
+- [[Intrexx_IntraDev_Stellen]]
+- [[Intrexx_intraDev_Textbausteine]]
 
 ## Status & Health
 - [ ] 200 OK je Endpoint

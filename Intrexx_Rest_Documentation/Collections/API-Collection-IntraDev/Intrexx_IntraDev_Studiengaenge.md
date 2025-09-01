@@ -18,27 +18,49 @@ api_base: "[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
 endpoints_count: 17
 last_checked: YYYY-MM-DD
 ---
-
+[[Intrexx_IntraDev_Abschluss]]
 # Studiengänge — Analyse (IntraDev)
 
-## Endpoints
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/abschluss>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/auswahlverfahren>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/bewerbungszeit>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/faechergruppe>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fakultaet>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/infolinks>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/modulhandbuecher>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/satzungen>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/sprache>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbeginn>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbereich>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fachberatung>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studiengaenge>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studiengaengfullview>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/texte>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/zulassung>
+
+
+## Endpoints (per Pfad verlinkt)
+
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Abschluss]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Auswahlverfahren]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Bewerbungszeit]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Faechergruppe]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fakultaet]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Infolinks]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Modulhandbuecher]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Satzungen]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Sprache]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studienbeginn]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studienbereich]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fachberatung]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studiengaenge]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studiengangfullview]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studientyp]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Texte]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Zulassung]]
+
+
+
 
 ## Status & Health
 - [ ] 200 OK je Endpoint

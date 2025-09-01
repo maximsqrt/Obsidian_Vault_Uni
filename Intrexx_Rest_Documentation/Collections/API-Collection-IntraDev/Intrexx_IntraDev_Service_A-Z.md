@@ -21,13 +21,18 @@ last_checked: YYYY-MM-DD
 
 # Service A–Z — Analyse
 
-## Endpoints
-- `<GET>` <[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/beitraege>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/beitrag{strid}>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formular/{strid}>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formulare>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gformulare>
-- `<GET>` <[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gbeitraege>
+
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitraege]]
+    
+- [[Intrexx_IntraDev_Beitrag_StrId]]
+    
+- [[Intrexx_IntraDev_Formular_StrId]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GFormulare]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GBeitraege]]
 
 ## Status & Health
 - [ ] 200 OK je Endpoint
