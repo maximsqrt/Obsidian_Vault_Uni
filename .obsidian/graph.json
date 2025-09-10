@@ -36,27 +36,6 @@
       }
     },
     {
-      "query": "tag:#system/intrexx",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "tag:#system/external",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "tag:#system/dms",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
       "query": "tag:#risk/high",
       "color": {
         "a": 1,
@@ -68,34 +47,6 @@
       "color": {
         "a": 1,
         "rgb": 13464867
-      }
-    },
-    {
-      "query": "tag:#risk/low",
-      "color": {
-        "a": 1,
-        "rgb": 15724936
-      }
-    },
-    {
-      "query": "tag:#status/wip",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:#spec/openapi",
-      "color": {
-        "a": 1,
-        "rgb": 8650946
-      }
-    },
-    {
-      "query": "tag:#spec/none",
-      "color": {
-        "a": 1,
-        "rgb": 14708991
       }
     }
   ],
@@ -110,5 +61,5 @@
   "linkStrength": 1,
   "linkDistance": 265,
   "scale": 0.2759286870728807,
-  "close": false
+  "close": true
 }

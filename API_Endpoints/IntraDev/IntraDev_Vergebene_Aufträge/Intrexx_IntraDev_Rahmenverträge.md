@@ -13,6 +13,7 @@ tags:
   - lang/de
   - endpoint/rahmenvertraege
   - method/get
+  - status/active
 owner: Team Integration
 app_id: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
@@ -31,4 +32,4 @@ last_checked: 2025-08-27
 - **Response:** _tbd_
 
 ## Relations
-Parent:: [[Intrexx-IntraDev-API-Vergebene-Auftraege]]
+Parent:: [[Intrexx_IntraDev_Vergebene_Aufträge]]

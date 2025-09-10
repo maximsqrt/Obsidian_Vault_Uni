@@ -14,6 +14,7 @@ tags:
   - endpoint/new_pub
   - method/get
   - flag/method-unclear
+  - status/active
 owner: Team Integration
 app_id: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
@@ -32,4 +33,4 @@ last_checked: 2025-08-27
 - **Response:** _tbd_
 
 ## Relations
-Parent:: [[Intrexx-IntraDev-API-Tests]]
+Parent:: [[Intrexx_IntraDev_TestEnv]]

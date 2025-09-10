@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Veranstaltungen — veranstaltungen (Intranet)"
+title: Veranstaltungen — veranstaltungen (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/veranstaltungen
   - endpoint/veranstaltungen
   - method/get
-owner: "Team Integration"
-app_id: "1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
+  - status/active
+owner: Team Integration
+app_id: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen"
+path: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen
 url: "[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Veranstaltungen]]"
 last_checked: YYYY-MM-DD
 ---

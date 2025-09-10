@@ -1,7 +1,7 @@
 filters:
-  and:
-    - type == "api-collection"
-    - type == "api-collection"
+  or:
+    - file.hasTag("status/http-4xx")
+    - file.hasTag("status/http-5xx")
 formulas:
   Untitled: |2
      - type == "api-endpoint"
@@ -12,10 +12,9 @@ views:
     name: Table
     order:
       - file.name
-      - tags
       - rest
-    sort:
-      - property: tags
-        direction: ASC
-      - property: file.name
-        direction: ASC
+      - file.ctime
+      - base_url
+      - last_checked
+      - file.folder
+    sort: []

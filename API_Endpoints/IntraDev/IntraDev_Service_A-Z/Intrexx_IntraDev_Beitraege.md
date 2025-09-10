@@ -13,6 +13,7 @@ tags:
   - lang/de
   - endpoint/beitraege
   - method/get
+  - status/active
 owner: Team Integration
 app_id: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

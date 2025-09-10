@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Fahrräder — fahrraeder (Intranet)"
+title: Fahrräder — fahrraeder (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/fahrraeder
   - endpoint/fahrraeder
   - method/get
-owner: "Team Integration"
-app_id: "43FCB1E50030712AA3E5E8C30402319D1ED66995"
+  - status/active
+owner: Team Integration
+app_id: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"
+path: /api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder
 url: "[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Fahrräder]]"
 last_checked: YYYY-MM-DD
 ---

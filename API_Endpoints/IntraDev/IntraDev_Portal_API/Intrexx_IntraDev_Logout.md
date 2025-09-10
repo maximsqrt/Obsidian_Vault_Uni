@@ -13,6 +13,7 @@ tags:
   - lang/de
   - endpoint/logout
   - method/post
+  - status/active
 owner: Team Integration
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /service/login/logout

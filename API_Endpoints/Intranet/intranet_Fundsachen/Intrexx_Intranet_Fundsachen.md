@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Fundsachen — fundsachen (Intranet)"
+title: Fundsachen — fundsachen (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/fundsachen
   - endpoint/fundsachen
   - method/get
-owner: "Team Integration"
-app_id: "56E423A507C34F76FD114442921B0AF44BA57B88"
+  - status/active
+owner: Team Integration
+app_id: 56E423A507C34F76FD114442921B0AF44BA57B88
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"
+path: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen
 url: "[[BaseURL_Intranet]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Fundsachen]]"
 last_checked: YYYY-MM-DD
 ---

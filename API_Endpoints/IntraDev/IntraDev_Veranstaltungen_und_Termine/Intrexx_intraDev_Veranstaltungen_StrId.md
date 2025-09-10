@@ -14,6 +14,7 @@ tags:
   - endpoint/veranstaltung
   - method/get
   - flag/method-unclear
+  - status/active
 owner: Team Integration
 app_id: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
@@ -32,4 +33,4 @@ last_checked: 2025-08-27
 - **Response:** _tbd_
 
 ## Relations
-Parent:: [[Intrexx-IntraDev-API-Veranstaltungen-und-Termine]]
+Parent:: [[Intrexx_IntraDev_Veranstaltungen_und_Termine]]

@@ -1,0 +1,11 @@
+filters:
+  or:
+    - file.folder.containsAny("fahrra")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.basename
+      - file.mtime
+      - app_id

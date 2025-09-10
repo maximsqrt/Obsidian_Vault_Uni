@@ -11,19 +11,20 @@ tags:
   - spec/odata-v4
   - lang/de
   - method/get
+  - status/active
 owner: Team Integration
 app_id: ""
 base_host: https://10.184.8.116:1246
-entity_paths: 
+entity_paths:
   - /SCS_VERANSTALTUNG
   - /SCS_EVENT
   - /SCS_ABSCHLUESSE
   - /SCS_STUDIENGAENGE
   - /SCS_FACH
   - /SCS_APPTEXTE
-  - /SCG_GLOSSARBEGRIFFE 
-  - /stud_abschluesse 
-  - /stud_studiengaenge_fg 
+  - /SCG_GLOSSARBEGRIFFE
+  - /stud_abschluesse
+  - /stud_studiengaenge_fg
   - /stud_faechergruppe
   - /intrexx_veranstaltung
 method: GET

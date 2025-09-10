@@ -13,6 +13,7 @@ tags:
   - lang/de
   - endpoint/gformulare
   - method/get
+  - status/active
 owner: Team Integration
 app_id: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
@@ -31,4 +32,4 @@ last_checked: 2025-08-26
 - **Response:** _tbd_
 
 ## Relations
-Parent:: [[Intrexx-IntraDev-API-Service-A-Z]]
+Parent:: [[Intrexx_IntraDev_Service_A-Z]]

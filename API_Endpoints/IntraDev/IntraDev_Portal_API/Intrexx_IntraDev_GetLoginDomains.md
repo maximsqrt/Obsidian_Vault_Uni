@@ -13,6 +13,7 @@ tags:
   - lang/de
   - endpoint/getlogindomains
   - method/get
+  - status/active
 owner: Team Integration
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /service/login/getLoginDomains

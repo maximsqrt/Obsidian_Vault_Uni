@@ -11,18 +11,19 @@ tags:
   - spec/odata-v4
   - lang/de
   - method/get
+  - status/active
 owner: Team Integration
 app_id: ""
 base_host: https://10.184.8.116:1246
-entity_paths: 
+entity_paths:
   - /SCS_VERANSTALTUNG1
   - /SCS_EVENT1
   - /SCS_HISIONEABSCHLUESSE1
   - /SCS_HISIONESTUDIENGAENGE1
   - /SCS_HISIONEFAECHER1
   - /SCS_HISINONESTUDIENGANGGRU
-  - /SCS_TERMINGRUPPE 
-  - /SCS_APPTEXTE1 
+  - /SCS_TERMINGRUPPE
+  - /SCS_APPTEXTE1
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02

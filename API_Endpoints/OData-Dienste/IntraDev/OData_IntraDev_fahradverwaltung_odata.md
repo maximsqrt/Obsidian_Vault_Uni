@@ -11,6 +11,7 @@ tags:
   - spec/odata-v4
   - lang/de
   - method/get
+  - status/active
 owner: Team Integration
 app_id: ""
 base_host: https://10.184.8.94:1246

@@ -11,10 +11,11 @@ tags:
   - spec/odata-v4
   - lang/de
   - method/get
+  - status/active
 owner: Team Integration
 app_id: ""
 base_host: https://10.184.8.116:1246
-entity_paths: 
+entity_paths:
   - /FAH_FUNDSACHEN
   - /FUN_STANDORTE
 method: GET

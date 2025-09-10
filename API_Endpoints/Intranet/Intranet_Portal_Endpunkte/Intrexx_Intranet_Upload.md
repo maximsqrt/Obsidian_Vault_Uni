@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — upload (Intranet)"
+title: Portal — upload (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,11 +13,12 @@ tags:
   - lang/de
   - endpoint/upload
   - method/post
-owner: "Team Integration"
+  - status/active
+owner: Team Integration
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/upload"
+path: /api/app/upload
 url: "[[BaseURL_Intranet]]/api/app/upload"
-method: "POST"
+method: POST
 collection_ref: "[[Intrexx-Intranet-Portal-API]]"
 last_checked: YYYY-MM-DD
 ---
@@ -27,4 +28,4 @@ last_checked: YYYY-MM-DD
 - **URL:** <[[BaseURL_Intranet]]/api/app/upload>
 
 ## Relations
-Parent:: [[Intrexx-Intranet-Portal-API]]
+Parent:: [[Intrexx_Intranet-Portal_API]]

@@ -13,8 +13,10 @@ tags:
   - lang/de
   - endpoint/getlogindomains
   - method/get
+  - status/active
 owner: Team Integration
-base_url: [[BaseURL_Intranet]]
+base_url:
+  - - BaseURL_Intranet
 path: /service/login/getLoginDomains
 url: "[[BaseURL_Intranet]]/service/login/getLoginDomains"
 method: POST
@@ -27,4 +29,4 @@ last_checked: YYYY-MM-DD
 - **URL:** <[[BaseURL_Intranet]]/service/login/getLoginDomains>
 
 ## Relations
-Parent:: [[Intrexx-Intranet-Portal-API]]
+Parent:: [[Intrexx_Intranet-Portal_API]]

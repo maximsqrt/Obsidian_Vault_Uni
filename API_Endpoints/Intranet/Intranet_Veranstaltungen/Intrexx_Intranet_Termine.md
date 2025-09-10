@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Termine — termine (Intranet)"
+title: Termine — termine (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/veranstaltungen
   - endpoint/termine
   - method/get
-owner: "Team Integration"
-app_id: "1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
+  - status/active
+owner: Team Integration
+app_id: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine"
+path: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine
 url: "[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Veranstaltungen]]"
 last_checked: YYYY-MM-DD
 ---

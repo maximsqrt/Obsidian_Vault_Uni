@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Vergeben — vergeben (Intranet)"
+title: Vergeben — vergeben (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/vergabewesen
   - endpoint/vergeben
   - method/get
-owner: "Team Integration"
-app_id: "E14074D19E1FB8644E124BC295F886FDED6CBE51"
+  - status/active
+owner: Team Integration
+app_id: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben"
+path: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben
 url: "[[BaseURL_Intranet]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Vergabewesen]]"
 last_checked: YYYY-MM-DD
 ---

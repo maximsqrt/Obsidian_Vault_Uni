@@ -12,6 +12,7 @@ tags:
   - lang/de
   - endpoint/eucor_odata
   - method/get
+  - status/active
 owner: Team Integration
 app_id: ""
 base_url: https://10.184.8.94:1246/eucor_odata.svc

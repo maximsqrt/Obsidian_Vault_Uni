@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Kategorien — kategorien (Intranet)"
+title: Kategorien — kategorien (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/stellen
   - endpoint/kategorien
   - method/get
-owner: "Team Integration"
-app_id: "335908426702A4A4DE952E12187206B841B691C4"
+  - status/active
+owner: Team Integration
+app_id: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien"
+path: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien
 url: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Stellen]]"
 last_checked: YYYY-MM-DD
 ---

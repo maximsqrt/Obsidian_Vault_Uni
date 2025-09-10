@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Stelle — stelle (Intranet)"
+title: Stelle — stelle (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/stellen
   - endpoint/stelle
   - method/get
-owner: "Team Integration"
-app_id: "335908426702A4A4DE952E12187206B841B691C4"
+  - status/active
+owner: Team Integration
+app_id: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/335908426702A4A4DE952E12187206B841B691C4/stelle"
+path: /api/app/335908426702A4A4DE952E12187206B841B691C4/stelle
 url: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/stelle"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Stellen]]"
 last_checked: YYYY-MM-DD
 ---

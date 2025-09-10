@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — getSessionInfo (Intranet)"
+title: Portal — getSessionInfo (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,11 +13,12 @@ tags:
   - lang/de
   - endpoint/getsessioninfo
   - method/post
-owner: "Team Integration"
+  - status/active
+owner: Team Integration
 base_url: "[[BaseURL_Intranet]]"
-path: "/service/login/getSessionInfo"
+path: /service/login/getSessionInfo
 url: "[[BaseURL_Intranet]]/service/login/getSessionInfo"
-method: "POST"
+method: POST
 collection_ref: "[[Intrexx-Intranet-Portal-API]]"
 last_checked: YYYY-MM-DD
 ---
@@ -27,4 +28,4 @@ last_checked: YYYY-MM-DD
 - **URL:** <[[BaseURL_Intranet]]/service/login/getSessionInfo>
 
 ## Relations
-Parent:: [[Intrexx-Intranet-Portal-API]]
+Parent:: [[Intrexx_Intranet-Portal_API]]

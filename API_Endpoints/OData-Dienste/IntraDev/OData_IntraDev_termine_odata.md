@@ -11,6 +11,7 @@ tags:
   - spec/odata-v4
   - lang/de
   - method/get
+  - status/active
 owner: Team Integration
 app_id: ""
 base_url: https://10.184.8.94:1246/eucor_odata.svc
@@ -19,8 +20,6 @@ entity_paths:
   - THEMENGEBIETE
   - DAT_ORGASTRUKTUR
   - VER_VERANSTALTUNGSARTEN
-
-
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02

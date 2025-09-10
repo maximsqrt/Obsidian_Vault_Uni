@@ -1,8 +1,8 @@
 ---
 type: api-endpoint
 title: amtlbek
-guid_hash: "E8F7687AE12876495F0A5B3C43321B695AA48561"
-path_prefix: "/api/app"
+guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
+path_prefix: /api/app
 owner: Team Integration
 base_host: "[[BaseURL_IntraDev]]"
 tags:
@@ -15,8 +15,9 @@ tags:
   - lang/de
   - method/get
   - app/intradev
+  - status/active
 path_entities:
-  - "/amtlbek"
+  - /amtlbek
 method: GET
 last_checked: 2025-09-02
 collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
@@ -75,8 +76,8 @@ const service = fm.service_name ? raw : raw
 const url = `${host}/${service}`;
 dv.table(["URL"], [[`[${url}]`]]);
 
+```
 
-
-
-
-
+# Parent 
+> [!note]
+> [[Intrexx_IntraDev_Nachrichten]]

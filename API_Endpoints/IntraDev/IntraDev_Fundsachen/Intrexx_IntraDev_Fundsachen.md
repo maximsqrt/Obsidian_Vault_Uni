@@ -1,34 +1,83 @@
 ---
 type: api-endpoint
-title: Fundsachen — fundsachen (IntraDev)
+title: fundsachen
+guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
+path_prefix: /api/app
+owner: Team Integration
+base_host: "[[BaseURL_IntraDev]]"
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
-  - app/intradev
   - env/dev
   - exposure/internal-nonprod
   - status/wip
-  - spec/none
+  - spec/odata-v4
   - lang/de
-  - collection/fundsachen
-  - endpoint/fundsachen
   - method/get
-owner: Team Integration
-app_id: 56E423A507C34F76FD114442921B0AF44BA57B88
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
-path: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen
-url: "[[BaseURL_intraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"
+  - app/intradev
+  - status/active
+path_entities:
+  - /fundsachen
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-Fundsachen]]"
-last_checked: 2025-08-26
+last_checked: 2025-09-02
+collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
 ---
 
-# `fundsachen` — Contract
-- **Method:** GET  
-- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen>
-- **Auth:** _tbd_
-- **Query-Params:** _tbd_
-- **Response:** _tbd_
 
-## Relations
-Parent:: [[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fundsachen]]
+#  Contract
+
+> [!tip] Übersicht
+> 
+> - **Method:** GET
+>     
+> - **URL:**
+>     
+> 
+> ```dataviewjs
+> const fm = dv.current().file.frontmatter;
+> const host = String(fm.base_host || "").replace(/\/+$/,"");        // "[[BaseURL_IntraDev]]" bleibt Link-Text
+> const up = fm.url_parts || {};
+> const prefix = String(up.path_prefix || "/api/app").replace(/\/+$/,""); // Fallback: /api/app
+> const guid = String(up.app_guid || fm.guid_hash || "").trim();
+> const service = String(fm.title || "").trim();                      // "amtlbek"
+> 
+> const url = [host, prefix.replace(/^\//,""), guid, service]
+>   .filter(Boolean).join("/");
+> 
+> dv.paragraph(`[${url}](${url})`);
+> ```
+> 
+> - **Auth:** Benutzerkonto (Name/Passwort) erforderlich
+>     
+> - **Query-Params:** _tbd_
+>     
+> - **Response:** _tbd_
+>     
+
+
+
+
+```dataviewjs
+const fm = dv.current().file.frontmatter;
+
+// Host ohne trailing Slash
+const host = String(fm.base_host || "").replace(/\/+$/,"");
+
+// Servicename: override via 'service_name', sonst aus 'title' sluggen
+const raw = String(fm.service_name || fm.title || dv.current().file.name || "");
+const service = fm.service_name ? raw : raw
+  .replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue")
+  .replace(/Ä/g,"Ae").replace(/Ö/g,"Oe").replace(/Ü/g,"Ue")
+  .replace(/ß/g,"ss")
+  .normalize("NFKD").replace(/[\u0300-\u036f]/g,"")
+  .toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+
+// Nur eine URL (BaseURL/amtlbek) in der Tabelle ausgeben
+const url = `${host}/${service}`;
+dv.table(["URL"], [[`[${url}]`]]);
+
+```
+
+# Parent 
+> [!note]
+> [[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fundsachen|Intrexx_IntraDev_Fundsachen]]

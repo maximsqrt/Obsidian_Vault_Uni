@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Nachrichten — amtlbek (Intranet)"
+title: Nachrichten — amtlbek (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -8,8 +8,9 @@ tags:
   - env/prod
   - exposure/internal-live
   - status/wip
-owner: "Team Integration"
-app_id: "6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5"
+  - status/active
+owner: Team Integration
+app_id: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
 base_host: "[[BaseURL_Intranet]]"
 entity_paths:
   - /api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5/amtlbek
@@ -69,3 +70,9 @@ dv.paragraph("**Service Root:** " + `[${base}](${base})`);
 
 // Tabelle rendern
 dv.table(["Path","URL","Test-GET"], rows);
+
+```
+
+
+> [!tip]
+> [[Intrexx_IntraDev_Nachrichten]]

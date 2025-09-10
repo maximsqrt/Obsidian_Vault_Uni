@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Textbausteine — textbausteine (Intranet)"
+title: Textbausteine — textbausteine (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/stellen
   - endpoint/textbausteine
   - method/get
-owner: "Team Integration"
-app_id: "335908426702A4A4DE952E12187206B841B691C4"
+  - status/active
+owner: Team Integration
+app_id: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine"
+path: /api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine
 url: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Stellen]]"
 last_checked: YYYY-MM-DD
 ---

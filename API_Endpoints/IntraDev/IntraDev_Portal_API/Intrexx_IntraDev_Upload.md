@@ -13,6 +13,7 @@ tags:
   - lang/de
   - endpoint/upload
   - method/post
+  - status/active
 owner: Team Integration
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/upload

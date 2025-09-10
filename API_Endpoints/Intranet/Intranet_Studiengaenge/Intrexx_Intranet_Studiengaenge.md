@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Studiengänge — studigaenge (Intranet)"
+title: Studiengänge — studigaenge (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,12 +13,13 @@ tags:
   - collection/studiengaenge
   - endpoint/studigaenge
   - method/get
-owner: "Team Integration"
-app_id: "07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
+  - status/active
+owner: Team Integration
+app_id: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
 base_url: "[[BaseURL_Intranet]]"
-path: "/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
+path: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge
 url: "[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-Intranet-API-Studiengänge]]"
 last_checked: YYYY-MM-DD
 ---
@@ -36,4 +37,4 @@ last_checked: YYYY-MM-DD
 - [ ] Fehlermodell
 
 ## Relations
-Parent:: [[Intrexx_Intranet_Studiengänge]]
+Parent:: [[Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_intranet_Studiengaenge|Intrexx_intranet_Studiengaenge]]

@@ -142,3 +142,30 @@ Accept: application/json
 ```
 
 ---
+
+
+
+
+
+
+> [!danger] Achtung
+> #### OData_IntraDev
+> ```dataview
+list
+from ""
+where file.ext = "md" and contains(file.name, "OData_IntraDev")
+sort file.name asc
+> ```
+>
+> #### OData_Intranet
+> ```dataview
+list
+from ""
+where file.ext = "md" and contains(file.name, "OData_Intranet")
+sort file.name asc
+> ```
+
+
+
+
+
