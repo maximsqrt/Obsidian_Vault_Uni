@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx IntraDev API — Vergebene Aufträge"
+title: Intrexx IntraDev API — Vergebene Aufträge
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,9 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/vergebene-auftraege
-owner: "Team Integration"
-app_id: "E14074D19E1FB8644E124BC295F886FDED6CBE51"
-base_url: "[[BaseURL_intraDev]]"
+owner: Team Integration
+app_id: E14074D19E1FB8644E124BC295F886FDED6CBE51
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51"
 endpoints_count: 4
 last_checked: YYYY-MM-DD
@@ -24,8 +24,8 @@ last_checked: YYYY-MM-DD
 ## Endpoints
 - [[Intrexx_IntraDev_Binnenmarkt]]
 - [[Intrexx_IntraDev_VOB]]
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben>
-- `<GET?>` <[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege>
+- `<GET?>` <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben>
+- `<GET?>` <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege>
 
 ## Status & Health
 - [ ] 200 OK je Endpoint
@@ -49,5 +49,5 @@ last_checked: YYYY-MM-DD
 - _…_
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

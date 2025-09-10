@@ -13,6 +13,18 @@
     {
       "type": "tag",
       "name": "",
+      "value": "status/http-5xx",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "dfd6-609b",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
       "value": "method/get",
       "matchCaseSensitive": false,
       "match": "exact",
@@ -113,6 +125,18 @@
       "matchCaseSensitive": false,
       "match": "exact",
       "uid": "d439-2ee9",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "status/http-4xx",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "f0dd-1d41",
       "selectText": true,
       "selectAppend": true,
       "selectPrepend": true,

@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Fundsachen — fundsachen (IntraDev)"
+title: Fundsachen — fundsachen (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,19 +13,19 @@ tags:
   - collection/fundsachen
   - endpoint/fundsachen
   - method/get
-owner: "Team Integration"
-app_id: "56E423A507C34F76FD114442921B0AF44BA57B88"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"
+owner: Team Integration
+app_id: 56E423A507C34F76FD114442921B0AF44BA57B88
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen
 url: "[[BaseURL_intraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Fundsachen]]"
 last_checked: 2025-08-26
 ---
 
 # `fundsachen` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen>
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen>
 - **Auth:** _tbd_
 - **Query-Params:** _tbd_
 - **Response:** _tbd_

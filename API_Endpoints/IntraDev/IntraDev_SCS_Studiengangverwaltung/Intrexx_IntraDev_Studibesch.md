@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "SCS Studiengangverwaltung — studibesch (IntraDev)"
+title: SCS Studiengangverwaltung — studibesch (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,19 +13,19 @@ tags:
   - collection/scs-studiengangverwaltung
   - endpoint/studibesch
   - method/get
-owner: "Team Integration"
-app_id: "07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch"
+owner: Team Integration
+app_id: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch
 url: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-API-SCS-Studiengangverwaltung]]"
 last_checked: 2025-08-26
 ---
 
 # `studibesch` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_

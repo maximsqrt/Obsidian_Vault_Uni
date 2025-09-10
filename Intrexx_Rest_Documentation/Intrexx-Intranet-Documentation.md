@@ -80,5 +80,4 @@ slo: "P95 < 300ms"            # optional
 - Tickets/Epics: [[…]]  — Runbooks: [[…]] — On-Call: [[…]]
 
 ## Relations
-Links:: [[Dashboard_API_BASE]], [[Inventory-Intrexx]], [[Intrexx-REST-3Wochen]]
-Children:: <!-- hier später gezielt Dossiers/Endpoints verlinken -->
+Links:: [[Intrexx-Intranet-Legacy]]

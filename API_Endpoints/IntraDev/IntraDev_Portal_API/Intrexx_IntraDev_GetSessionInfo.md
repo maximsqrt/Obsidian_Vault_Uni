@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — getSessionInfo (IntraDev)"
+title: Portal — getSessionInfo (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,18 +13,18 @@ tags:
   - lang/de
   - endpoint/getsessioninfo
   - method/get
-owner: "Team Integration"
-base_url: "[[BaseURL_intraDev]]"
-path: "/service/login/getSessionInfo"
+owner: Team Integration
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /service/login/getSessionInfo
 url: "[[BaseURL_intraDev]]/service/login/getSessionInfo"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
 last_checked: 2025-08-26
 ---
 
 # `getSessionInfo` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/service/login/getSessionInfo>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/service/login/getSessionInfo>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_

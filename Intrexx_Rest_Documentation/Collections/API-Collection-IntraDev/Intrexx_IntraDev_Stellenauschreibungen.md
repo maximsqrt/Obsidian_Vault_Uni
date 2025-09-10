@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx IntraDev API — Stellenausschreibungen"
+title: Intrexx IntraDev API — Stellenausschreibungen
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,9 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/stellenausschreibungen
-owner: "Team Integration"
-app_id: "335908426702A4A4DE952E12187206B841B691C4"
-base_url: "[[BaseURL_intraDev]]"
+owner: Team Integration
+app_id: 335908426702A4A4DE952E12187206B841B691C4
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4"
 endpoints_count: 5
 last_checked: YYYY-MM-DD
@@ -50,5 +50,5 @@ last_checked: YYYY-MM-DD
 - _…_
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

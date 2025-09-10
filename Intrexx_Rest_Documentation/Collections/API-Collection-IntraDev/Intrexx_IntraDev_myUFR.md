@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx IntraDev API — myUFR"
+title: Intrexx IntraDev API — myUFR
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,9 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/myufr
-owner: "Team Integration"
-app_id: "809419535333F08CC2D7CC8BCF2C84115E1E79E7"
-base_url: "[[BaseURL_intraDev]]"
+owner: Team Integration
+app_id: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7"
 endpoints_count: 11
 last_checked: YYYY-MM-DD
@@ -57,5 +57,5 @@ last_checked: YYYY-MM-DD
 - _…_
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

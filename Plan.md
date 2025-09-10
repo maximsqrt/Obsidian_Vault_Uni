@@ -9,7 +9,17 @@ Bezug: [[Intrexx-Intradev-Documentation]] · Inventar: [[Inventory-Intrexx]]
 
 ## Woche 1 — Discovery (2025-08-25–2025-08-31)
 
+# Checkup – Überblick
+- [x] Obsidian Intrexx / intradev API-Sachen eingefügt
+- [ ] Logdateien: SQL-Preset für Analyse bauen (API-Nutzung erkennen: **ob** und **wie**)
+- [ ] API-Keys: Inventar & Aufräumen (ungenutzte Keys stilllegen; Zielbild klären: 1 Key vs. mehrere)
+- [ ] Intranet vs. Dev: unterschiedliche APIs/Daten – Entscheidungsvorlage „soll das so?“
+- [ ] Postman: Swagger/OpenAPI-konforme Template-Collection für FastAPI-Checks
+- [ ] Fremd-APIs aus Intrexx katalogisieren (so weit wie möglich)
+
+
 ### Kritisch
+- [x] Möglich 
 - [x] Zugänge, Keys und Token inventarisieren (alle Systeme, Vault, Umgebungen)  start: 2025-08-25 scheduled: 2025-08-26 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery ✅ 2025-09-01
 - [x] Basis-URLs und API-Hosts ermitteln (DNS, Reverse Proxy, App-Konfiguration)  start: 2025-08-25 scheduled: 2025-08-27 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery ✅ 2025-09-01
 - [x] Initiales API-Inventar anlegen (Dossiers je Endpoint beginnen)  start: 2025-08-26 scheduled: 2025-08-27 due: 2025-08-29 priority: high #Projekt/Intrexx-REST-Discovery ✅ 2025-09-01

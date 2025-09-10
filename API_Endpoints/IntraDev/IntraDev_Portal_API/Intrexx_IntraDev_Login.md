@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — login (IntraDev)"
+title: Portal — login (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,18 +13,18 @@ tags:
   - lang/de
   - endpoint/login
   - method/post
-owner: "Team Integration"
-base_url: "[[BaseURL_intraDev]]"
-path: "/service/login/login"
+owner: Team Integration
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /service/login/login
 url: "[[BaseURL_intraDev]]/service/login/login"
-method: "POST"
+method: POST
 collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
 last_checked: 2025-08-26
 ---
 
 # `login` — Contract
 - **Method:** POST  
-- **URL:** <[[BaseURL_intraDev]]/service/login/login>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/service/login/login>  
 - **Auth:** _tbd_  
 - **Request Body:** _tbd_  
 - **Response:** _tbd_

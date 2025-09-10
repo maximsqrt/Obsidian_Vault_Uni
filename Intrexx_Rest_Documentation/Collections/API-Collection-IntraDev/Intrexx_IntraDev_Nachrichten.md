@@ -13,7 +13,7 @@ tags:
   - exposure/internal-nonprod
 owner: Team Integration
 app_id: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
-base_url: "[[BaseURL_intraDev]]"
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5"
 endpoints_count: 1
 last_checked: YYYY-MM-DD
@@ -44,5 +44,5 @@ last_checked: YYYY-MM-DD
 - _tbd_
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

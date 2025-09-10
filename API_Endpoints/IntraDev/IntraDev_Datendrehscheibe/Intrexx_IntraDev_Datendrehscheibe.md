@@ -25,7 +25,7 @@ last_checked: 2025-08-26
 
 # `user` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/api/app/E8F7687AE12876495F0A5B3C43321B695AA48561/user>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/E8F7687AE12876495F0A5B3C43321B695AA48561/user>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_

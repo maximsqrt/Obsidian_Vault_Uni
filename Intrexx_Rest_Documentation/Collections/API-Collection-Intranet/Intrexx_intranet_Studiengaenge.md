@@ -47,5 +47,5 @@ last_checked: YYYY-MM-DD
 - _…_
 
 ## Relations
-Parents:: [[Intrexx_Intranet-REST-DocLink]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intranet-Docu]]
+> [!tip]
+> [[Intrexx-Intranet-Legacy]]

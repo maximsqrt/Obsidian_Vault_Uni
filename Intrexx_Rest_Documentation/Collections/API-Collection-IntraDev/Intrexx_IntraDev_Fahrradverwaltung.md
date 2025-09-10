@@ -13,7 +13,7 @@ tags:
   - exposure/internal-nonprod
 owner: Team Integration
 app_id: E8F7687AE12876495F0A5B3C43321B695AA48561
-base_url: "[[BaseURL_intraDev]]"
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"
 endpoints_count: 1
 last_checked: YYYY-MM-DD
@@ -44,5 +44,5 @@ last_checked: YYYY-MM-DD
 - _tbd_
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

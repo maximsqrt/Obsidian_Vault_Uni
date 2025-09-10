@@ -1,6 +1,6 @@
 ---
 type: key
-title: "Key Service A–Z — APIKEY SAZ (Intranet Prod)"
+title: Key Service A–Z — APIKEY SAZ (Intranet Prod)
 tags:
   - project/intrexx-rest-discovery
   - auth/key
@@ -10,15 +10,16 @@ tags:
   - env/prod
   - exposure/internal-live
   - role/service-a-z
-owner: "Team Integration"
-key_id: "APIKEY SAZ"
-key_type: "tbd"
-auth_flow: "tbd"
-secret_ref: "vault://intrexx/intranet/prod/service-a-z/APIKEY-SAZ"
+owner: Team Integration
+key_id: APIKEY SAZ
+key_type: tbd
+neue_eigenschaft:
+auth_flow: tbd
+secret_ref: vault://intrexx/intranet/prod/service-a-z/APIKEY-SAZ
 endpoints_count: 7
 usage_refs:
-  - [[Intrexx-Intranet-API-Service-A-Z]]           # Collection ggf. anlegen
-  - [[Intrexx-IntraDev-API-Service-A-Z]]           # falls auch in Dev genutzt
+  - - - Intrexx-Intranet-API-Service-A-Z
+  - - - Intrexx-IntraDev-API-Service-A-Z
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

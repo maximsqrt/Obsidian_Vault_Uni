@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Stellenausschreibungen — einstellungen (IntraDev)"
+title: Stellenausschreibungen — einstellungen (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -14,19 +14,19 @@ tags:
   - endpoint/einstellungen
   - method/get
   - flag/method-unclear
-owner: "Team Integration"
-app_id: "335908426702A4A4DE952E12187206B841B691C4"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen"
+owner: Team Integration
+app_id: 335908426702A4A4DE952E12187206B841B691C4
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen
 url: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Stellenausschreibungen]]"
 last_checked: 2025-08-26
 ---
 
 # `einstellungen` — Contract
 - **Method:** GET *(unbestätigt)*  
-- **URL:** <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_

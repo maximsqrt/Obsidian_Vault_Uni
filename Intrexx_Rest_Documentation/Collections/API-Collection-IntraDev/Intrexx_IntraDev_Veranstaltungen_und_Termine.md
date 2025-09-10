@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx IntraDev API — Veranstaltungen und Termine"
+title: Intrexx IntraDev API — Veranstaltungen und Termine
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,9 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/veranstaltungen-und-termine
-owner: "Team Integration"
-app_id: "1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
-base_url: "[[BaseURL_intraDev]]"
+owner: Team Integration
+app_id: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
 endpoints_count: 7
 last_checked: YYYY-MM-DD
@@ -57,7 +57,6 @@ last_checked: YYYY-MM-DD
 
 ## Maßnahmen / Nächste Schritte
 - _…_
-
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

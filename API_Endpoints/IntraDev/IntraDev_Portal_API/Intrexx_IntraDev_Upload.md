@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — upload (IntraDev)"
+title: Portal — upload (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,18 +13,18 @@ tags:
   - lang/de
   - endpoint/upload
   - method/post
-owner: "Team Integration"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/upload"
+owner: Team Integration
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/upload
 url: "[[BaseURL_intraDev]]/api/app/upload"
-method: "POST"
+method: POST
 collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
 last_checked: 2025-08-26
 ---
 
 # `upload` — Contract
 - **Method:** POST  
-- **URL:** <[[BaseURL_intraDev]]/api/app/upload>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/upload>  
 - **Auth:** _tbd_  
 - **Request Body:** `multipart/form-data` (_tbd_)  
 - **Response:** _tbd_

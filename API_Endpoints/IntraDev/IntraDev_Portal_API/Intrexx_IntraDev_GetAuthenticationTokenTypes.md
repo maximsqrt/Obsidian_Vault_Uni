@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — getAuthenticationTokenTypes (IntraDev)"
+title: Portal — getAuthenticationTokenTypes (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,18 +13,18 @@ tags:
   - lang/de
   - endpoint/getauthenticationtokentypes
   - method/get
-owner: "Team Integration"
-base_url: "[[BaseURL_intraDev]]"
-path: "/service/login/getAuthenticationTokenTypes"
+owner: Team Integration
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /service/login/getAuthenticationTokenTypes
 url: "[[BaseURL_intraDev]]/service/login/getAuthenticationTokenTypes"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
 last_checked: 2025-08-26
 ---
 
 # `getAuthenticationTokenTypes` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/service/login/getAuthenticationTokenTypes>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/service/login/getAuthenticationTokenTypes>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_

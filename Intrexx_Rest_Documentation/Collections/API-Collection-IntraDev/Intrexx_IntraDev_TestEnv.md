@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx IntraDev API — Tests"
+title: Intrexx IntraDev API — Tests
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,9 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/tests
-owner: "Team Integration"
-app_id: "88B66AF9F56B3E785C0527589ACD282E2F19BED3"
-base_url: "[[BaseURL_intraDev]]"
+owner: Team Integration
+app_id: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3"
 endpoints_count: 4
 last_checked: YYYY-MM-DD
@@ -54,5 +54,5 @@ last_checked: YYYY-MM-DD
 - _…_
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]  
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+> [!tip]
+> [[Intrexx-Intradev-Legacy]]

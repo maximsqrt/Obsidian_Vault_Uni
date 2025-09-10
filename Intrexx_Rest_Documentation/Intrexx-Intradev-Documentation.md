@@ -56,6 +56,4 @@ last_reviewed: YYYY-MM-DD
 - Tickets/Epics: [[…]] — Testdaten: [[…]] — Pipelines: [[…]]
 
 ## Relations
-Parent:: [[Intrexx Intranet API]]   <!-- falls als Parent genutzt -->
-Links:: [[Inventory-Intrexx]], [[Intrexx-REST-3Wochen]]
-Children:: <!-- gezielte Dev-Dossiers/Experimente verlinken -->
+Parent:: [[Intrexx-Intradev-Legacy]]

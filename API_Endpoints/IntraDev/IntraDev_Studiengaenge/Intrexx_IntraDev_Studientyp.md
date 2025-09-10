@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Studiengänge — studientyp (IntraDev)"
+title: Studiengänge — studientyp (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,22 +13,22 @@ tags:
   - lang/de
   - endpoint/studientyp
   - method/get
-owner: "Team Integration"
-app_id: "EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp"
+owner: Team Integration
+app_id: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp
 url: "[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Studiengaenge]]"
 last_checked: 2025-08-26
 ---
 
 # `studientyp` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_
 
 ## Relations
-Parent:: [[Intrexx-IntraDev-API-Studiengaenge]]
+Parent:: [[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Studiengaenge|Intrexx_IntraDev_Studiengaenge]]

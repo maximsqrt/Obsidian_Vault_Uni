@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Tests — pub (IntraDev)"
+title: Tests — pub (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -14,19 +14,19 @@ tags:
   - endpoint/pub
   - method/get
   - flag/method-unclear
-owner: "Team Integration"
-app_id: "88B66AF9F56B3E785C0527589ACD282E2F19BED3"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub"
+owner: Team Integration
+app_id: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub
 url: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Tests]]"
 last_checked: 2025-08-27
 ---
 
 # `pub` — Contract
 - **Method:** GET *(unbestätigt)*
-- **URL:** <[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub>
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub>
 - **Auth:** _tbd_
 - **Query-Params:** _tbd_
 - **Response:** _tbd_

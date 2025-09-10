@@ -8,17 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#status/http-4xx  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
       "query": "tag:#status/active",
       "color": {
         "a": 1,
         "rgb": 6749952
-      }
-    },
-    {
-      "query": "tag:#status/wip",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
       }
     },
     {
@@ -78,6 +78,13 @@
       }
     },
     {
+      "query": "tag:#status/wip",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
       "query": "tag:#spec/openapi",
       "color": {
         "a": 1,
@@ -89,13 +96,6 @@
       "color": {
         "a": 1,
         "rgb": 14708991
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
       }
     }
   ],
@@ -109,6 +109,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.3868473002819932,
+  "scale": 0.2759286870728807,
   "close": false
 }

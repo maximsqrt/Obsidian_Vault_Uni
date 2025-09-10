@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Portal — download (IntraDev)"
+title: Portal — download (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -13,18 +13,18 @@ tags:
   - lang/de
   - endpoint/download
   - method/get
-owner: "Team Integration"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/download"
+owner: Team Integration
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/download
 url: "[[BaseURL_intraDev]]/api/app/download"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
 last_checked: 2025-08-26
 ---
 
 # `download` — Contract
 - **Method:** GET  
-- **URL:** <[[BaseURL_intraDev]]/api/app/download>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/download>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_

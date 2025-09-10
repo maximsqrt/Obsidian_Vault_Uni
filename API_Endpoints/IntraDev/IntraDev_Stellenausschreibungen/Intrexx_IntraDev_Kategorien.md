@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: "Stellenausschreibungen — kategorien (IntraDev)"
+title: Stellenausschreibungen — kategorien (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -14,19 +14,19 @@ tags:
   - endpoint/kategorien
   - method/get
   - flag/method-unclear
-owner: "Team Integration"
-app_id: "335908426702A4A4DE952E12187206B841B691C4"
-base_url: "[[BaseURL_intraDev]]"
-path: "/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien"
+owner: Team Integration
+app_id: 335908426702A4A4DE952E12187206B841B691C4
+base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien
 url: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien"
-method: "GET"
+method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Stellenausschreibungen]]"
 last_checked: 2025-08-26
 ---
 
 # `kategorien` — Contract
 - **Method:** GET *(unbestätigt)*  
-- **URL:** <[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien>  
+- **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien>  
 - **Auth:** _tbd_  
 - **Query-Params:** _tbd_  
 - **Response:** _tbd_
