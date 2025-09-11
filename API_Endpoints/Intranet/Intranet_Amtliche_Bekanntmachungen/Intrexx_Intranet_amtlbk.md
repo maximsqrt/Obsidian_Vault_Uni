@@ -15,7 +15,7 @@ base_host: "[[BaseURL_Intranet]]"
 entity_paths:
   - /api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5/amtlbek
 method: GET
-collection_ref: "[[Intrexx-Intranet-API-Nachrichten]]"
+collection_ref: "[[Intrexx_intranet_Amtliche_Bekanntmachungen]]"
 last_checked: YYYY-MM-DD
 ---
 
@@ -75,4 +75,4 @@ dv.table(["Path","URL","Test-GET"], rows);
 
 
 > [!tip]
-> [[Intrexx_IntraDev_Nachrichten]]
+> [[Intrexx_intranet_Amtliche_Bekanntmachungen]]

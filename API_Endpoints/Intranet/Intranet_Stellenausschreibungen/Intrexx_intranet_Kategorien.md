@@ -20,7 +20,7 @@ base_url: "[[BaseURL_Intranet]]"
 path: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien
 url: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien"
 method: GET
-collection_ref: "[[Intrexx-Intranet-API-Stellen]]"
+collection_ref: "[[Intrexx_Intranet_Stellenausschreibungen]]"
 last_checked: YYYY-MM-DD
 ---
 

@@ -21,7 +21,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}
 url: "[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-Veranstaltungen-und-Termine]]"
+collection_ref: "[[Intrexx_IntraDev_Veranstaltungen_und_Termine]]"
 last_checked: 2025-08-27
 ---
 

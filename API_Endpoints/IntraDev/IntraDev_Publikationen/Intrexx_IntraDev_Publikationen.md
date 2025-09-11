@@ -20,7 +20,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationen
 url: "[[BaseURL_intraDev]]/api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationen"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-Publikationen]]"
+collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Publikationen|Intrexx_IntraDev_Publikationen]]"
 last_checked: 2025-08-26
 ---
 

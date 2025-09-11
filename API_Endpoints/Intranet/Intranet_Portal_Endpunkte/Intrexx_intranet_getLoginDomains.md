@@ -20,7 +20,7 @@ base_url:
 path: /service/login/getLoginDomains
 url: "[[BaseURL_Intranet]]/service/login/getLoginDomains"
 method: POST
-collection_ref: "[[Intrexx-Intranet-Portal-API]]"
+collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD
 ---
 
@@ -29,4 +29,4 @@ last_checked: YYYY-MM-DD
 - **URL:** <[[BaseURL_Intranet]]/service/login/getLoginDomains>
 
 ## Relations
-Parent:: [[Intrexx_Intranet-Portal_API]]
+Parent:: [[Intrexx_Intranet_Portal_API]]

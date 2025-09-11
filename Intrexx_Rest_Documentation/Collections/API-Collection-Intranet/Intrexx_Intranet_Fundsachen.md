@@ -44,4 +44,4 @@ last_checked: YYYY-MM-DD
 
 ## Relations
 > [!tip]
-> [[Intrexx-Intranet-Legacy]]
+> [[Intrexx_Intranet_Legacy]]

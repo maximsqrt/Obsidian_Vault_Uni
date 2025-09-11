@@ -79,4 +79,4 @@ dv.table(["Path","URL","Test-GET"], rows);
 
 > [!question] ## Relations
 
-Parent:: [[<Parent_Doc>]]
+Parent:: 

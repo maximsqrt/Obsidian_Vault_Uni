@@ -20,7 +20,7 @@ base_url: "[[BaseURL_Intranet]]"
 path: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}
 url: "[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}"
 method: GET
-collection_ref: "[[Intrexx-Intranet-API-Veranstaltungen]]"
+collection_ref: "[[Intrexx_Intranet_Veranstaltungen_und_Termine]]"
 last_checked: YYYY-MM-DD
 ---
 

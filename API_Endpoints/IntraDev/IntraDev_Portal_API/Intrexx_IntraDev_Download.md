@@ -19,7 +19,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/download
 url: "[[BaseURL_intraDev]]/api/app/download"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
+collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26
 ---
 

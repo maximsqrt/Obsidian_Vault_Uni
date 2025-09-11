@@ -20,7 +20,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/studienganggruppen
 url: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/studienganggruppen"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-myUFR]]"
+collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
 ---
 

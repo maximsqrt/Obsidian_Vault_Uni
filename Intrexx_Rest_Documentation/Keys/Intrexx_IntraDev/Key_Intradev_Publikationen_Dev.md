@@ -16,7 +16,7 @@ auth_flow: "tbd"
 secret_ref: "vault://intraDev/dev/publikationen/Publikationen"
 endpoints_count: 0
 usage_refs:
-  - [[Intrexx-IntraDev-API-Publikationen]]
+  - [[Intrexx_IntraDev_Publikationen]]
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

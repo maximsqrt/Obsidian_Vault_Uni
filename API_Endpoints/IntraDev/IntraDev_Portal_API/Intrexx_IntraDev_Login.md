@@ -19,7 +19,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /service/login/login
 url: "[[BaseURL_intraDev]]/service/login/login"
 method: POST
-collection_ref: "[[Intrexx-IntraDev-Portal-API]]"
+collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26
 ---
 

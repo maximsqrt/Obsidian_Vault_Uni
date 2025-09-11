@@ -18,7 +18,7 @@ secret_ref: "vault://intrexx/intranet/prod/service-a-z/Service-A-Z"
 endpoints_count: 7
 usage_refs:
   - [[Intrexx-Intranet-API-Service-A-Z]]
-  - [[Intrexx-IntraDev-API-Service-A-Z]]
+  - [[Intrexx_IntraDev_Service_A-Z]]
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

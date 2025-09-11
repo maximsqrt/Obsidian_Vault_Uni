@@ -20,7 +20,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formular/{strid}
 url: "[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formular/{strid}"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-Service-A-Z]]"
+collection_ref: "[[Intrexx_IntraDev_Service_A-Z]]"
 last_checked: 2025-08-26
 ---
 

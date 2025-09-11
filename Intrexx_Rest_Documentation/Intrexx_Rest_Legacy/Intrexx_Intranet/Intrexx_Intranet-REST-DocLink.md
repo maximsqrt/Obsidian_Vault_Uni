@@ -21,5 +21,5 @@ last_checked: YYYY-MM-DD
 **Primary link:** https://gitlab.rz.uni-freiburg.de/intranet/intranet-allgemein/-/wikis/home/REST
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intranet-Docu]]
+
+

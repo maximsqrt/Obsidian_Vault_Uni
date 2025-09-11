@@ -80,4 +80,4 @@ slo: "P95 < 300ms"            # optional
 - Tickets/Epics: [[…]]  — Runbooks: [[…]] — On-Call: [[…]]
 
 ## Relations
-Links:: [[Intrexx-Intranet-Legacy]]
+Links:: [[Intrexx_Intranet_Legacy]]

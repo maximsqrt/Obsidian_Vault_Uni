@@ -21,7 +21,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/335908426702A4A4DE952E12187206B841B691C4/stellen
 url: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/stellen"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-Stellenausschreibungen]]"
+collection_ref: "[[Intrexx_IntraDev_Stellenauschreibungen]]"
 last_checked: 2025-08-26
 ---
 

@@ -19,7 +19,7 @@ base_url: "[[BaseURL_Intranet]]"
 path: /api/app/upload
 url: "[[BaseURL_Intranet]]/api/app/upload"
 method: POST
-collection_ref: "[[Intrexx-Intranet-Portal-API]]"
+collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD
 ---
 
@@ -28,4 +28,4 @@ last_checked: YYYY-MM-DD
 - **URL:** <[[BaseURL_Intranet]]/api/app/upload>
 
 ## Relations
-Parent:: [[Intrexx_Intranet-Portal_API]]
+Parent:: [[Intrexx_Intranet_Portal_API]]

@@ -19,12 +19,12 @@ endpoints_count: 6
 usage_refs:
   - "[[Intrexx_IntraDev_Service_A-Z]]"
 endpoint_refs:
-  - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-beitraege]]"
-  - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-beitrag-{strid}]]"
-  - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-formular-{strid}]]"
-  - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-formulare]]"
-  - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-gformulare]]"
-  - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-gbeitraege]]"
+  - "[[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitraege.md]]"
+  - "[[Intrexx_IntraDev_Beitrag_StrId]]"
+  - "[[Intrexx_IntraDev_Formular_StrId]]"
+  - "[[Intrexx_IntraDev_Formulare]]"
+  - "[[Intrexx_IntraDev_GFormulare]]"
+  - "[[Intrexx_IntraDev_GBeitraege]]"
 last_checked: YYYY-MM-DD
 ---
 

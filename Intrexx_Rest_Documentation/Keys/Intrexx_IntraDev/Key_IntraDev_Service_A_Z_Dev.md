@@ -16,7 +16,7 @@ key_type: tbd
 auth_flow: tbd
 secret_ref: vault://intraDev/dev/service-a-z/Service-A-Z
 endpoints_count: 6
-usage_refs: "[[Intrexx-IntraDev-API-Service-A-Z]]"
+usage_refs: "[[Intrexx_IntraDev_Service_A-Z]]"
 endpoint_refs:
   - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-beitraege]]"
   - "[[Intrexx-IntraDev-Endpoint-Service-A-Z-beitrag-{strid}]]"

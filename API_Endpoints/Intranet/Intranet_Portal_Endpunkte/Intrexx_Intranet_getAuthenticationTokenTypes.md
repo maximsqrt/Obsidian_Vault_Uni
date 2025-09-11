@@ -19,7 +19,7 @@ base_url: "[[BaseURL_Intranet]]"
 path: /service/login/getAuthenticationTokenTypes
 url: "[[BaseURL_Intranet]]/service/login/getAuthenticationTokenTypes"
 method: POST
-collection_ref: "[[Intrexx-Intranet-Portal-API]]"
+collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD
 ---
 
@@ -28,4 +28,4 @@ last_checked: YYYY-MM-DD
 - **URL:** <[[BaseURL_Intranet]]/service/login/getAuthenticationTokenTypes>
 
 ## Relations
-Parent:: [[Intrexx_Intranet-Portal_API]]
+Parent:: [[Intrexx_Intranet_Portal_API]]

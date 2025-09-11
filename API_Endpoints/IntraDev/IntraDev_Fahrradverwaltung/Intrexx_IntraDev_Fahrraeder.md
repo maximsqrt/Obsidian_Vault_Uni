@@ -20,7 +20,7 @@ path_entities:
   - /fahrraeder
 method: GET
 last_checked: 2025-09-02
-collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
+collection_ref: "[[Intrexx_IntraDev_Fahrradverwaltung]]"
 ---
 
 

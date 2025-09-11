@@ -17,7 +17,7 @@ auth_flow: "tbd"
 secret_ref: "vault://intrexx/intranet/prod/stellen/Stellen"
 endpoints_count: 5
 usage_refs:
-  - [[Intrexx-Intranet-API-Stellenausschreibungen]]
+  - [[Intrexx_Intranet_Stellenausschreibungenausschreibungen]]
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

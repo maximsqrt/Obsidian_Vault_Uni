@@ -17,7 +17,7 @@ auth_flow: "tbd"
 secret_ref: "vault://intrexx/intranet/prod/veranstaltungen/Termine"
 endpoints_count: 8
 usage_refs:
-  - [[Intrexx-Intranet-API-Veranstaltungen-und-Termine]]
+  - [[Intrexx_Intranet_Veranstaltungen_und_Termine-und-Termine]]
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

@@ -17,9 +17,9 @@ auth_flow: "tbd"           # header-bearer | cookie-session | query-apikey | …
 secret_ref: "vault://intrexx/intranet/prod/web/WEBKEY"
 endpoints_count: 34
 usage_refs:
-  - [[Intrexx-Intranet-API-Veranstaltungen-und-Termine]]
+  - [[Intrexx_Intranet_Veranstaltungen_und_Termine-und-Termine]]
   - [[Intrexx-Intranet-API-Studiengaenge]]
-  - [[Intrexx-Intranet-API-Stellenausschreibungen]]
+  - [[Intrexx_Intranet_Stellenausschreibungenausschreibungen]]
   - [[Intrexx-Intranet-API-Service-A-Z]]            # anlegen, falls noch nicht vorhanden
   - [[Intrexx-Intranet-API-Fundsachen]]
   - [[Intrexx-Intranet-API-Vergebene-Auftraege]]

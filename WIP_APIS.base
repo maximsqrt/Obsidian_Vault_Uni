@@ -8,3 +8,5 @@ views:
       - file.name
       - file.mtime
       - app_id
+    columnSize:
+      file.mtime: 156

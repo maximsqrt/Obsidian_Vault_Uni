@@ -20,7 +20,7 @@ path_entities:
   - /user
 method: GET
 last_checked: 2025-09-02
-collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
+collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe|Intrexx_IntraDev_Datendrehscheibe]]"
 ---
 
 

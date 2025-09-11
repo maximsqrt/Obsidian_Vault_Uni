@@ -19,7 +19,7 @@ endpoints_count: 0
 usage_refs:
   - [[Intrexx-IntraDev-API-Veranstaltungen-und-Termine]]
   - [[Intrexx-IntraDev-API-Studiengaenge]]
-  - [[Intrexx-IntraDev-API-Service-A-Z]]
+  - [[Intrexx_IntraDev_Service_A-Z]]
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

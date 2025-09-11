@@ -20,7 +20,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 path: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge
 url: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-SCS-Studiengangverwaltung]]"
+collection_ref: "[[Intexx_IntraDev_SCS_Studiengangverwaltung]]"
 last_checked: 2025-08-26
 ---
 
