@@ -14,7 +14,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: ""
-base_host: https://10.184.8.116:1246
+base_host: "[[BaseURL_OData_Intranet]]"
 path: /fb_view
 method: GET
 collection_ref: "[[]]"

@@ -10,5 +10,6 @@
   "make-md",
   "replace-all",
   "color-folders-files",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-admonition"
 ]

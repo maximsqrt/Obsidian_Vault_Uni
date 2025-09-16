@@ -14,8 +14,9 @@ tags:
   - status/http-4xx
 owner: Team Integration
 app_id: ""
-base_url: https://10.184.8.94:1246/eucor_odata.svc
+base_url: "[[BaseURL_OData_IntraDev]]"
 entity_paths:
+  - /RISIKOFAELLE
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02

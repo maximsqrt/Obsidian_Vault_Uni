@@ -9,3 +9,9 @@ views:
       - file.basename
       - file.mtime
       - app_id
+    sort:
+      - property: app_id
+        direction: ASC
+    columnSize:
+      file.basename: 263
+      file.mtime: 208

@@ -14,8 +14,9 @@ tags:
   - status/http-4xx
 owner: Team Integration
 app_id: ""
-base_url: https://10.184.8.94:1246/OdataAuthTest.svc
+base_url: "[[BaseURL_OData_IntraDev]]"
 entity_paths:
+  - /OdataAuthTest
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02
@@ -60,5 +61,4 @@ dv.table(["Path", "URL", "Test-GET"], rows);
 ```
 
 > [!question] ## Relations
-
-Parent:: [[OData_Hinweise_und_Erläuterungen]]
+> Parent:: [[OData_Hinweise_und_Erläuterungen]]

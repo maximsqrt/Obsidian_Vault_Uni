@@ -14,7 +14,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: ""
-base_host: https://10.184.8.116:1246
+base_host: "[[BaseURL_OData_Intranet]]"
 entity_paths:
   - /VER_VERANSTALTUNGEN
   - /THEMENGEBIETE
@@ -26,6 +26,10 @@ last_checked: 2025-09-02
 ---
 
 
+
+
+
+
 #  Contract
 
 > [!note] Übersicht
@@ -34,6 +38,9 @@ last_checked: 2025-09-02
 > - **Query-Params:** _tbd_
 > - **Response:** _tbd_
 
+````ad-tldr
+title: URLS
+collapse: open
 
 ```dataviewjs
 const fm = dv.current().file.frontmatter;
@@ -78,5 +85,4 @@ dv.table(["Path","URL","Test-GET"], rows);
 ```
 
 > [!question] ## Relations
-
-Parent:: [[OData_Hinweise_und_Erläuterungen]]
+> Parent:: [[OData_Hinweise_und_Erläuterungen]]

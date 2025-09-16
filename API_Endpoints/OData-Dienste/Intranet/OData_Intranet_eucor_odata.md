@@ -14,8 +14,8 @@ tags:
   - status/active
 owner: Team Integration
 app_id: ""
-base_host: https://10.184.8.116:1246
-path: /BEKANNTMACHUNGEN
+base_host: "[[BaseURL_OData_Intranet]]"
+path: /eucor_view
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02

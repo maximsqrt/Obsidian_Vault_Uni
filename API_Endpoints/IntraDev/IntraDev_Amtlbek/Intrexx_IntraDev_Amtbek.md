@@ -3,7 +3,7 @@ type: api-endpoint
 title: amtlbek
 guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
 path_prefix: /api/app
-owner: Team Integration
+owner: "[[Team Integration]]"
 base_host: "[[BaseURL_IntraDev]]"
 tags:
   - project/intrexx-rest-discovery

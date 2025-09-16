@@ -11,7 +11,7 @@ tags:
   - lang/de
   - collection/datendrehscheibe
   - exposure/internal-nonprod
-owner: Team Integration
+owner: "[[Team Integration]]"
 app_id: E8F7687AE12876495F0A5B3C43321B695AA48561
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/E8F7687AE12876495F0A5B3C43321B695AA48561"
@@ -45,4 +45,4 @@ last_checked: YYYY-MM-DD
 
 ## Relations
 > [!tip]
-> [[Intrexx-Intradev-Legacy]]
+> [[Intrexx_Intradev_Legacy]]

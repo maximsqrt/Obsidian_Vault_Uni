@@ -56,4 +56,4 @@ last_reviewed: YYYY-MM-DD
 - Tickets/Epics: [[…]] — Testdaten: [[…]] — Pipelines: [[…]]
 
 ## Relations
-Parent:: [[Intrexx-Intradev-Legacy]]
+Parent:: [[Intrexx_Intradev_Legacy]]

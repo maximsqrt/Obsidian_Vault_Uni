@@ -9,6 +9,7 @@ tags:
   - exposure/internal-live
   - status/wip
   - status/active
+  - method/get
 owner: Team Integration
 app_id: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
 base_host: "[[BaseURL_Intranet]]"

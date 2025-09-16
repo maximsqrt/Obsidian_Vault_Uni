@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "44b037bd7e5a042e",
+        "id": "e7320190b6373b2d",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2febb8123f3c50",
+            "id": "eea82a07d872c5fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_nachrichtenredaktion_odata.md",
-                "mode": "preview",
-                "source": true
+                "file": "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Portal_API.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "OData_IntraDev_nachrichtenredaktion_odata"
+              "title": "Intrexx_IntraDev_Portal_API"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "odata",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,36 +87,23 @@
             }
           },
           {
-            "id": "ffc9c4fa3193e621",
+            "id": "823071bbb3b5c517",
             "type": "leaf",
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev"
+                "path": "API_Endpoints/IntraDev/IntraDev_Studiengaenge"
               },
               "icon": "lucide-file",
-              "title": "Intrexx_IntraDev"
-            }
-          },
-          {
-            "id": "f841b3f53498c7e0",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "IntraDev_Studiengaenge"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 510.5
   },
   "right": {
     "id": "50b686ce88c7f880",
@@ -229,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,47 +232,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fa2febb8123f3c50",
+  "active": "eea82a07d872c5fa",
   "lastOpenFiles": [
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v2.md",
-    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_gefaerdungshandbuch.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
-    "API_Endpoints/OData-Dienste/Intranet/BaseURL_OData_Intranet.md",
-    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_termine_odata.md",
-    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_ODataTest.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
-    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
-    "API_Endpoints/OData-Dienste/OData_Hinweise_und_Erläuterungen.md",
-    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_Intranet/Intrexx_Intranet-REST-DocLink.md",
-    "Intrexx-REST-Discovery.md",
-    "Intrexx-IntraDev-Endpoint-Service-A-Z-gbeitraege.md",
-    "Intranet_IntraDev_Compare.base",
-    "Broken_APIs.base",
-    "API_Endpoints/_Env_IntraDev.md",
-    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_Intranet/Intrexx_Intranet_Legacy.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_intranet_Amtliche_Bekanntmachungen.md",
-    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx-Intradev-Legacy.md",
-    "Intrexx_Rest_Documentation/Intrexx-Intradev-Documentation.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Faecher.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Login.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_GetAuthenticationTokenTypes.md",
-    "API_Endpoints/IntraDev/IntraDev_Publikationen/Intrexx_IntraDev_PublikationenF.md",
-    "API_Endpoints/IntraDev/IntraDev_Publikationen/Intrexx_IntraDev_Publikationen.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Logout.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitrag_StrId.md",
+    "registry/apis.yml",
+    "registry/Textdokument (neu).txt",
+    "registry",
+    "Neuer Ordner",
+    "scripts/export_registry.py",
+    "scripts/Textdokument (neu).txt",
+    "scripts",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Portal_API.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachschaften.md",
     "WIP_APIS.base",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
+    "Uni_Freiburg_Intranet_Canvas.canvas",
+    "CompareAPI.base",
+    "DataView Compare.md",
+    "GITLAB OVERSIGHT.md",
+    "Flowchart.md",
+    "Intranet_IntraDev_Compare.base",
+    "TagViewFancySort.md",
+    "Team Integration.md",
+    "TestCanvas.canvas",
+    "Intrexx_Rest_Documentation/Collections/Intrexx_GUID/IntraDev_SCS_Studiengangverwaltung.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intexx_IntraDev_SCS_Studiengangverwaltung.md",
+    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
+    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fahrradverwaltung.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Service_A-Z.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
+    "API_Endpoints/IntraDev/BaseURL_IntraDev.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Studiengaenge.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Veranstaltungen_und_Termine.md",
+    "Intrexx_Rest_Documentation/Intrexx-Intranet-Documentation.md",
+    "Intrexx_Rest_Documentation/Intrexx-Intradev-Documentation.md",
+    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx_Intradev_Legacy.md",
+    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx_IntraDev_REST_DocLink.md",
+    "Intrexx_Rest_Documentation/Collections/Intrexx_GUID",
     "Pasted image 20250903145736.png",
-    "API_Endpoints/OData-Dienste/Intranet",
-    "API_Endpoints/OData-Dienste/IntraDev",
-    "API_Endpoints/OData-Dienste",
-    "Intrexx Map.canvas.canvas",
-    "Obsidian_Vault",
-    "API_Endpoints/IntraDev/App_99AF5C20962E81CA332D0C3FC64841FE96BE7173",
-    "API_Endpoints/IntraDev/Projekte",
-    "Tags/#endpoint+fahrraeder"
+    "Intrexx Map.canvas.canvas"
   ]
 }

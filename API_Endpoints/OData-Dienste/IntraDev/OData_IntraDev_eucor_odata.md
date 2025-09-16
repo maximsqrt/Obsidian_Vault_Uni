@@ -15,7 +15,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: ""
-base_url: https://10.184.8.94:1246/eucor_odata.svc
+base_url: "[[BaseURL_OData_IntraDev]]"
 path: /eucor_view
 method: GET
 collection_ref: "[[]]"

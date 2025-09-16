@@ -59,4 +59,4 @@ last_checked: YYYY-MM-DD
 - _…_
 ## Relations
 > [!tip]
-> [[Intrexx-Intradev-Legacy]]
+> [[Intrexx_Intradev_Legacy]]

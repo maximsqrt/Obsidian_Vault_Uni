@@ -14,7 +14,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: ""
-base_host: https://10.184.8.116:1246
+base_host: "[[BaseURL_OData_Intranet]]"
 entity_paths:
   - /veroeffentlicht
   - /XDATAGROUP4FB529B6

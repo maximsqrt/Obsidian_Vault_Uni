@@ -5,8 +5,16 @@ views:
   - type: table
     name: Table
     order:
-      - file.name
-      - file.mtime
+      - title
       - app_id
+      - base_url
+      - system
+    sort:
+      - property: app_id
+        direction: DESC
+      - property: url
+        direction: ASC
     columnSize:
-      file.mtime: 156
+      note.title: 323
+      note.app_id: 316
+      note.url: 192
