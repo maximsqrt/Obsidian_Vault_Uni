@@ -12,7 +12,7 @@ tags:
   - lang/de
   - collection/veranstaltungen-und-termine
 owner: Team Integration
-app_id: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
 endpoints_count: 7

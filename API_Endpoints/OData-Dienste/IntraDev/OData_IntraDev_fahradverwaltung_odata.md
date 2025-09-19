@@ -13,7 +13,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: ""
+guid_hash: ""
 base_host: "[[BaseURL_OData_IntraDev]]"
 path: /FAH_FAHRRAEDER
 method: GET

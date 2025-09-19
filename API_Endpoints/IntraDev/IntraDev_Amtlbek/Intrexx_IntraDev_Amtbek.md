@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: amtlbek
+title: Nachrichten — amtlbek (IntraDev)
 guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
 path_prefix: /api/app
 owner: "[[Team Integration]]"

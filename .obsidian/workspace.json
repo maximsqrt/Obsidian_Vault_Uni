@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eea82a07d872c5fa",
+            "id": "d824e8114020d264",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
+                "file": "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_termine_odata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrexx_IntraDev_Datendrehscheibe"
+              "title": "OData_IntraDev_termine_odata"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "standorte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,35 +230,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eea82a07d872c5fa",
+  "active": "d824e8114020d264",
   "lastOpenFiles": [
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fakultaet.md",
+    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Login.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studienganggruppen.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Faecher.md",
+    "API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung/Intrexx_IntraDev_Fahrraeder.md",
+    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Termingruppe.md",
+    "API_Endpoints/IntraDev/IntraDev_Vergebene_Aufträge/Intrexx_IntraDev_Vergeben.md",
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_intraDev_Studiengaenge.md",
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Infolinks.md",
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GFormulare.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studiengaenge.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Abschluesse.md",
+    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Standorte.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
+    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
+    "registry/overview.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fundsachen_odata.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fundsachen.md",
     "readme.md",
     "registry/readme.md",
     "scripts/tempCodeRunnerFile.py",
-    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
     "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_GetSessionInfo.md",
-    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
     "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen.md",
     "Intrexx_Rest_Documentation/Intrexx-Intradev-Documentation.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intexx_IntraDev_SCS_Studiengangverwaltung.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fachberatung.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Faechergruppe.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fakultaet.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Satzungen.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studig.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Logout.md",
-    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Standorte.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Login.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_GetLoginDomains.md",
-    "API_Endpoints/OData-Dienste/OData_Hinweise_und_Erläuterungen.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_amtlbek_odata.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fahrradverwaltung_odata.md",
-    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_stellenauschreibungen_odata.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v3.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Service_A-Z.md",
     "scripts/yaml_to_md.py",
     "scripts/__pycache__/export_functions.cpython-313.pyc",
     "scripts/__pycache__",

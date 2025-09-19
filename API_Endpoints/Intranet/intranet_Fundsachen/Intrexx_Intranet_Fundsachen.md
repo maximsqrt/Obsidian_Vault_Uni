@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: 56E423A507C34F76FD114442921B0AF44BA57B88
+guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 base_url: "[[BaseURL_Intranet]]"
 path: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen
 url: "[[BaseURL_Intranet]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"

@@ -11,7 +11,7 @@ tags:
   - status/active
   - method/get
 owner: Team Integration
-app_id: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
+guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
 base_host: "[[BaseURL_Intranet]]"
 entity_paths:
   - /api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5/amtlbek

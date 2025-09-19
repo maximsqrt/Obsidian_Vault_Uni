@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-title: fahrraeder
+title: Fahrräder — fahrraeder (IntraDev)
 guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 path_prefix: /api/app
 owner: Team Integration

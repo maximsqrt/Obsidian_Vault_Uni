@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[BaseURL_intraDev]]"
 path: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gformulare
 url: "[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gformulare"

@@ -16,7 +16,7 @@ tags:
   - flag/method-unclear
   - status/active
 owner: Team Integration
-app_id: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[BaseURL_intraDev]]"
 path: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}
 url: "[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}"

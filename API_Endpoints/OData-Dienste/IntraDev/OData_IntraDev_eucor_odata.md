@@ -14,7 +14,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: ""
+guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
 path: /eucor_view
 method: GET

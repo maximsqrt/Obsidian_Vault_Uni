@@ -13,7 +13,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: ""
+guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
 path: /zuv_nachrichten
 method: GET

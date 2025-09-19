@@ -12,7 +12,7 @@ tags:
   - lang/de
   - collection/fahrradverwaltung
 owner: "Team Integration"
-app_id: "43FCB1E50030712AA3E5E8C30402319D1ED66995"
+guid_hash: "43FCB1E50030712AA3E5E8C30402319D1ED66995"
 api_base: "[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995"
 endpoints_count: 1
 last_checked: YYYY-MM-DD

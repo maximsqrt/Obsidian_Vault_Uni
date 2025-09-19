@@ -12,7 +12,7 @@ tags:
   - collection/publikationen
   - exposure/internal-nonprod
 owner: Team Integration
-app_id: 896424333B7D67953799DF367AF3BA1FEA221416
+guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/896424333B7D67953799DF367AF3BA1FEA221416"
 endpoints_count: 2

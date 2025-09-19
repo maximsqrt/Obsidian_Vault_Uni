@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: 335908426702A4A4DE952E12187206B841B691C4
+guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_Intranet]]"
 path: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien
 url: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien"

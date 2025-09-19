@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: 43FCB1E50030712AA3E5E8C30402319D1ED66995
+guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 base_url: "[[BaseURL_Intranet]]"
 path: /api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder
 url: "[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"

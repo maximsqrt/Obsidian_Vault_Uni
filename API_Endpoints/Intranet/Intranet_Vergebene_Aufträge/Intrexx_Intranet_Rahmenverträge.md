@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: E14074D19E1FB8644E124BC295F886FDED6CBE51
+guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_Intranet]]"
 path: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege
 url: "[[BaseURL_Intranet]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege"

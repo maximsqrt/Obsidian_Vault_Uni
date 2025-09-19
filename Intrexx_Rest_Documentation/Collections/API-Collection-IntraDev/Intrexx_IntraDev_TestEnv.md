@@ -12,7 +12,7 @@ tags:
   - lang/de
   - collection/tests
 owner: Team Integration
-app_id: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3"
 endpoints_count: 4

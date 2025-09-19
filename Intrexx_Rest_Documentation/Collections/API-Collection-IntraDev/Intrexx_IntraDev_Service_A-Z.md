@@ -12,7 +12,7 @@ tags:
   - lang/de
   - collection/service-a-z
 owner: Team Integration
-app_id: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173"
 endpoints_count: 6

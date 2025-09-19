@@ -13,7 +13,7 @@ tags:
   - method/get
   - status/http-4xx
 owner: Team Integration
-app_id: ""
+guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
 path: /SCSV4_VERANSTALTUNG
 method: GET

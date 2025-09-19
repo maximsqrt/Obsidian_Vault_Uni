@@ -12,7 +12,7 @@ tags:
   - collection/scs-studiengangverwaltung
   - exposure/internal-nonprod
 owner: "[[Team Integration]]"
-app_id: "[[IntraDev_SCS_Studiengangverwaltung]]"
+guid_hash: "[[IntraDev_SCS_Studiengangverwaltung]]"
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
 endpoints_count: 3

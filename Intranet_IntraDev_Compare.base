@@ -8,9 +8,9 @@ views:
       - file.name
       - file.basename
       - file.mtime
-      - app_id
+      - guid_hash
     sort:
-      - property: app_id
+      - property: guid_hash
         direction: ASC
     columnSize:
       file.basename: 263

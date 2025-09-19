@@ -12,7 +12,7 @@ tags:
   - lang/de
   - collection/myufr
 owner: Team Integration
-app_id: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
 base_url: "[[BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7"
 endpoints_count: 11

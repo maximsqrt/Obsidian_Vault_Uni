@@ -12,7 +12,7 @@ tags:
   - lang/de
   - collection/amtliche-bekanntmachungen
 owner: "Team Integration"
-app_id: "6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5"
+guid_hash: "6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5"
 api_base: "[[BaseURL_Intranet]]/api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5"
 endpoints_count: 1
 last_checked: YYYY-MM-DD

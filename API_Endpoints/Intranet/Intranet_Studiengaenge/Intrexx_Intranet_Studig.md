@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-app_id: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
 base_url: "[[BaseURL_Intranet]]"
 path: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig
 url: "[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig"

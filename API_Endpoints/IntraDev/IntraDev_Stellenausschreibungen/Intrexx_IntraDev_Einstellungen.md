@@ -16,7 +16,7 @@ tags:
   - flag/method-unclear
   - status/active
 owner: Team Integration
-app_id: 335908426702A4A4DE952E12187206B841B691C4
+guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_intraDev]]"
 path: /api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen
 url: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen"

@@ -9,7 +9,7 @@ tags:
   - exposure/<exposure>
   - status/<status>
 owner: <owner>
-app_id: ""
+guid_hash: ""
 base_host: https://<host>:<port>
 entity_paths:
   - /<entity_path_1>

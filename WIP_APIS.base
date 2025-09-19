@@ -6,15 +6,15 @@ views:
     name: Table
     order:
       - title
-      - app_id
+      - guid_hash
       - base_url
       - system
     sort:
-      - property: app_id
+      - property: guid_hash
         direction: DESC
       - property: url
         direction: ASC
     columnSize:
       note.title: 323
-      note.app_id: 316
+      note.guid_hash: 316
       note.url: 192
