@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Portal_API.md",
+                "file": "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrexx_IntraDev_Portal_API"
+              "title": "Intrexx_IntraDev_Datendrehscheibe"
             }
           }
         ]
@@ -87,15 +87,13 @@
             }
           },
           {
-            "id": "823071bbb3b5c517",
+            "id": "44e754d818962cbc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "API_Endpoints/IntraDev/IntraDev_Studiengaenge"
-              },
-              "icon": "lucide-file",
-              "title": "IntraDev_Studiengaenge"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -103,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 510.5
+    "width": 354.5
   },
   "right": {
     "id": "50b686ce88c7f880",
@@ -234,44 +232,44 @@
   },
   "active": "eea82a07d872c5fa",
   "lastOpenFiles": [
+    "readme.md",
+    "registry/readme.md",
+    "scripts/tempCodeRunnerFile.py",
+    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
+    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_GetSessionInfo.md",
+    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
+    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen.md",
+    "Intrexx_Rest_Documentation/Intrexx-Intradev-Documentation.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intexx_IntraDev_SCS_Studiengangverwaltung.md",
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fachberatung.md",
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Faechergruppe.md",
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Fakultaet.md",
+    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Satzungen.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studig.md",
+    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Logout.md",
+    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Standorte.md",
+    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Login.md",
+    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_GetLoginDomains.md",
+    "API_Endpoints/OData-Dienste/OData_Hinweise_und_Erläuterungen.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_amtlbek_odata.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fahrradverwaltung_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_stellenauschreibungen_odata.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v3.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Service_A-Z.md",
+    "scripts/yaml_to_md.py",
+    "scripts/__pycache__/export_functions.cpython-313.pyc",
+    "scripts/__pycache__",
+    "scripts/export_functions.py",
+    "scripts/hello.out",
+    "scripts/test.py",
     "registry/apis.yml",
     "registry/Textdokument (neu).txt",
     "registry",
-    "Neuer Ordner",
-    "scripts/export_registry.py",
-    "scripts/Textdokument (neu).txt",
-    "scripts",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Portal_API.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachschaften.md",
-    "WIP_APIS.base",
     "Uni_Freiburg_Intranet_Canvas.canvas",
-    "CompareAPI.base",
-    "DataView Compare.md",
-    "GITLAB OVERSIGHT.md",
-    "Flowchart.md",
-    "Intranet_IntraDev_Compare.base",
-    "TagViewFancySort.md",
-    "Team Integration.md",
     "TestCanvas.canvas",
-    "Intrexx_Rest_Documentation/Collections/Intrexx_GUID/IntraDev_SCS_Studiengangverwaltung.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intexx_IntraDev_SCS_Studiengangverwaltung.md",
-    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
-    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fahrradverwaltung.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Service_A-Z.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
-    "API_Endpoints/IntraDev/BaseURL_IntraDev.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Studiengaenge.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Veranstaltungen_und_Termine.md",
-    "Intrexx_Rest_Documentation/Intrexx-Intranet-Documentation.md",
-    "Intrexx_Rest_Documentation/Intrexx-Intradev-Documentation.md",
-    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx_Intradev_Legacy.md",
-    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx_IntraDev_REST_DocLink.md",
-    "Intrexx_Rest_Documentation/Collections/Intrexx_GUID",
     "Pasted image 20250903145736.png",
     "Intrexx Map.canvas.canvas"
   ]

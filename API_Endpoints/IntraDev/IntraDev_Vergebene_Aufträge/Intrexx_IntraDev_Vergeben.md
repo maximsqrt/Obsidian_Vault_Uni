@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: E14074D19E1FB8644E124BC295F886FDED6CBE51
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben
 url: "[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben"
 method: GET

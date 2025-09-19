@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: 896424333B7D67953799DF367AF3BA1FEA221416
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationenf
 url: "[[BaseURL_intraDev]]/api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationenf"
 method: GET

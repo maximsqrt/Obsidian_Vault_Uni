@@ -15,7 +15,7 @@ tags:
   - method/post
   - status/active
 owner: Team Integration
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /service/login/login
 url: "[[BaseURL_intraDev]]/service/login/login"
 method: POST

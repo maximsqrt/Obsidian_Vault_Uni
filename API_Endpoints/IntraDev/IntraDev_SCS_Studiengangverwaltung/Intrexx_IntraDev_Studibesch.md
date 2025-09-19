@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 app_id: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch
 url: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch"
 method: GET

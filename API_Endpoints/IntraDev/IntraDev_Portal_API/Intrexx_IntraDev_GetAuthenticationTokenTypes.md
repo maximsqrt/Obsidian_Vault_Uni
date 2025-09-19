@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /service/login/getAuthenticationTokenTypes
 url: "[[BaseURL_intraDev]]/service/login/getAuthenticationTokenTypes"
 method: GET

@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /service/login/getLoginDomains
 url: "[[BaseURL_intraDev]]/service/login/getLoginDomains"
 method: GET

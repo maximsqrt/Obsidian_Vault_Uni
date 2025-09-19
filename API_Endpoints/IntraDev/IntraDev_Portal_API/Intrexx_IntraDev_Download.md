@@ -15,7 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_intraDev]]"
 path: /api/app/download
 url: "[[BaseURL_intraDev]]/api/app/download"
 method: GET

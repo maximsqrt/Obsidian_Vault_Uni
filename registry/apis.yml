@@ -1,0 +1,823 @@
+apis:
+- name: amtlbek
+  family: intradev
+  base: '[[BaseURL_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
+  owner: '[[Team Integration]]'
+- name: fahrraeder
+  family: intradev
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
+  owner: Team Integration
+- name: fundsachen
+  family: intradev
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
+  owner: Team Integration
+- name: myUFR — abschluesse (IntraDev)
+  family: intradev
+  base: '[[BaseURL_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — apptexte (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — fachberater (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — fachschaften (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — faecher (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — geodaten (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — glossar (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — studiengaenge (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — studienganggruppen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — termingruppe (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: myUFR — veranstaltungen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — download (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — getAuthenticationTokenTypes (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — getLoginDomains (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — getSessionInfo (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — login (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — logout (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — upload (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Publikationen — publikationen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Publikationen — publikationenf (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: SCS Studiengangverwaltung — studibesch (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: SCS Studiengangverwaltung — studig (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: SCS Studiengangverwaltung — studigaenge (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Service A–Z — beitraege (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Service A–Z — beitrag/{strid} (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Service A–Z — formular/{strid} (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Service A–Z — formulare (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Service A–Z — gbeitraege (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Service A–Z — gformulare (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: standorte
+  family: intradev
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
+  owner: Team Integration
+- name: Stellenausschreibungen — einstellungen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Stellenausschreibungen — kategorien (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Stellenausschreibungen — stelle (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Stellenausschreibungen — stellen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Stellenausschreibungen — Textbausteine (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — abschluss (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — auswahlverfahren (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — bewerbungszeit (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — fachberatung (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — faechergruppe (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — fakultaet (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — infolinks (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — modulhandbuecher (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — satzungen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — sprache (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studienbeginn (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studienbereich (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studiengaenge (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studiengaengfullview (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studientyp (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — texte (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — zulassung (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Tests — new_pub (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Tests — projekte (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Tests — pub (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Tests — study (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: user
+  family: intradev
+  base: '[[BaseURL_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
+  owner: Team Integration
+- name: Veranstaltungen & Termine — termin/{strid} (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Veranstaltungen & Termine — termine (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Veranstaltungen & Termine — themen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Veranstaltungen & Termine — vart/{strid} (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Veranstaltungen & Termine — varten (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Veranstaltungen & Termine — veranstaltung/{strid} (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Veranstaltungen & Termine — veranstaltungen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Vergebene Aufträge — binnenmarkt (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Vergebene Aufträge — rahmenvertraege (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Vergebene Aufträge — vergeben (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Vergebene Aufträge — vob (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Binnenmarkt — binnenmarkt (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Einstellungen — einstellungen (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Fahrräder — fahrraeder (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Fundsachen — fundsachen (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Kategorien — kategorien (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Nachrichten — amtlbek (Intranet)
+  family: intranet
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — download (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Portal — getAuthenticationTokenTypes (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — getLoginDomains (Intranet)
+  family: intranet
+  base:
+  - - BaseURL_Intranet
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — getSessionInfo (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — login (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — logout (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Portal — upload (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: POST
+  owner: Team Integration
+- name: Rahmenverträge — rahmenvertraege (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Rahmenverträge — rahmenvertraege (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Stelle — stelle (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Stellen — stellen (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studibesch (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studig (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Studiengänge — studigaenge (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Termin — termin (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Termine — termine (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Textbausteine — textbausteine (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Themen — themen (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Vart — vart (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Varten — varten (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Veranstaltung — veranstaltung (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  path_entities:
+  - strid
+  owner: Team Integration
+- name: Veranstaltungen — veranstaltungen (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
+- name: Vergeben — vergeben (Intranet)
+  family: intranet
+  base: '[[BaseURL_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  method: GET
+  owner: Team Integration
