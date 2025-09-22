@@ -118,12 +118,13 @@ def load_apis_from_path(path: Path) -> list[dict]:
             "guid_hash":     a.get("guid_hash") or "",
             "path_entities": a.get("path_entities") or a.get("entities") or "",
             "owner":         a.get("owner") or a.get("owner_ref") or "",
+            "path_prefix": a.get("path_prefix") or "-"
         })
     return out
 
 # ----------------- Render -----------------
 def render_table(rows: list[dict], show_owner: bool=False) -> str:
-    cols = ["API", "Base", "Auth", "Stage", "Spec", "Method", "guid_hash", "path_entities"]
+    cols = ["API", "Base", "Auth", "Stage", "Spec", "Method", "guid_hash", "path_entities", "path_prefix"]
     if show_owner:
         cols.append("Owner")
     header = "| " + " | ".join(cols) + " |"
@@ -139,11 +140,13 @@ def render_table(rows: list[dict], show_owner: bool=False) -> str:
             method_cell(r.get("method")),
             guid_cell(r.get("guid_hash")),
             entities_cell(r.get("path_entities")),
+            code_or_dash(r.get("path_prefix")),   # <-- NEU: sorgt fürs Rendering
         ]
         if show_owner:
             cells.append(r.get("owner") or "–")
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
+
 
 # ----------------- Main -----------------
 def main():

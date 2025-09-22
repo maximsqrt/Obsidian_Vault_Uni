@@ -195,7 +195,7 @@ def render_group_table(group_key: str, rows: List[Dict]) -> str:
 
     title = GROUP_TITLES.get(group_key, group_key.title())
 
-    cols = ["API", "Base", "Auth", "Stage", "Spec", "Method", "guid_hash", "path_entities"]
+    cols = ["API", "Base", "Auth", "Stage", "Spec", "Method", "guid_hash", "path_entities", "path_prefix"]
     header = "| " + " | ".join(cols) + " |"
     sep    = "|" + "|".join("---" for _ in cols) + "|"
 
@@ -211,10 +211,11 @@ def render_group_table(group_key: str, rows: List[Dict]) -> str:
         method       = fmt((r.get("method") or "–"))
         method       = f"`{method.upper().strip('`')}`" if method != "–" else "–"
         guid_hash    = fmt(r.get("guid_hash") or "–")
+        path_prefix = fmt(r.get("path_prefix")),  
         path_ents    = fmt(r.get("path_entities"))
 
         lines.append(
-            f"| {name} | {base} | {auth} | {badge} | {spec} | {method} | {guid_hash} | {path_ents} |"
+            f"| {name} | {base} | {auth} | {badge} | {spec} | {method} | {guid_hash} | {path_ents} | {path_prefix} | "
         )
 
     lines.append("")  # trailing newline
@@ -298,6 +299,7 @@ def build_rows_from_sources(
                 "auth":  fm.get("auth") or "",
                 "stage": fm.get("stage") or "Dev",
                 "spec":  fm.get("spec") or "",
+                "path_prefix": fm.get("path_prefix") or "",   
             }
 
             # --- Ergänzungen passend zum Renderer ---
@@ -325,6 +327,7 @@ def build_rows_from_sources(
                 fm.get("endpoint"),
                 fm.get("endpoints"),
                 fm.get("paths"),
+                fm.get("path_prefix"),
             )
             if pe:
                 row["path_entities"] = pe

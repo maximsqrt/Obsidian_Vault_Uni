@@ -5,6 +5,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: /api/app
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
   owner: Team Integration
@@ -14,6 +15,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: /api/app
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   owner: Team Integration
@@ -23,6 +25,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: /api/app
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   owner: Team Integration
@@ -32,6 +35,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -41,6 +45,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -50,6 +55,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -59,6 +65,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -68,6 +75,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -77,6 +85,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -86,6 +95,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -95,6 +105,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -104,6 +115,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -113,6 +125,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -122,6 +135,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -131,6 +145,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: /api/app
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
   owner: '[[Team Integration]]'
@@ -140,6 +155,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   owner: Team Integration
 - name: Portal — getAuthenticationTokenTypes (IntraDev)
@@ -148,6 +164,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   owner: Team Integration
 - name: Portal — getLoginDomains (IntraDev)
@@ -156,6 +173,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   owner: Team Integration
 - name: Portal — getSessionInfo (IntraDev)
@@ -164,6 +182,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   owner: Team Integration
 - name: Portal — login (IntraDev)
@@ -172,6 +191,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — logout (IntraDev)
@@ -180,6 +200,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — upload (IntraDev)
@@ -188,6 +209,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Publikationen — publikationen (IntraDev)
@@ -196,6 +218,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   owner: Team Integration
@@ -205,6 +228,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   owner: Team Integration
@@ -214,6 +238,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -223,6 +248,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -232,6 +258,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -241,6 +268,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -250,6 +278,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -261,6 +290,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -272,6 +302,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -281,6 +312,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -290,6 +322,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -299,6 +332,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: /api/app
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   owner: Team Integration
@@ -308,6 +342,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -317,6 +352,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -326,6 +362,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -335,6 +372,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -344,6 +382,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -353,6 +392,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -362,6 +402,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -371,6 +412,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -380,6 +422,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -389,6 +432,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -398,6 +442,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -407,6 +452,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -416,6 +462,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -425,6 +472,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -434,6 +482,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -443,6 +492,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -452,6 +502,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -461,6 +512,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -470,6 +522,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -479,6 +532,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -488,6 +542,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -497,6 +552,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -506,6 +562,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -515,6 +572,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -524,6 +582,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -533,6 +592,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -542,6 +602,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -553,6 +614,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -562,6 +624,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -571,6 +634,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -582,6 +646,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -591,6 +656,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -602,6 +668,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -611,6 +678,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -620,6 +688,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -629,6 +698,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -638,6 +708,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -647,6 +718,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -656,6 +728,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -665,6 +738,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   owner: Team Integration
@@ -674,6 +748,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   owner: Team Integration
@@ -683,6 +758,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -692,6 +768,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
   owner: Team Integration
@@ -701,6 +778,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   owner: Team Integration
 - name: Portal — getAuthenticationTokenTypes (Intranet)
@@ -709,6 +787,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — getLoginDomains (Intranet)
@@ -718,6 +797,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — getSessionInfo (Intranet)
@@ -726,6 +806,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — login (Intranet)
@@ -734,6 +815,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — logout (Intranet)
@@ -742,6 +824,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Portal — upload (Intranet)
@@ -750,6 +833,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: POST
   owner: Team Integration
 - name: Rahmenverträge — rahmenvertraege (Intranet)
@@ -758,6 +842,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -767,6 +852,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -776,6 +862,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -785,6 +872,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -794,6 +882,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -803,6 +892,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -812,6 +902,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -821,6 +912,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -832,6 +924,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -841,6 +934,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -850,6 +944,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -859,6 +954,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -870,6 +966,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -879,6 +976,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -890,6 +988,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -899,6 +998,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
+  path_prefix: ''
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
