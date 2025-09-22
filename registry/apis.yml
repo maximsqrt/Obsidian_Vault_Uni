@@ -8,26 +8,32 @@ apis:
   path_prefix: /api/app
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
+  path_entities:
+  - /user
   owner: Team Integration
 - name: Fahrräder — fahrraeder (IntraDev)
   family: intradev
-  base: ''
+  base: '[[BaseURL_IntraDev]]'
   auth: ''
   stage: Dev
   spec: ''
   path_prefix: /api/app
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
+  path_entities:
+  - /fahrraeder
   owner: Team Integration
 - name: fundsachen
   family: intradev
-  base: ''
+  base: '[[BaseURL_IntraDev]]'
   auth: ''
   stage: Dev
   spec: ''
   path_prefix: /api/app
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
+  path_entities:
+  - /fundsachen
   owner: Team Integration
 - name: myUFR — abschluesse (IntraDev)
   family: intradev
@@ -35,7 +41,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/abschluesse$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -45,7 +51,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/apptexte$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -55,7 +61,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/fachberater$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -65,7 +71,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/fachschaften$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -75,7 +81,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/faecher$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -85,7 +91,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/geodaten$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -95,7 +101,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/glossar$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -105,7 +111,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/studiengaenge$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -115,7 +121,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/studienganggruppen$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -125,7 +131,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/termingruppe$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -135,7 +141,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/veranstaltungen$4
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   owner: Team Integration
@@ -148,6 +154,8 @@ apis:
   path_prefix: /api/app
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
+  path_entities:
+  - /amtlbek
   owner: '[[Team Integration]]'
 - name: Portal — download (IntraDev)
   family: intradev
@@ -155,7 +163,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/download$4
   method: GET
   owner: Team Integration
 - name: Portal — getAuthenticationTokenTypes (IntraDev)
@@ -164,7 +172,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/getAuthenticationTokenTypes$4
   method: GET
   owner: Team Integration
 - name: Portal — getLoginDomains (IntraDev)
@@ -173,7 +181,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/getLoginDomains$4
   method: GET
   owner: Team Integration
 - name: Portal — getSessionInfo (IntraDev)
@@ -182,7 +190,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/getSessionInfo$4
   method: GET
   owner: Team Integration
 - name: Portal — login (IntraDev)
@@ -191,7 +199,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/login$4
   method: POST
   owner: Team Integration
 - name: Portal — logout (IntraDev)
@@ -200,7 +208,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/logout$4
   method: POST
   owner: Team Integration
 - name: Portal — upload (IntraDev)
@@ -209,7 +217,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/upload$4
   method: POST
   owner: Team Integration
 - name: Publikationen — publikationen (IntraDev)
@@ -218,7 +226,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationen$4
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   owner: Team Integration
@@ -228,7 +236,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationenf$4
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   owner: Team Integration
@@ -238,7 +246,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch$4
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -248,7 +256,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig$4
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -258,7 +266,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge$4
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -268,7 +276,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/beitraege$4
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -278,7 +286,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/beitrag/{strid}$4
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -290,7 +298,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formular/{strid}$4
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -302,7 +310,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formulare$4
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -312,7 +320,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gbeitraege$4
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -322,7 +330,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gformulare$4
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   owner: Team Integration
@@ -335,6 +343,8 @@ apis:
   path_prefix: /api/app
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
+  path_entities:
+  - /standorte
   owner: Team Integration
 - name: Stellenausschreibungen — einstellungen (IntraDev)
   family: intradev
@@ -342,7 +352,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -352,7 +362,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -362,7 +372,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stelle$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -372,7 +382,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stellen$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -382,7 +392,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/Textbausteine$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -392,7 +402,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/abschluss$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -402,7 +412,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/auswahlverfahren$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -412,7 +422,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/bewerbungszeit$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -422,7 +432,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fachberatung$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -432,7 +442,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/faechergruppe$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -442,7 +452,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fakultaet$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -452,7 +462,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/infolinks$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -462,7 +472,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/modulhandbuecher$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -472,7 +482,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/satzungen$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -482,7 +492,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/sprache$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -492,7 +502,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbeginn$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -502,7 +512,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbereich$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -512,7 +522,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studiengaenge$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -522,7 +532,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studiengaengfullview$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -532,7 +542,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -542,7 +552,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/texte$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -552,7 +562,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/zulassung$4
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   owner: Team Integration
@@ -562,7 +572,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/new_pub$4
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -572,7 +582,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/projekte$4
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -582,7 +592,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub$4
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -592,7 +602,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/study$4
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   owner: Team Integration
@@ -602,7 +612,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -614,7 +624,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -624,7 +634,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -634,7 +644,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -646,7 +656,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -656,7 +666,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -668,7 +678,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -678,7 +688,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -688,7 +698,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -698,7 +708,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -708,7 +718,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vob$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -718,7 +728,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -728,7 +738,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -738,7 +748,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder$4
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   owner: Team Integration
@@ -748,7 +758,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen$4
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   owner: Team Integration
@@ -758,7 +768,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -778,7 +788,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/download$4
   method: GET
   owner: Team Integration
 - name: Portal — getAuthenticationTokenTypes (Intranet)
@@ -787,17 +797,16 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/getAuthenticationTokenTypes$4
   method: POST
   owner: Team Integration
 - name: Portal — getLoginDomains (Intranet)
   family: intranet
-  base:
-  - - BaseURL_Intranet
+  base: '[[BaseURL_Intranet]]'
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/getLoginDomains$4
   method: POST
   owner: Team Integration
 - name: Portal — getSessionInfo (Intranet)
@@ -806,7 +815,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/getSessionInfo$4
   method: POST
   owner: Team Integration
 - name: Portal — login (Intranet)
@@ -815,7 +824,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/login$4
   method: POST
   owner: Team Integration
 - name: Portal — logout (Intranet)
@@ -824,7 +833,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /service/login/logout$4
   method: POST
   owner: Team Integration
 - name: Portal — upload (Intranet)
@@ -833,7 +842,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/upload$4
   method: POST
   owner: Team Integration
 - name: Rahmenverträge — rahmenvertraege (Intranet)
@@ -842,7 +851,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -852,7 +861,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration
@@ -862,7 +871,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stelle$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -872,7 +881,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stellen$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -882,7 +891,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch$4
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -892,7 +901,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig$4
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -902,7 +911,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge$4
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   owner: Team Integration
@@ -912,7 +921,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -924,7 +933,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -934,7 +943,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine$4
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   owner: Team Integration
@@ -944,7 +953,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -954,7 +963,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -966,7 +975,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -976,7 +985,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -988,7 +997,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen$4
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   owner: Team Integration
@@ -998,7 +1007,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben$4
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   owner: Team Integration

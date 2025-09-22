@@ -25,6 +25,7 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "method": "multitext",
-    "create_add": "date"
+    "create_add": "date",
+    "base_url": "text"
   }
 }

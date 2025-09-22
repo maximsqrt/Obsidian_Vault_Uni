@@ -264,6 +264,20 @@ def _extract_path_entities(*texts: Any) -> list[str] | None:
     return seen or None
 
 # ----------------------------- Scan / Build Rows -----------------------------
+from collections.abc import Iterable
+from pathlib import Path
+import re
+
+def _as_list(v):
+    if v is None:
+        return []
+    if isinstance(v, (list, tuple, set)):
+        return [x for x in v if x is not None]
+    if isinstance(v, str):
+        parts = re.split(r"[;,]", v)
+        return [p.strip() for p in parts if p.strip()]
+    return [v]
+
 def build_rows_from_sources(
     sources: Iterable[Path],
 ) -> tuple[list[dict], int, int]:
@@ -293,20 +307,19 @@ def build_rows_from_sources(
 
             family = derive_family(md, fm.get("family"))
             row = {
-                "name":  fm.get("name") or fm.get("title") or md.stem,
-                "family": family,
-                "base":  fm.get("base") or fm.get("base_url") or "",
-                "auth":  fm.get("auth") or "",
-                "stage": fm.get("stage") or "Dev",
-                "spec":  fm.get("spec") or "",
-                "path_prefix": fm.get("path_prefix") or "",   
+                "name":        fm.get("name") or fm.get("title") or md.stem,
+                "family":      family,
+                "base":        fm.get("base") or fm.get("base_url") or "",
+                "auth":        fm.get("auth") or "",
+                "stage":       fm.get("stage") or "Dev",
+                "spec":        fm.get("spec") or "",
+                "path_prefix": fm.get("path_prefix") or "",
             }
 
-            # --- Ergänzungen passend zum Renderer ---
             # method → String (bei Liste kommasepariert)
             m = fm.get("method")
             if not m and fm.get("methods"):
-                mm = [str(x).strip() for x in (fm.get("methods") or []) if x]
+                mm = [str(x).strip() for x in _as_list(fm.get("methods")) if str(x).strip()]
                 m = ", ".join(mm) if mm else None
             if m:
                 row["method"] = m
@@ -320,29 +333,46 @@ def build_rows_from_sources(
             if gh:
                 row["guid_hash"] = str(gh)
 
-            # path_entities → aus Pfadfeldern extrahieren
-            pe = _extract_path_entities(
-                fm.get("path"),
-                row["base"],
-                fm.get("endpoint"),
-                fm.get("endpoints"),
-                fm.get("paths"),
-                fm.get("path_prefix"),
-            )
+            # path_entities – bevorzugt direkt aus dem Frontmatter übernehmen
+            pe = fm.get("path_entities")
+            if isinstance(pe, str):
+                pe = [pe]
+            pe = [str(x).strip() for x in (pe or []) if str(x).strip()]
+
             if pe:
                 row["path_entities"] = pe
+            else:
+                # Fallback: aus Pfadfeldern extrahieren (nur Platzhalter)
+                pe_fb = _extract_path_entities(
+                    fm.get("path"),
+                    row["base"],
+                    fm.get("endpoint"),
+                    fm.get("endpoints"),
+                    fm.get("paths"),
+                    fm.get("path_prefix"),
+                )
+                if pe_fb:
+                    row["path_entities"] = pe_fb
 
             # optionale Felder
-            if fm.get("app_guid"):   row["app_guid"]   = fm["app_guid"]
-            if fm.get("owner_ref"):  row["owner_ref"]  = fm["owner_ref"]
-            if fm.get("owner"):      row["owner"]      = fm["owner"]
+            if fm.get("app_guid"):
+                row["app_guid"] = fm["app_guid"]
+            if fm.get("owner_ref"):
+                row["owner_ref"] = fm["owner_ref"]
+            if fm.get("owner"):
+                row["owner"] = fm["owner"]
 
             rows.append(row)
             kept += 1
 
     # Primär: Family, sekundär: Stage (definierte Ordnung), tertiär: Name
-    rows.sort(key=lambda r: (r.get("family",""), STAGE_ORDER.get(r.get("stage","Dev"), 9), r.get("name","").lower()))
+    rows.sort(key=lambda r: (
+        r.get("family", ""),
+        STAGE_ORDER.get(r.get("stage", "Dev"), 9),
+        r.get("name", "").lower()
+    ))
     return rows, scanned, kept
+
 
 def group_rows(rows: list[dict]) -> dict[str, list[dict]]:
     """Gruppiert rows nach 'family' und sortiert jede Gruppe konsistent."""

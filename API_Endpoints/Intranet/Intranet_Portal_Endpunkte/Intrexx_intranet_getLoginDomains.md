@@ -15,8 +15,7 @@ tags:
   - method/get
   - status/active
 owner: Team Integration
-base_url:
-  - - BaseURL_Intranet
+base_url: "[[BaseURL_Intranet]]"
 path_prefix: /service/login/getLoginDomains$4
 url: "[[BaseURL_Intranet]]/service/login/getLoginDomains"
 method: POST
