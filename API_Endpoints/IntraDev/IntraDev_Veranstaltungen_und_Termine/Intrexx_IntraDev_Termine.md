@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine
+path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine$4
 url: "[[BaseURL_intraDev]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Veranstaltungen_und_Termine]]"

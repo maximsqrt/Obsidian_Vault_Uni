@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
-path: /service/login/getLoginDomains
+path_prefix: /service/login/getLoginDomains$4
 url: "[[BaseURL_intraDev]]/service/login/getLoginDomains"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"

@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gbeitraege
+path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gbeitraege$4
 url: "[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gbeitraege"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Service_A-Z]]"

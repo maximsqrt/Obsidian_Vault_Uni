@@ -16,7 +16,7 @@ tags:
 owner: Team Integration
 guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
-path: /eucor_view
+path_prefix: /eucor_view$4
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02

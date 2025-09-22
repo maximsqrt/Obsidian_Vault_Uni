@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/upload
+path_prefix: /api/app/upload$4
 url: "[[BaseURL_intraDev]]/api/app/upload"
 method: POST
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"

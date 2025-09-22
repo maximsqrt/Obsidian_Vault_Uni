@@ -88,7 +88,7 @@ Empfohlene Frontmatter-Felder in der API-Note:
 
 ```yaml
 base_url: 'https://<host>:<port>/<service>.svc'
-path: 'eucor_view'          # oder mit führendem Slash: '/eucor_view'
+path_prefix: 'eucor_view'          # oder mit führendem Slash: '/eucor_view'$4
 ```
 
 **Inline-Dataview** für klickbare URL im Body (Callout etc.):

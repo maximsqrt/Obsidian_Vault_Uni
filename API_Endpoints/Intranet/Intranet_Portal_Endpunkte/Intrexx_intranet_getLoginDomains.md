@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 base_url:
   - - BaseURL_Intranet
-path: /service/login/getLoginDomains
+path_prefix: /service/login/getLoginDomains$4
 url: "[[BaseURL_Intranet]]/service/login/getLoginDomains"
 method: POST
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"

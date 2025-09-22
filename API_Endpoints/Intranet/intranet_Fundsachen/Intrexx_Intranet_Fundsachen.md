@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 base_url: "[[BaseURL_Intranet]]"
-path: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen
+path_prefix: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen$4
 url: "[[BaseURL_Intranet]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen"
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen|Intrexx_Intranet_Fundsachen]]"

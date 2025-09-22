@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_Intranet]]"
-path: /service/login/getSessionInfo
+path_prefix: /service/login/getSessionInfo$4
 url: "[[BaseURL_Intranet]]/service/login/getSessionInfo"
 method: POST
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"

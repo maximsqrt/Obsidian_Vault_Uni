@@ -4,7 +4,7 @@ title: Fahrräder — fahrraeder (IntraDev)
 guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 path_prefix: /api/app
 owner: Team Integration
-base_host: "[[BaseURL_IntraDev]]"
+base_url: "[[BaseURL_IntraDev]]"
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx

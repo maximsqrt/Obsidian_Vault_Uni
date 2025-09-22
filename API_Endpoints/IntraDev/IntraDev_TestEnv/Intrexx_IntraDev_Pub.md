@@ -18,7 +18,7 @@ tags:
 owner: Team Integration
 guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub
+path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub$4
 url: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_TestEnv]]"

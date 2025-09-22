@@ -18,7 +18,7 @@ tags:
 owner: Team Integration
 guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/335908426702A4A4DE952E12187206B841B691C4/Textbausteine
+path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/Textbausteine$4
 url: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4/Textbausteine"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Stellenauschreibungen]]"

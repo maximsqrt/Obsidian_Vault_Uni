@@ -80,7 +80,9 @@
     "//Intrexx_Rest_Documentation",
     "//Intrexx_Rest_Documentation/Intrexx_Rest_Documentation/Intrexx_Rest_Legacy",
     "//API_Endpoints/API_Endpoints/OData-Dienste",
-    "//API_Endpoints/API_Endpoints/IntraDev"
+    "//API_Endpoints/API_Endpoints/IntraDev",
+    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung",
+    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fundsachen"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -92,6 +94,8 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

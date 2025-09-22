@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 base_url: "[[BaseURL_Intranet]]"
-path: /api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder
+path_prefix: /api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder$4
 url: "[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"
 method: GET
 collection_ref: "[[Intrexx_Intranet_Fahrradverwaltung]]"

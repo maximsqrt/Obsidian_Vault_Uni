@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege
+path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
 url: "[[BaseURL_intraDev]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege"
 method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Vergebene-Auftraege]]"

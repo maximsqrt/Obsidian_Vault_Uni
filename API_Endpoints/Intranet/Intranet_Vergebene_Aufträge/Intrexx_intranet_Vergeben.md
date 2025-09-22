@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_Intranet]]"
-path: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben
+path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben$4
 url: "[[BaseURL_Intranet]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben"
 method: GET
 collection_ref: "[[Intrexx_Intranet_Vergebene_Aufträge]]"

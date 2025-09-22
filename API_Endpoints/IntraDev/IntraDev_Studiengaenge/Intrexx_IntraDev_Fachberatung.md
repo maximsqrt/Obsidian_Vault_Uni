@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
 base_url: "[[BaseURL_intraDev]]"
-path: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fachberatung
+path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fachberatung$4
 url: "[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fachberatung"
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Studiengaenge|Intrexx_IntraDev_Studiengaenge]]"

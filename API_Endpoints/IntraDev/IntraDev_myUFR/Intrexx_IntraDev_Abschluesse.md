@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
 base_url: "[[BaseURL_IntraDev]]"
-path: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/abschluesse
+path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/abschluesse$4
 url: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/abschluesse"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"

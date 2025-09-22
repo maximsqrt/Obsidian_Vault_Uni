@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
-path: /service/login/logout
+path_prefix: /service/login/logout$4
 url: "[[BaseURL_intraDev]]/service/login/logout"
 method: POST
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"

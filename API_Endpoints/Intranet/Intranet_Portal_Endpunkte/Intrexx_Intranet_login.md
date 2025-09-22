@@ -16,7 +16,7 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_Intranet]]"
-path: /service/login/login
+path_prefix: /service/login/login$4
 url: "[[BaseURL_Intranet]]/service/login/login"
 method: POST
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"
