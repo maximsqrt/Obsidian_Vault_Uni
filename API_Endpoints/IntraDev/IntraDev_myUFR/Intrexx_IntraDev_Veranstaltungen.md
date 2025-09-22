@@ -18,7 +18,7 @@ owner: Team Integration
 guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/veranstaltungen$4
-url: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/veranstaltungen"
+path_entities: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/veranstaltungen"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26

@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /service/login/getSessionInfo$4
-url: "[[BaseURL_intraDev]]/service/login/getSessionInfo"
+path_entities: "[[BaseURL_intraDev]]/service/login/getSessionInfo"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26

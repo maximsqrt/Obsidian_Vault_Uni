@@ -1,6 +1,6 @@
 ---
 aliases: [INTRANET_BASEURL, INTRANET]
-url: https://intranet.uni-freiburg.de
+path_entities: https://intranet.uni-freiburg.de
 tags: [intranet, baseurl]
 ---
 

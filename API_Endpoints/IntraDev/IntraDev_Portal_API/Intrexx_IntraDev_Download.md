@@ -17,7 +17,7 @@ tags:
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app/download$4
-url: "[[BaseURL_intraDev]]/api/app/download"
+path_entities: "[[BaseURL_intraDev]]/api/app/download"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26

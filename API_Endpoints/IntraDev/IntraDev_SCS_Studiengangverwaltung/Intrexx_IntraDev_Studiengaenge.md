@@ -18,7 +18,7 @@ owner: Team Integration
 guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge$4
-url: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
+path_entities: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge"
 method: GET
 collection_ref: "[[Intexx_IntraDev_SCS_Studiengangverwaltung]]"
 last_checked: 2025-08-26

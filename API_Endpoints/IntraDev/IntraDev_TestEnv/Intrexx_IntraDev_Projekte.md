@@ -19,7 +19,7 @@ owner: Team Integration
 guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/projekte$4
-url: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/projekte"
+path_entities: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/projekte"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_TestEnv]]"
 last_checked: 2025-08-27
