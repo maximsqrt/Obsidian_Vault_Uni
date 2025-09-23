@@ -82,7 +82,9 @@
     "//API_Endpoints/API_Endpoints/OData-Dienste",
     "//API_Endpoints/API_Endpoints/IntraDev",
     "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung",
-    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fundsachen"
+    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fundsachen",
+    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_myUFR",
+    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Service_A-Z"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -94,8 +96,6 @@
     "_assets",
     "_blocks"
   ],
-  "newFileLocation": "root",
-  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
