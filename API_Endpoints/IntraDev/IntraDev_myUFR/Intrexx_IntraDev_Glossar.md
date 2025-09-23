@@ -24,6 +24,7 @@ collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
 ---
 
+
 # `glossar` — Contract
 - **Method:** GET
 - **URL:** <[[API_Endpoints/IntraDev/BaseURL_IntraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/glossar>

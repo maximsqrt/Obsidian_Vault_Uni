@@ -17,6 +17,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"
 endpoints_count: 1
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Datendrehscheibe — Analyse

@@ -17,6 +17,7 @@ base_url: "[[BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7"
 endpoints_count: 11
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # myUFR — Analyse (IntraDev)

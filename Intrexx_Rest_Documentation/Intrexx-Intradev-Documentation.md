@@ -18,6 +18,7 @@ service_url: "https://intradev.example.tld/<pfad>"
 openapi_url: ""
 postman_collection: ""
 last_reviewed: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Intrexx IntraDev API (Dev/Stage)

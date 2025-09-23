@@ -16,12 +16,13 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
-path_prefix: /service/login/getLoginDomains$4
+path_prefix: /api/app
 path_entities: "[[BaseURL_intraDev]]/service/login/getLoginDomains"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26
 ---
+
 
 # `getLoginDomains` — Contract
 - **Method:** GET  

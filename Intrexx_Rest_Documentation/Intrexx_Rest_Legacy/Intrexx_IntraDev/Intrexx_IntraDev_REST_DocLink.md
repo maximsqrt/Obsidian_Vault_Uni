@@ -13,6 +13,7 @@ tags:
 owner: "Team Integration"
 doc_url: "https://<swagger-oder-confluence-url-dev>"
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Intrexx IntraDev REST — External Docs

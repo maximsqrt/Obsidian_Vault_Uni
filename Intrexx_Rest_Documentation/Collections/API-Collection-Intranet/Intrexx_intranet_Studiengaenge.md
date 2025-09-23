@@ -16,6 +16,7 @@ guid_hash: "07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
 api_base: "[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
 endpoints_count: 3
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Studiengänge — Analyse

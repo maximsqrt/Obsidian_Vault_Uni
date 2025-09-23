@@ -17,11 +17,12 @@ tags:
 owner: Team Integration
 guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
 base_url: "[[BaseURL_intraDev]]"
-path_prefix: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationen$4
+path_prefix: /api/app
 path_entities:[[BaseURL_intraDev]]/api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationenmmmethod: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Publikationen|Intrexx_IntraDev_Publikationen]]"
 last_checked: 2025-08-26
 ---
+
 
 # `publikationen` — Contract
 - **Method:** GET  

@@ -17,12 +17,13 @@ tags:
 owner: Team Integration
 guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
 base_url: "[[BaseURL_Intranet]]"
-path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig$4
+path_prefix: /api/app
 path_entities: "[[BaseURL_Intranet]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig"
 method: GET
 collection_ref: "[[Intrexx_intranet_Studiengaenge]]"
 last_checked: YYYY-MM-DD
 ---
+
 
 # `studig` — Contract
 - **Method:** GET  

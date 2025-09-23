@@ -17,6 +17,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173"
 endpoints_count: 6
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Service A–Z — Analyse

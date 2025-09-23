@@ -20,6 +20,7 @@ postman_collection: ""        # URL oder leer
 last_reviewed: YYYY-MM-DD
 sla: "99.9%/Monat"            # optional
 slo: "P95 < 300ms"            # optional
+path_prefix: /api/app
 ---
 
 # Intrexx Intranet API (Prod)

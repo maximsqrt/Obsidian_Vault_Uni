@@ -16,12 +16,13 @@ tags:
   - status/active
 owner: Team Integration
 base_url: "[[BaseURL_Intranet]]"
-path_prefix: /api/app/upload$4
+path_prefix: /api/app
 path_entities: "[[BaseURL_Intranet]]/api/app/upload"
 method: POST
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD
 ---
+
 
 # `upload` — Contract
 - **Method:** POST

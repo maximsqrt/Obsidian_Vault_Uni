@@ -17,12 +17,13 @@ tags:
 owner: Team Integration
 guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
 base_url: "[[BaseURL_intraDev]]"
-path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbereich$4
+path_prefix: /api/app
 path_entities: "[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbereich"
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Studiengaenge|Intrexx_IntraDev_Studiengaenge]]"
 last_checked: 2025-08-26
 ---
+
 
 # `studienbereich` — Contract
 - **Method:** GET  

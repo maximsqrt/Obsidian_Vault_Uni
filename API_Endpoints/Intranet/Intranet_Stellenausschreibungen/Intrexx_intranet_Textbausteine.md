@@ -17,12 +17,13 @@ tags:
 owner: Team Integration
 guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_Intranet]]"
-path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine$4
+path_prefix: /api/app
 path_entities: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine"
 method: GET
 collection_ref: "[[Intrexx_Intranet_Stellenausschreibungen]]"
 last_checked: YYYY-MM-DD
 ---
+
 
 # `textbausteine` — Contract
 - **Method:** GET  

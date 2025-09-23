@@ -17,6 +17,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/335908426702A4A4DE952E12187206B841B691C4"
 endpoints_count: 5
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Stellenausschreibungen — Analyse (IntraDev)

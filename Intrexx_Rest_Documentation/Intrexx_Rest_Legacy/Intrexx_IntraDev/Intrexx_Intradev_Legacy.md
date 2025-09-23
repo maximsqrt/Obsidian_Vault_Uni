@@ -15,6 +15,7 @@ status: deprecated
 doc_language: en
 source_urls: []
 last_reviewed: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 # Intrexx REST Legacy — Dev

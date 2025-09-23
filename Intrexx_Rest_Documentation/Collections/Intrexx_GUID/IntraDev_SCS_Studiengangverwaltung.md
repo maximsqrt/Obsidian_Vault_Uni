@@ -12,6 +12,7 @@ guid_hash_format: hex160
 guid_hash_source: "[[Intrexx_IntraDev_REST_DocLink]]"
 last_verified: 2025-09-16
 info: https://help.intrexx.com/intrexx/steady/de-de/Content/OH/glossary/glossary-guid.html
+path_prefix: /api/app
 ---
 
 > [!danger] App-ID – Form & Quelle

@@ -17,12 +17,13 @@ tags:
 owner: Team Integration
 guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_Intranet]]"
-path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt$4
+path_prefix: /api/app
 path_entities: "[[BaseURL_Intranet]]/api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt"
 method: GET
 collection_ref: "[[Intrexx_Intranet_Vergebene_Aufträge]]"
 last_checked: YYYY-MM-DD
 ---
+
 
 # `binnenmarkt` — Contract
 - **Method:** GET  

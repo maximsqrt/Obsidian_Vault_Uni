@@ -7,4 +7,5 @@ tags:
   - env/dev
   - exposure/internal-nonprod
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+path_prefix: /api/app
 ---

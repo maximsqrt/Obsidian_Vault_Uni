@@ -17,6 +17,7 @@ base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F"
 endpoints_count: 17
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 [[Intrexx_IntraDev_Abschluss]]
 # Studiengänge — Analyse (IntraDev)

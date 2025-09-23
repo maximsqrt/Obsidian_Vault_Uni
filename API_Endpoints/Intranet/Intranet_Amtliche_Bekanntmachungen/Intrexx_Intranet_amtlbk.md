@@ -12,12 +12,13 @@ tags:
   - method/get
 owner: Team Integration
 guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
-base_host: "[[BaseURL_Intranet]]"
+base_url: "[[BaseURL_Intranet]]"
 entity_paths:
   - /api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5/amtlbek
 method: GET
 collection_ref: "[[Intrexx_intranet_Amtliche_Bekanntmachungen]]"
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 > [!tip] BaseURL
