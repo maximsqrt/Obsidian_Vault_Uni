@@ -11,6 +11,28 @@ apis:
   path_entities:
   - /user
   owner: Team Integration
+- name: eucor_odata (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /eucor_view
+  owner: Team Integration
+- name: fahrradverwaltung_odata
+  family: intradev
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /FAH_FAHRRAEDER
+  owner: Team Integration
 - name: Fahrräder — fahrraeder (IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
@@ -41,9 +63,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/abschluesse$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /abschluesse
   owner: Team Integration
 - name: myUFR — apptexte (IntraDev)
   family: intradev
@@ -51,9 +75,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/apptexte$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /apptexte
   owner: Team Integration
 - name: myUFR — fachberater (IntraDev)
   family: intradev
@@ -61,9 +87,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/fachberater$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /fachberater
   owner: Team Integration
 - name: myUFR — fachschaften (IntraDev)
   family: intradev
@@ -71,9 +99,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/fachschaften$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /fachschaften
   owner: Team Integration
 - name: myUFR — faecher (IntraDev)
   family: intradev
@@ -81,9 +111,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/faecher$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /faecher
   owner: Team Integration
 - name: myUFR — geodaten (IntraDev)
   family: intradev
@@ -91,9 +123,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/geodaten$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /geodaten
   owner: Team Integration
 - name: myUFR — glossar (IntraDev)
   family: intradev
@@ -101,19 +135,23 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/glossar$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /glossar
   owner: Team Integration
-- name: myUFR — studiengaenge (IntraDev)
+- name: myUFR — studiengaenge(IntraDev)
   family: intradev
-  base: '[[BaseURL_intraDev]]'
+  base: '[[BaseURL_IntraDev]]'
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/studiengaenge$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /studiengaenge
   owner: Team Integration
 - name: myUFR — studienganggruppen (IntraDev)
   family: intradev
@@ -121,9 +159,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/studienganggruppen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /studienganggruppen
   owner: Team Integration
 - name: myUFR — termingruppe (IntraDev)
   family: intradev
@@ -131,9 +171,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/termingruppe$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /termingruppe
   owner: Team Integration
 - name: myUFR — veranstaltungen (IntraDev)
   family: intradev
@@ -141,9 +183,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/809419535333F08CC2D7CC8BCF2C84115E1E79E7/veranstaltungen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+  path_entities:
+  - /veranstaltungen
   owner: Team Integration
 - name: Nachrichten — amtlbek (IntraDev)
   family: intradev
@@ -157,14 +201,38 @@ apis:
   path_entities:
   - /amtlbek
   owner: '[[Team Integration]]'
+- name: nachrichtenredaktion (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /zuv_nachrichten
+  owner: Team Integration
+- name: OdataAuthTest (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /OdataAuthTest
+  owner: Team Integration
 - name: Portal — download (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/download$4
+  path_prefix: /api/app
   method: GET
+  path_entities:
+  - /download
   owner: Team Integration
 - name: Portal — getAuthenticationTokenTypes (IntraDev)
   family: intradev
@@ -172,8 +240,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/getAuthenticationTokenTypes$4
+  path_prefix: /api/app
   method: GET
+  path_entities:
+  - /getAuthenticationTokenTypes
   owner: Team Integration
 - name: Portal — getLoginDomains (IntraDev)
   family: intradev
@@ -181,8 +251,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/getLoginDomains$4
+  path_prefix: /api/app
   method: GET
+  path_entities:
+  - /getLoginDomains
   owner: Team Integration
 - name: Portal — getSessionInfo (IntraDev)
   family: intradev
@@ -190,8 +262,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/getSessionInfo$4
+  path_prefix: /api/app
   method: GET
+  path_entities:
+  - /getSessionInfo
   owner: Team Integration
 - name: Portal — login (IntraDev)
   family: intradev
@@ -199,8 +273,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/login$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /login
   owner: Team Integration
 - name: Portal — logout (IntraDev)
   family: intradev
@@ -208,8 +284,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/logout$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /logout
   owner: Team Integration
 - name: Portal — upload (IntraDev)
   family: intradev
@@ -217,8 +295,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/upload$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /upload
   owner: Team Integration
 - name: Publikationen — publikationen (IntraDev)
   family: intradev
@@ -226,8 +306,7 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationen$4
-  method: GET
+  path_prefix: /api/app
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   owner: Team Integration
 - name: Publikationen — publikationenf (IntraDev)
@@ -236,9 +315,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/896424333B7D67953799DF367AF3BA1FEA221416/publikationenf$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
+  path_entities:
+  - /publikationenf
   owner: Team Integration
 - name: SCS Studiengangverwaltung — studibesch (IntraDev)
   family: intradev
@@ -246,9 +327,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+  path_entities:
+  - /studibesch
   owner: Team Integration
 - name: SCS Studiengangverwaltung — studig (IntraDev)
   family: intradev
@@ -256,9 +339,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+  path_entities:
+  - /studig
   owner: Team Integration
 - name: SCS Studiengangverwaltung — studigaenge (IntraDev)
   family: intradev
@@ -266,9 +351,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+  path_entities:
+  - /studigaenge
   owner: Team Integration
 - name: Service A–Z — beitraege (IntraDev)
   family: intradev
@@ -276,9 +363,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/beitraege$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+  path_entities:
+  - /beitraege
   owner: Team Integration
 - name: Service A–Z — beitrag/{strid} (IntraDev)
   family: intradev
@@ -286,11 +375,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/beitrag/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
-  - strid
+  - /beitrag/{strid}
   owner: Team Integration
 - name: Service A–Z — formular/{strid} (IntraDev)
   family: intradev
@@ -298,11 +387,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formular/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
-  - strid
+  - /formular/{strid}
   owner: Team Integration
 - name: Service A–Z — formulare (IntraDev)
   family: intradev
@@ -310,9 +399,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/formulare$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+  path_entities:
+  - /formulare
   owner: Team Integration
 - name: Service A–Z — gbeitraege (IntraDev)
   family: intradev
@@ -320,9 +411,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gbeitraege$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+  path_entities:
+  - /gbeitraege
   owner: Team Integration
 - name: Service A–Z — gformulare (IntraDev)
   family: intradev
@@ -330,9 +423,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gformulare$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+  path_entities:
+  - /gformulare
   owner: Team Integration
 - name: standorte
   family: intradev
@@ -346,15 +441,33 @@ apis:
   path_entities:
   - /standorte
   owner: Team Integration
+- name: stellenausschreibungen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - STA_STELLEN
+  - STA_KATEGORIEN
+  - STA_BESCHREIBUNGSTEXTE
+  - STA_KANAELE
+  - XDATAGROUPA0971083
+  - STA_TEXTBAUSTEINE
+  owner: Team Integration
 - name: Stellenausschreibungen — einstellungen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /einstellungen
   owner: Team Integration
 - name: Stellenausschreibungen — kategorien (IntraDev)
   family: intradev
@@ -362,9 +475,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /kategorien
   owner: Team Integration
 - name: Stellenausschreibungen — stelle (IntraDev)
   family: intradev
@@ -372,9 +487,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stelle$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /stelle
   owner: Team Integration
 - name: Stellenausschreibungen — stellen (IntraDev)
   family: intradev
@@ -382,9 +499,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stellen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /stellen
   owner: Team Integration
 - name: Stellenausschreibungen — Textbausteine (IntraDev)
   family: intradev
@@ -392,9 +511,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/Textbausteine$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /Textbausteine
   owner: Team Integration
 - name: Studiengänge — abschluss (IntraDev)
   family: intradev
@@ -402,9 +523,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/abschluss$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /abschluss
   owner: Team Integration
 - name: Studiengänge — auswahlverfahren (IntraDev)
   family: intradev
@@ -412,9 +535,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/auswahlverfahren$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /auswahlverfahren
   owner: Team Integration
 - name: Studiengänge — bewerbungszeit (IntraDev)
   family: intradev
@@ -422,9 +547,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/bewerbungszeit$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /bewerbungszeit
   owner: Team Integration
 - name: Studiengänge — fachberatung (IntraDev)
   family: intradev
@@ -432,9 +559,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fachberatung$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /fachberatung
   owner: Team Integration
 - name: Studiengänge — faechergruppe (IntraDev)
   family: intradev
@@ -442,9 +571,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/faechergruppe$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /faechergruppe
   owner: Team Integration
 - name: Studiengänge — fakultaet (IntraDev)
   family: intradev
@@ -452,9 +583,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/fakultaet$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /fakultaet
   owner: Team Integration
 - name: Studiengänge — infolinks (IntraDev)
   family: intradev
@@ -462,9 +595,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/infolinks$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /infolinks
   owner: Team Integration
 - name: Studiengänge — modulhandbuecher (IntraDev)
   family: intradev
@@ -472,9 +607,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/modulhandbuecher$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /modulhandbuecher
   owner: Team Integration
 - name: Studiengänge — satzungen (IntraDev)
   family: intradev
@@ -482,9 +619,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/satzungen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /satzungen
   owner: Team Integration
 - name: Studiengänge — sprache (IntraDev)
   family: intradev
@@ -492,9 +631,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/sprache$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /sprache
   owner: Team Integration
 - name: Studiengänge — studienbeginn (IntraDev)
   family: intradev
@@ -502,9 +643,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbeginn$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /studienbeginn
   owner: Team Integration
 - name: Studiengänge — studienbereich (IntraDev)
   family: intradev
@@ -512,9 +655,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studienbereich$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /studienbereich
   owner: Team Integration
 - name: Studiengänge — studiengaenge (IntraDev)
   family: intradev
@@ -522,9 +667,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studiengaenge$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /studiengaenge
   owner: Team Integration
 - name: Studiengänge — studiengaengfullview (IntraDev)
   family: intradev
@@ -532,9 +679,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studiengaengfullview$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /studiengaengfullview
   owner: Team Integration
 - name: Studiengänge — studientyp (IntraDev)
   family: intradev
@@ -542,9 +691,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/studientyp$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /studientyp
   owner: Team Integration
 - name: Studiengänge — texte (IntraDev)
   family: intradev
@@ -552,9 +703,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/texte$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /texte
   owner: Team Integration
 - name: Studiengänge — zulassung (IntraDev)
   family: intradev
@@ -562,9 +715,25 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F/zulassung$4
+  path_prefix: /api/app
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
+  path_entities:
+  - /zulassung
+  owner: Team Integration
+- name: termine (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - VER_VERANSTALTUNGEN
+  - THEMENGEBIETE
+  - DAT_ORGASTRUKTUR
+  - VER_VERANSTALTUNGSARTEN
   owner: Team Integration
 - name: Tests — new_pub (IntraDev)
   family: intradev
@@ -572,9 +741,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/new_pub$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+  path_entities:
+  - /new_pub
   owner: Team Integration
 - name: Tests — projekte (IntraDev)
   family: intradev
@@ -582,9 +753,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/projekte$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+  path_entities:
+  - /projekte
   owner: Team Integration
 - name: Tests — pub (IntraDev)
   family: intradev
@@ -592,9 +765,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/pub$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+  path_entities:
+  - /pub
   owner: Team Integration
 - name: Tests — study (IntraDev)
   family: intradev
@@ -602,9 +777,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3/study$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
+  path_entities:
+  - /study
   owner: Team Integration
 - name: Veranstaltungen & Termine — termin/{strid} (IntraDev)
   family: intradev
@@ -612,11 +789,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
-  - strid
+  - /termin/{strid}
   owner: Team Integration
 - name: Veranstaltungen & Termine — termine (IntraDev)
   family: intradev
@@ -624,9 +801,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /termine
   owner: Team Integration
 - name: Veranstaltungen & Termine — themen (IntraDev)
   family: intradev
@@ -634,9 +813,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /themen
   owner: Team Integration
 - name: Veranstaltungen & Termine — vart/{strid} (IntraDev)
   family: intradev
@@ -644,11 +825,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
-  - strid
+  - /vart/{strid}
   owner: Team Integration
 - name: Veranstaltungen & Termine — varten (IntraDev)
   family: intradev
@@ -656,9 +837,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /varten
   owner: Team Integration
 - name: Veranstaltungen & Termine — veranstaltung/{strid} (IntraDev)
   family: intradev
@@ -666,11 +849,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
-  - strid
+  - /veranstaltung/{strid}
   owner: Team Integration
 - name: Veranstaltungen & Termine — veranstaltungen (IntraDev)
   family: intradev
@@ -678,9 +861,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /veranstaltungen
   owner: Team Integration
 - name: Vergebene Aufträge — binnenmarkt (IntraDev)
   family: intradev
@@ -688,9 +873,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /binnenmarkt
   owner: Team Integration
 - name: Vergebene Aufträge — rahmenvertraege (IntraDev)
   family: intradev
@@ -698,9 +885,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /rahmenvertraege
   owner: Team Integration
 - name: Vergebene Aufträge — vergeben (IntraDev)
   family: intradev
@@ -708,9 +897,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /vergeben
   owner: Team Integration
 - name: Vergebene Aufträge — vob (IntraDev)
   family: intradev
@@ -718,9 +909,33 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vob$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /vob
+  owner: Team Integration
+- name: amtlbek_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /BEKANNTMACHUNGEN$4
+  owner: Team Integration
+- name: amtlbek_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /eucor_view
   owner: Team Integration
 - name: Binnenmarkt — binnenmarkt (Intranet)
   family: intranet
@@ -728,9 +943,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /binnenmarkt
   owner: Team Integration
 - name: Einstellungen — einstellungen (Intranet)
   family: intranet
@@ -738,9 +955,33 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /einstellungen
+  owner: Team Integration
+- name: fachberater_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /fb_view$4
+  owner: Team Integration
+- name: fahrradverwaltung_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /FAH_FAHRRAEDER
   owner: Team Integration
 - name: Fahrräder — fahrraeder (Intranet)
   family: intranet
@@ -748,9 +989,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
+  path_entities:
+  - /fahrraeder
   owner: Team Integration
 - name: Fundsachen — fundsachen (Intranet)
   family: intranet
@@ -758,9 +1001,23 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
+  path_entities:
+  - /fundsachen
+  owner: Team Integration
+- name: fundsachen_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /FAH_FUNDSACHEN
+  - /FUN_STANDORTE
   owner: Team Integration
 - name: Kategorien — kategorien (Intranet)
   family: intranet
@@ -768,19 +1025,23 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /kategorien
   owner: Team Integration
 - name: Nachrichten — amtlbek (Intranet)
   family: intranet
-  base: ''
+  base: '[[BaseURL_Intranet]]'
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: ''
+  path_prefix: /api/app
   method: GET
   guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
+  path_entities:
+  - /amtlbek
   owner: Team Integration
 - name: Portal — download (Intranet)
   family: intranet
@@ -788,8 +1049,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/download$4
+  path_prefix: /api/app
   method: GET
+  path_entities:
+  - /download
   owner: Team Integration
 - name: Portal — getAuthenticationTokenTypes (Intranet)
   family: intranet
@@ -797,8 +1060,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/getAuthenticationTokenTypes$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /getAuthenticationTokenTypes
   owner: Team Integration
 - name: Portal — getLoginDomains (Intranet)
   family: intranet
@@ -806,8 +1071,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/getLoginDomains$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /getLoginDomains
   owner: Team Integration
 - name: Portal — getSessionInfo (Intranet)
   family: intranet
@@ -815,8 +1082,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/getSessionInfo$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /getSessionInfo
   owner: Team Integration
 - name: Portal — login (Intranet)
   family: intranet
@@ -824,8 +1093,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/login$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /login
   owner: Team Integration
 - name: Portal — logout (Intranet)
   family: intranet
@@ -833,8 +1104,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /service/login/logout$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /logout
   owner: Team Integration
 - name: Portal — upload (Intranet)
   family: intranet
@@ -842,8 +1115,10 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/upload$4
+  path_prefix: /api/app
   method: POST
+  path_entities:
+  - /upload
   owner: Team Integration
 - name: Rahmenverträge — rahmenvertraege (Intranet)
   family: intranet
@@ -851,9 +1126,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /rahmenvertraege
   owner: Team Integration
 - name: Rahmenverträge — rahmenvertraege (Intranet)
   family: intranet
@@ -861,9 +1138,77 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /rahmenvertraege
+  owner: Team Integration
+- name: scs_erhebung
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /SCS_VERANSTALTUNG
+  - /SCS_EVENT
+  - /SCS_ABSCHLUESSE
+  - /SCS_STUDIENGAENGE
+  - /SCS_FACH
+  - /SCS_APPTEXTE
+  - /SCG_GLOSSARBEGRIFFE
+  - /stud_abschluesse
+  - /stud_studiengaenge_fg
+  - /stud_faechergruppe
+  - /intrexx_veranstaltung
+  owner: Team Integration
+- name: scs_erhebung_v2
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /SCS_VERANSTALTUNG1
+  - /SCS_EVENT1
+  - /SCS_HISIONEABSCHLUESSE1
+  - /SCS_HISIONESTUDIENGAENGE1
+  - /SCS_HISIONEFAECHER1
+  - /SCS_HISINONESTUDIENGANGGRU
+  - /SCS_TERMINGRUPPE
+  - /SCS_APPTEXTE1
+  owner: Team Integration
+- name: scs_erhebung_v3
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
+  path_entities:
+  - /SCS_VERANSTALTUNG1
+  - /SCS_EVENT1
+  - /SCS_HISIONEABSCHLUESSE1
+  - /SCS_HISIONESTUDIENGAENGE1
+  - /SCS_HISIONEFAECHER1
+  - /SCS_HISINONESTUDIENGANGGRU
+  - /SCS_TERMINGRUPPE
+  - /SCS_APPTEXTE1
+  owner: Team Integration
+- name: scs_erhebung_v4
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
   owner: Team Integration
 - name: Stelle — stelle (Intranet)
   family: intranet
@@ -871,9 +1216,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stelle$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /stelle
   owner: Team Integration
 - name: Stellen — stellen (Intranet)
   family: intranet
@@ -881,9 +1228,20 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/stellen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /stellen
+  owner: Team Integration
+- name: stellenausschreibungen_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
   owner: Team Integration
 - name: Studiengänge — studibesch (Intranet)
   family: intranet
@@ -891,9 +1249,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studibesch$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+  path_entities:
+  - /studibesch
   owner: Team Integration
 - name: Studiengänge — studig (Intranet)
   family: intranet
@@ -901,9 +1261,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studig$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+  path_entities:
+  - /studig
   owner: Team Integration
 - name: Studiengänge — studigaenge (Intranet)
   family: intranet
@@ -911,9 +1273,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3/studigaenge$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
+  path_entities:
+  - /studigaenge
   owner: Team Integration
 - name: Termin — termin (Intranet)
   family: intranet
@@ -921,11 +1285,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
-  - strid
+  - /termin/{strid}
   owner: Team Integration
 - name: Termine — termine (Intranet)
   family: intranet
@@ -933,9 +1297,20 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /termine
+  owner: Team Integration
+- name: termine_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
   owner: Team Integration
 - name: Textbausteine — textbausteine (Intranet)
   family: intranet
@@ -943,9 +1318,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
+  path_entities:
+  - /textbausteine
   owner: Team Integration
 - name: Themen — themen (Intranet)
   family: intranet
@@ -953,9 +1330,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /themen
   owner: Team Integration
 - name: Vart — vart (Intranet)
   family: intranet
@@ -963,11 +1342,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
-  - strid
+  - /vart/{strid}
   owner: Team Integration
 - name: Varten — varten (Intranet)
   family: intranet
@@ -975,9 +1354,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /varten
   owner: Team Integration
 - name: Veranstaltung — veranstaltung (Intranet)
   family: intranet
@@ -985,11 +1366,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
-  - strid
+  - /veranstaltung/{strid}
   owner: Team Integration
 - name: Veranstaltungen — veranstaltungen (Intranet)
   family: intranet
@@ -997,9 +1378,11 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen$4
+  path_prefix: /api/app
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /veranstaltungen
   owner: Team Integration
 - name: Vergeben — vergeben (Intranet)
   family: intranet
@@ -1007,7 +1390,18 @@ apis:
   auth: ''
   stage: Dev
   spec: ''
-  path_prefix: /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben$4
+  path_prefix: /api/app
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
+  path_entities:
+  - /vergeben
+  owner: Team Integration
+- name: vergebene_auftraege_odata
+  family: intranet
+  base: '[[BaseURL_OData_Intranet]]'
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  method: GET
   owner: Team Integration

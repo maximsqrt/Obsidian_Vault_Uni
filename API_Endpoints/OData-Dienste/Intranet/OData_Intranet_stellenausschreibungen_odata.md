@@ -14,7 +14,7 @@ tags:
   - status/active
 owner: Team Integration
 guid_hash: ""
-base_host: "[[BaseURL_OData_Intranet]]"
+base_url: "[[BaseURL_OData_Intranet]]"
 entity_paths:
   - /STA_STELLEN
   - /STA_KATEGORIEN

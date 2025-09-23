@@ -15,7 +15,7 @@ tags:
 owner: Team Integration
 guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
-entity_paths:
+path_entities:
   - /RISIKOFAELLE
 method: GET
 collection_ref: "[[]]"

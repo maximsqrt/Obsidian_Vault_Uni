@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_OdataAuthTest.md",
-                "mode": "preview",
-                "source": true
+                "file": "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Publikationen.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "OData_IntraDev_OdataAuthTest"
+              "title": "Intrexx_IntraDev_Publikationen"
             }
           }
         ]
@@ -230,34 +230,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d824e8114020d264",
+  "active": "00beba18f87f0639",
   "lastOpenFiles": [
-    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fahradverwaltung_odata.md",
-    "API_Endpoints/Intranet/Intranet_Studiengaenge/Intrexx_Intranet_Studiengaenge.md",
-    "API_Endpoints/Intranet/Intranet_Fahrraeder/Intrexx_Intranet_Fahrraeder.md",
-    "API_Endpoints/IntraDev/IntraDev_Veranstaltungen_und_Termine/Intrexx_IntraDev_Vart_StrId.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_ODataTest.md",
+    "registry/overview.md.bak",
+    "scripts/sort_overview_md.py",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_stellenauschreibungen_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_nachrichtenredaktion_odata.md",
     "API_Endpoints/Intranet/Intranet_Portal_Endpunkte/Intrexx_Intranet_getSessionInfo.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Infolinks.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studienbeginn.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GBeitraege.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitrag_StrId.md",
-    "API_Endpoints/IntraDev/IntraDev_Portal_API/Intrexx_IntraDev_Login.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Geodaten.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_intraDev_Studiengaenge.md",
+    "API_Endpoints/Intranet/Intranet_Amtliche_Bekanntmachungen/Intrexx_Intranet_amtlbk.md",
+    "API_Endpoints/Intranet/Intranet_Fahrraeder/Intrexx_Intranet_Fahrraeder.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_gefaerdungshandbuch.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_termine_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_scs_erhebung_v4.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_OdataAuthTest.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fundsachen_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fahradverwaltung_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_eucor_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/BaseURL_OData_IntraDev.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_vergebene_auftraege_odata.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_termine_odata.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_stellenausschreibungen_odata.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v4.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v3.md",
     "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v2.md",
     "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
     "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fahrradverwaltung_odata.md",
-    "API_Endpoints/Intranet/Intranet_Portal_Endpunkte/Intrexx_Intranet_logout.md",
-    "API_Endpoints/Intranet/Intranet_Portal_Endpunkte/Intrexx_Intranet_getAuthenticationTokenTypes.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Bewerbungszeit.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Studientyp.md",
-    "API_Endpoints/IntraDev/IntraDev_Studiengaenge/Intrexx_IntraDev_Texte.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
-    "API_Endpoints/IntraDev/IntraDev_Publikationen/Intrexx_IntraDev_Publikationen.md",
-    "API_Endpoints/IntraDev/IntraDev_Publikationen/Intrexx_IntraDev_PublikationenF.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Termingruppe.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studiengaenge.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fachberater_odata.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_eucor_odata.md",
     "Development_Stuff/Broken_APIs.base",
     "TestCanvas.canvas",
     "Development_Stuff",
@@ -268,8 +269,6 @@
     "Tags/#endpoint+beitrag",
     "Tags/#collection+service-a-z",
     "WIP_APIS.base",
-    "Tags/#collection+tests",
-    "scripts/tempCodeRunnerFile.py",
     "Pasted image 20250903145736.png",
     "Intrexx Map.canvas.canvas"
   ]

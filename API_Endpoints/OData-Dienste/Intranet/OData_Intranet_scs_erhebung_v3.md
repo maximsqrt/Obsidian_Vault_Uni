@@ -14,8 +14,8 @@ tags:
   - status/active
 owner: Team Integration
 guid_hash: ""
-base_host: "[[BaseURL_OData_Intranet]]"
-entity_paths:
+base_url: "[[BaseURL_OData_Intranet]]"
+path_entities:
   - /SCS_VERANSTALTUNG1
   - /SCS_EVENT1
   - /SCS_HISIONEABSCHLUESSE1

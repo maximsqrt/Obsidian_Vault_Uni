@@ -12,10 +12,11 @@ tags:
   - lang/de
   - method/get
   - status/http-4xx
+  - status/active
 owner: Team Integration
 guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
-entity_paths:
+path_entities:
   - /OdataAuthTest
 method: GET
 collection_ref: "[[]]"

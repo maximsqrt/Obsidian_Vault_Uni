@@ -14,8 +14,8 @@ tags:
   - status/active
 owner: Team Integration
 guid_hash: ""
-base_host: "[[BaseURL_OData_Intranet]]"
-entity_paths:
+base_url: "[[BaseURL_OData_Intranet]]"
+path_entities:
   - /FAH_FUNDSACHEN
   - /FUN_STANDORTE
 method: GET

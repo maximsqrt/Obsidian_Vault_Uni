@@ -15,7 +15,7 @@ tags:
 owner: Team Integration
 guid_hash: ""
 base_url: "[[BaseURL_OData_IntraDev]]"
-entity_paths:
+path_entities:
   - /OdataTest
   - /stud_studiengaenge_fg
   - /SCS_HISIONESTUDIENGANG

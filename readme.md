@@ -135,7 +135,7 @@ Nur Einträge mit `status/active` werden gelistet.
 
 Die Datei `registry/overview.md` wird aus `registry/apis.yml` generiert.
 
-### 1) YAML bereitstellen
+### 0) YAML bereitstellen
 
 * Variante A: **Export/Scan** erzeugt `registry/apis.yml` (z. B. via `export_registry.py`).
 * Variante B: `apis.yml` manuell pflegen (Konform zum Frontmatter-Schema).
@@ -155,18 +155,43 @@ apis:
     path_entities: [userId]
 ```
 
-### 2) Übersicht generieren
+Hier die Kurzfassung zum Prozess – nur das Wesentliche, im „man kann“-Stil:
 
-Das Skript **läuft ohne Argumente** (VS-Code „Run Code“ kompatibel) und sucht automatisch nach `../registry/apis.yml` bzw. `./registry/apis.yml`.
+## Überblick
 
-* **Standardlauf (flache Tabelle)**
-  Start per „Run Code“ in VS Code **oder** im Terminal:
+* Quelle: `registry/apis.yml`
+* Generator: `scripts/yaml_to_md.py` → Ziel: `registry/overview.md`
+* Optionaler Nachlauf: `scripts/sort_overview_md.py` (GUID-Gruppierung, Badges)
 
-  ```bash
-  python scripts/yaml_to_md.py
-  ```
+## 1) YAML bereitstellen
 
-  Ergebnis: `registry/overview.md` (Spalten: API, Base, Auth, Stage, Spec, Method, guid\_hash, path\_entities)
+* Man kann `apis.yml` per Export erzeugen: `scripts/export_registry.py` (Logik in `export_functions.py`).
+* Alternativ man kann `apis.yml` manuell pflegen (Schema: `name, family, stage, base, auth, spec, method|methods, guid_hash, path_entities, owner, path_prefix`).
+
+## 2) YAML → Markdown
+
+```bash
+python scripts/yaml_to_md.py              # flache Tabelle
+python scripts/yaml_to_md.py --grouped    # nach Family gegliedert
+python scripts/yaml_to_md.py --owner      # Owner-Spalte
+```
+
+* Auto-Suche nach `../registry/apis.yml` bzw. `./registry/apis.yml`.
+* Standard-Sortierung: `family` → `stage` → `name`.
+
+## 3) Optional: Nachsortieren & einfärben
+
+```bash
+python scripts/sort_overview_md.py         # sortiert nach guid_hash (Backup .bak)
+python scripts/sort_overview_md.py --badge # zusätzlich farbige GUID-Badges
+```
+
+* Gleiche `guid_hash` werden gruppiert; `--badge` zeigt farbstabile Badges.
+
+## Spalten (Standardausgabe)
+
+`API | Base | Auth | Stage | Spec | Method | guid_hash/GUID | path_entities | path_prefix`
+
 
 * **Optionale Flags (Terminal):**
 
