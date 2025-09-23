@@ -12,7 +12,7 @@ ROOT = HERE.parent.parent  # Repo/Vault-Root = Ordner über "scripts"
 SRC_DIRS = [
     ROOT / "API_Endpoints" / "IntraDev",
     ROOT / "API_Endpoints" / "Intranet",
-    ROOT / "API_Endpoints" / "OData",  # optional
+    ROOT / "API_Endpoints" / "OData-Dienste",  # optional
 ]
 
 OUT_YAML = ROOT / "registry" / "apis.yml"
