@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: stellenausschreibungen (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -26,9 +28,6 @@ method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02
 ---
-
-
-
 # Contract
 
 > [!note] Übersicht

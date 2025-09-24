@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Service A–Z — beitraege (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -23,7 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_IntraDev_Service_A-Z]]"
 last_checked: 2025-08-26
 ---
-
 #  Contract
 
 > [!abstract] API OVERVIEW

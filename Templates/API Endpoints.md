@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: <service_title>
 tags:
   - project/<project>
@@ -19,7 +21,6 @@ method: GET
 collection_ref: "[[]]"
 last_checked: <YYYY-MM-DD>
 ---
-
 > [!tip] BaseURL
 > 
 # Contract

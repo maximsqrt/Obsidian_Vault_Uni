@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: fundsachen
 guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 path_prefix: /api/app
@@ -22,8 +24,6 @@ method: GET
 last_checked: 2025-09-02
 collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
 ---
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

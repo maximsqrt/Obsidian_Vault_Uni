@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: nachrichtenredaktion (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -20,8 +22,6 @@ method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02
 ---
-
-
 # `eucor_odata` — Contract
 
 > [!note] Übersicht

@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Einstellungen — einstellungen (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -23,8 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_Intranet_Stellenausschreibungen]]"
 last_checked: YYYY-MM-DD
 ---
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

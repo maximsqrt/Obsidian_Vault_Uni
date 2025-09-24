@@ -1,10 +1,11 @@
 ---
 type: api-endpoint
+auth: x-api-key
 title: standorte
 guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 path_prefix: /api/app
 owner: Team Integration
-base_host: "[[BaseURL_IntraDev]]"
+base_url: "[[BaseURL_IntraDev]]"
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -22,9 +23,6 @@ method: GET
 last_checked: 2025-09-02
 collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

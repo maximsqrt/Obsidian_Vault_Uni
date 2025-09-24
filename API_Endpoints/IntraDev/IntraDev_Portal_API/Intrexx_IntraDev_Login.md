@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Portal — login (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -22,9 +24,6 @@ method: POST
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

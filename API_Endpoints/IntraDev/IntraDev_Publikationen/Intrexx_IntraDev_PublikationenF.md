@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Publikationen — publikationenf (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -24,9 +26,6 @@ method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Publikationen|Intrexx_IntraDev_Publikationen]]"
 last_checked: 2025-08-26
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Portal — login (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -22,9 +24,6 @@ method: POST
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

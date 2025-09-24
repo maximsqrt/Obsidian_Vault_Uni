@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Nachrichten — amtlbek (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -20,8 +22,6 @@ collection_ref: "[[Intrexx_intranet_Amtliche_Bekanntmachungen]]"
 last_checked: YYYY-MM-DD
 path_prefix: /api/app
 ---
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

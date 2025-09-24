@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Fundsachen — fundsachen (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -23,9 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen|Intrexx_Intranet_Fundsachen]]"
 last_checked: YYYY-MM-DD
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

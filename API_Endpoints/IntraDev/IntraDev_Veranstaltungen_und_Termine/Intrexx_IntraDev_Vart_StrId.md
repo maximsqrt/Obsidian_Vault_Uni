@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Veranstaltungen & Termine — vart/{strid} (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -24,8 +26,6 @@ method: GET
 collection_ref: "[[Intrexx_IntraDev_Veranstaltungen_und_Termine]]"
 last_checked: 2025-08-27
 ---
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

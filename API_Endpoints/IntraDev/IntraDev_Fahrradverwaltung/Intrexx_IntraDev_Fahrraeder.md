@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Fahrräder — fahrraeder (IntraDev)
 guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 path_prefix: /api/app
@@ -22,8 +24,6 @@ method: GET
 last_checked: 2025-09-02
 collection_ref: "[[Intrexx_IntraDev_Fahrradverwaltung]]"
 ---
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

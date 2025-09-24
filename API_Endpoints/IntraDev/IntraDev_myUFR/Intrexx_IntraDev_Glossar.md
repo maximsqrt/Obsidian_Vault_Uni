@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: myUFR — glossar (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -23,9 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

@@ -1,5 +1,7 @@
 ---
 type: api-endpoint
+auth: x-api-key
+
 title: Binnenmarkt — binnenmarkt (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -23,9 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_Intranet_Vergebene_Aufträge]]"
 last_checked: YYYY-MM-DD
 ---
-
-
-
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;
