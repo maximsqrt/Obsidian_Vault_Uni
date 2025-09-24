@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Pub.md",
+                "file": "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Intrexx_IntraDev_Pub"
+              "title": "Intrexx_IntraDev_Studiengaenge"
             }
           }
         ]
@@ -232,17 +232,20 @@
   },
   "active": "d824e8114020d264",
   "lastOpenFiles": [
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studienganggruppen.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Glossar.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Faecher.md",
     "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
-    "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Projekte.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Glossar.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Geodaten.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachschaften.md",
     "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Pub.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_myUFR.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
+    "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_intraDev_New_Pub.md",
+    "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Projekte.md",
     "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Geodaten.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_myUFR.md",
+    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
     "API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung/Intrexx_IntraDev_Fahrraeder.md",
     "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
     "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fahradverwaltung_odata.md",
@@ -252,14 +255,11 @@
     "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
     "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studiengaenge.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachschaften.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Termingruppe.md",
     "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Standorte.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
     "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe.md",
     "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitraege.md",
     "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitrag_StrId.md",
     "Tags/#endpoint+getsessioninfo",
     "Tags/#collection+portal",
     "Tags/#collection+fahrradverwaltung",

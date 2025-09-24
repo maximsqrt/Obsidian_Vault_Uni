@@ -1,6 +1,8 @@
 
 ---
 
+> [!danger]
+> CHECK COMMUNITY PLUGINS.JSON BEFORE START ->.obsidian/community-plugins.json \
 # REST-API Doku (Obsidian Vault)
 
 Dieses Repository enthält den **Obsidian Vault** mit der vollständigen REST-API-Dokumentation für:

@@ -4,6 +4,15 @@ url: https://10.184.8.94:1246
 tags: [api, baseurl]
 ---
 
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 # BASEURL
 
 

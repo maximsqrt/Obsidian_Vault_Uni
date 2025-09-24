@@ -21,6 +21,15 @@ method: GET
 collection_ref: "[[]]"
 last_checked: <YYYY-MM-DD>
 ---
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 > [!tip] BaseURL
 > 
 # Contract

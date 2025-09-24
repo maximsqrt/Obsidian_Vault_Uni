@@ -16,6 +16,15 @@ base_url: "https://<intranet-domain>"         # z. B. [[BaseURL_Intranet]]
 last_checked: YYYY-MM-DD
 ---
 
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 # Portal API (Prod) — Analyse
 
 ## Endpoints

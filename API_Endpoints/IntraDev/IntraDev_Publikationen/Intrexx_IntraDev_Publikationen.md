@@ -24,6 +24,15 @@ path_entities:[[BaseURL_intraDev]]/api/app/896424333B7D67953799DF367AF3BA1FEA221
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Publikationen|Intrexx_IntraDev_Publikationen]]"
 last_checked: 2025-08-26
 ---
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

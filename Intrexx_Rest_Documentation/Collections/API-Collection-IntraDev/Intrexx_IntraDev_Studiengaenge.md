@@ -19,6 +19,15 @@ endpoints_count: 17
 last_checked: YYYY-MM-DD
 path_prefix: /api/app
 ---
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 [[Intrexx_IntraDev_Abschluss]]
 # Studiengänge — Analyse (IntraDev)
 

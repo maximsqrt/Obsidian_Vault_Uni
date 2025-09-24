@@ -27,6 +27,15 @@ method: GET
 collection_ref: "[[Intrexx_IntraDev_TestEnv]]"
 last_checked: 2025-08-27
 ---
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

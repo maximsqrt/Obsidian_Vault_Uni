@@ -98,6 +98,15 @@ SORT key ASC
 
 ---
 
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 Kurzfassung: Tags setzen → optional `name:` pflegen → Snippet einfügen → fertig.
 
 

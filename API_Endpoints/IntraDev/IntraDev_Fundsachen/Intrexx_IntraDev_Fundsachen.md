@@ -24,6 +24,15 @@ method: GET
 last_checked: 2025-09-02
 collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
 ---
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

@@ -15,6 +15,15 @@ info: https://help.intrexx.com/intrexx/steady/de-de/Content/OH/glossary/glossary
 path_prefix: /api/app
 ---
 
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 > [!danger] App-ID – Form & Quelle
 > - **Kein UUID-Format**: 40-stelliges **hex160**.
 > - **Quelle**: `guid_hash_source` (Single Source of Truth).

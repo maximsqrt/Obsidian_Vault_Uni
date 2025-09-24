@@ -26,6 +26,15 @@ method: GET
 collection_ref: "[[Intexx_IntraDev_SCS_Studiengangverwaltung]]"
 last_checked: 2025-08-26
 ---
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

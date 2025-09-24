@@ -21,6 +21,15 @@ last_reviewed: YYYY-MM-DD
 path_prefix: /api/app
 ---
 
+
+
+#  Contract
+
+> [!danger] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 # Intrexx IntraDev API (Dev/Stage)
 
 ## Zielsetzung
