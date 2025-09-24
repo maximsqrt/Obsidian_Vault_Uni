@@ -1,5 +1,6 @@
 ---
 type: api-endpoint
+auth: x-api-key
 title: Nachrichten — amtlbek (IntraDev)
 guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
 path_prefix: /api/app
@@ -26,58 +27,182 @@ collection_ref: "[[Intrexx_IntraDev_Nachrichten]]"
 
 #  Contract
 
-> [!tip] Übersicht
-> 
-> - **Method:** GET
->     
-> - **URL:**
->     
-> 
-> ```dataviewjs
-> const fm = dv.current().file.frontmatter;
-> const host = String(fm.base_host || "").replace(/\/+$/,"");        // "[[BaseURL_IntraDev]]" bleibt Link-Text
-> const up = fm.url_parts || {};
-> const prefix = String(up.path_prefix || "/api/app").replace(/\/+$/,""); // Fallback: /api/app
-> const guid = String(up.app_guid || fm.guid_hash || "").trim();
-> const service = String(fm.title || "").trim();                      // "amtlbek"
-> 
-> const url = [host, prefix.replace(/^\//,""), guid, service]
->   .filter(Boolean).join("/");
-> 
-> dv.paragraph(`[${url}](${url})`);
-> ```
-> 
-> - **Auth:** Benutzerkonto (Name/Passwort) erforderlich
->     
-> - **Query-Params:** _tbd_
->     
-> - **Response:** _tbd_
->     
+> [!abstract] API OVERVIEW
+> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> ---
+> **QUERY** _tbd_  
+> **RESPONSE** _tbd_
 
 
 
 
 ```dataviewjs
+// ===== Konfig =====
 const fm = dv.current().file.frontmatter;
 
-// Host ohne trailing Slash
-const host = String(fm.base_host || "").replace(/\/+$/,"");
+// — Hilfen —
+const isUrl = s => /^https?:\/\//i.test(String(s || ""));
+const escPipes = s => String(s).replaceAll("|","\\|");
 
-// Servicename: override via 'service_name', sonst aus 'title' sluggen
-const raw = String(fm.service_name || fm.title || dv.current().file.name || "");
-const service = fm.service_name ? raw : raw
-  .replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue")
-  .replace(/Ä/g,"Ae").replace(/Ö/g,"Oe").replace(/Ü/g,"Ue")
-  .replace(/ß/g,"ss")
-  .normalize("NFKD").replace(/[\u0300-\u036f]/g,"")
-  .toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_+|_+$/g,"");
+// [[Page]] oder [[Page|Alias]] aus String extrahieren
+function unwrapWiki(s) {
+  const m = String(s || "").match(/^\s*\[\[([^|\]]+)(?:\|[^]]*)?\]\]\s*$/);
+  return m ? m[1] : String(s || "");
+}
 
-// Nur eine URL (BaseURL/amtlbek) in der Tabelle ausgeben
-const url = `${host}/${service}`;
-dv.table(["URL"], [[`[${url}]`]]);
+// base_url auflösen: unterstützt Link-Objekt, [[…]]-String oder Seitennamen/URL
+function resolveBase(val) {
+  if (!val) return "";
+  // Obsidian/Dataview Link-Objekt
+  if (typeof val === "object" && (val.path || val.file)) {
+    const pg = dv.page(val.path ?? val.file);
+    return (pg?.base_url ?? pg?.url ?? "").toString();
+  }
+  // String: evtl. [[…]] entfernen
+  const raw = String(val);
+  const s = unwrapWiki(raw);
+  if (isUrl(s)) return s;                      // direkte URL
+  const pg = dv.page(s);                       // Seite per Name/Path
+  if (pg) return (pg.base_url ?? pg.url ?? "").toString();
+  return s;                                    // Fallback: unverändert
+}
+
+// sauber joinen (ohne doppelte Slashes)
+function joinUrl(...parts) {
+  return parts
+    .filter(p => p !== undefined && p !== null && String(p).trim() !== "")
+    .map((p, i) => {
+      const s = String(p).trim();
+      if (i === 0) return s.replace(/\/+$/,"");
+      return s.replace(/^\/+/,"").replace(/\/+$/,"");
+    })
+    .join("/");
+}
+
+// — Werte aus Frontmatter —
+const base   = resolveBase(fm.base_url);
+const prefix = fm.path_prefix ?? "";
+const guid   = fm.guid_hash ?? "";
+const method = String(fm.method ?? "").toUpperCase() || "GET";
+
+// Entities sammeln (mehrere Key-Varianten)
+let entities = [];
+if (Array.isArray(fm.path_entities)) entities = fm.path_entities;
+else if (Array.isArray(fm.entity_paths)) entities = fm.entity_paths;
+else if (Array.isArray(fm.paths)) entities = fm.paths;
+else if (fm.entity_path) entities = [fm.entity_path];
+else if (fm.path) entities = [fm.path];
+
+entities = entities.map(x => String(x ?? "").trim()).filter(Boolean);
+
+// Hinweis, falls base leer oder nicht aufgelöst
+const unresolved = !base || !isUrl(base);
+
+// — Tabelle als Markdown in [!tip] rendern —
+let md = [];
+// Callout-Kopf (ersetzen)
+md.push("> [!summary] ENDPOINT PREVIEW");
+md.push(`> **METHOD** \`${method}\`` + (unresolved ? " · **BASE** `unresolved`" : ""));
+md.push("> ---");  // dünne Trennlinie
+
+// Tabellenkopf
+// Tabellenkopf (lassen wir, nur techy Bezeichnung)
+md.push("> | PATH | TEMPLATE & URL | TEST |");
+md.push("> |---|---|:--:|");
+
+// Zeilen
+for (const rawSeg of entities) {
+  const seg = escPipes(rawSeg);
+  const template = escPipes(joinUrl("base_url", "path_prefix", "guid_hash", rawSeg));
+  const url = unresolved ? "" : joinUrl(base, prefix, guid, rawSeg);
+
+  const detailsCell = url
+    ? `\`${template}\`<br><code>${escPipes(url)}</code>`
+    : `\`${template}\``;
+
+  const testCell = url ? `[${method}](${url})` : "—";
+
+  md.push(`> | \`${seg}\` | ${detailsCell} | ${testCell} |`);
+}
+
+// Ausgabe
+dv.paragraph(md.join("\n"));
 
 ```
 
-# Parent 
-> [!note]
-> [[Intrexx_IntraDev_Nachrichten]]
+```dataviewjs
+// ===== TECHY RELATIONS CALLOUT (no emojis) =====
+const fm = dv.current().file.frontmatter;
+
+// --- Helpers ---
+function unwrapWiki(s) {
+  const m = String(s || "").match(/^\s*\[\[([^|\]]+)(?:\|[^]]*)?\]\]\s*$/);
+  return m ? m[1] : String(s || "");
+}
+function pageFrom(val) {
+  if (!val) return null;
+  if (typeof val === "object" && (val.path || val.file)) return dv.page(val.path ?? val.file) ?? null;
+  const s = unwrapWiki(String(val));
+  return dv.page(s) 
+      ?? dv.pages().where(p => String(p.file?.name) === s 
+         || (Array.isArray(p.file?.aliases) && p.file.aliases.some(a => String(a) === s))).first()
+      ?? null;
+}
+function linkify(val) {
+  const pg = pageFrom(val);
+  if (pg?.file?.path) return `[[${pg.file.path}|${pg.file.name}]]`;
+  const s = unwrapWiki(val);
+  return s ? `\`${s}\`` : "—";
+}
+function asArray(v) { return Array.isArray(v) ? v : (v ? [v] : []); }
+
+// --- Collect relations ---
+const parentsRaw = asArray(fm.collection_ref);
+const parentLinks = parentsRaw.map(linkify);
+
+// Siblings: andere Seiten, die denselben Parent referenzieren
+let sibs = [];
+for (const pr of parentsRaw) {
+  const target = pageFrom(pr);
+  const key = target?.file?.path ?? unwrapWiki(pr);
+  if (!key) continue;
+  const matches = dv.pages()
+    .where(p => p.file?.path !== dv.current().file.path)
+    .where(p => {
+      const cr = asArray(p.collection_ref);
+      return cr.some(x => {
+        const pg = pageFrom(x);
+        const k = pg?.file?.path ?? unwrapWiki(x);
+        return k && k === key;
+      });
+    })
+    .sort(p => p.file.name, 'asc')
+    .array();
+  sibs.push(...matches);
+}
+// Dedup by file.path
+const seen = new Set();
+const siblings = sibs.filter(p => {
+  const k = p.file?.path ?? p.file?.name;
+  if (seen.has(k)) return false; seen.add(k); return true;
+});
+
+// --- Render (techy) ---
+// --- Render (techy, einheitlich) ---
+let md = [];
+md.push("> [!abstract] RELATIONS");
+md.push("> ");
+md.push("> **PARENT**");
+md.push(`> ${parentLinks.length ? parentLinks.join("  ") : "—"}`);
+if (siblings.length) {
+  md.push("> ---");
+  md.push(`> **SIBLINGS** (${siblings.length})`);
+  for (const s of siblings) md.push(`> - [[${s.file.path}|${s.file.name}]]`);
+}
+md.push("> ");
+md.push("> source: `collection_ref`");
+dv.paragraph(md.join("\n"));
+
+
+
+```

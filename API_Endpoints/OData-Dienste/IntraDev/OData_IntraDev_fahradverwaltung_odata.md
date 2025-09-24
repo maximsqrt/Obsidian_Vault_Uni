@@ -14,7 +14,7 @@ tags:
   - status/active
 owner: Team Integration
 guid_hash: ""
-base_host: "[[BaseURL_OData_IntraDev]]"
+base_url: "[[BaseURL_OData_IntraDev]]"
 path_entities: /FAH_FAHRRAEDER
 method: GET
 collection_ref: "[[]]"

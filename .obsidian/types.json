@@ -26,6 +26,8 @@
     "TQ_show_urgency": "checkbox",
     "method": "multitext",
     "create_add": "date",
-    "base_url": "text"
+    "base_url": "text",
+    "path_entities": "multitext",
+    "path_prefix": "multitext"
   }
 }
