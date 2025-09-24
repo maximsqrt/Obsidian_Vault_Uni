@@ -19,8 +19,8 @@ tags:
 owner: Team Integration
 base_url: "[[BaseURL_IntraDev]]"
 path_prefix: /api/app
-path_entities: 
-- /abschluesse
+path_entities:
+  - /abschluesse
 method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26

@@ -19,7 +19,8 @@ tags:
 owner: Team Integration
 base_url: "[[BaseURL_Intranet]]"
 path_prefix: /api/app
-path_entities: "/download"
+path_entities:
+  - "/download"
 method: GET
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD

@@ -19,7 +19,8 @@ tags:
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
-path_entities: "/login"
+path_entities:
+  - "/login"
 method: POST
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26

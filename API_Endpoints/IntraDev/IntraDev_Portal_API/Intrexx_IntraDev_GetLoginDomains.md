@@ -19,7 +19,8 @@ tags:
 owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
-path_entities: "/getLoginDomains"
+path_entities:
+  - "/getLoginDomains"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26

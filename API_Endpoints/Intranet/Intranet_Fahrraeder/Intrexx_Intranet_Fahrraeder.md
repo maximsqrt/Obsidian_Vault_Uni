@@ -20,7 +20,8 @@ owner: Team Integration
 guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 base_url: "[[BaseURL_Intranet]]"
 path_prefix: /api/app
-path_entities: "/fahrraeder"
+path_entities:
+  - "/fahrraeder"
 method: GET
 collection_ref: "[[Intrexx_Intranet_Fahrradverwaltung]]"
 last_checked: YYYY-MM-DD

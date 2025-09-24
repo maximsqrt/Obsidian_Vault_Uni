@@ -20,7 +20,8 @@ owner: Team Integration
 guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
-path_entities: "/rahmenvertraege"
+path_entities:
+  - "/rahmenvertraege"
 method: GET
 collection_ref: "[[Intrexx-IntraDev-API-Vergebene-Auftraege]]"
 last_checked: 2025-08-27

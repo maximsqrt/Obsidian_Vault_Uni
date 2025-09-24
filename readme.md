@@ -91,7 +91,8 @@ auth: bearer
 spec: https://intranet.example/api/users/openapi.json
 method: GET
 guid_hash: 1a2b3c4d         # optional; wird sonst aus guid/app_guid abgeleitet
-path_entities:              # optional; wird sonst aus base/path extrahiert
+path_entities:
+  -  
   - userId
 owner: Team Intranet        # optional (oder owner_ref)
 app_guid: 8c9e...           # optional
@@ -152,7 +153,8 @@ apis:
     spec: https://.../openapi.json
     method: GET
     guid_hash: 1a2b3c4d
-    path_entities: [userId]
+    path_entities:
+      -  [userId]
 ```
 
 Hier die Kurzfassung zum Prozess – nur das Wesentliche, im „man kann“-Stil:

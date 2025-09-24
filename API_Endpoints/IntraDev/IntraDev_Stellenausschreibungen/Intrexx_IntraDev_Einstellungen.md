@@ -21,7 +21,8 @@ owner: Team Integration
 guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
-path_entities: "/einstellungen"
+path_entities:
+  - "/einstellungen"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Stellenauschreibungen]]"
 last_checked: 2025-08-26

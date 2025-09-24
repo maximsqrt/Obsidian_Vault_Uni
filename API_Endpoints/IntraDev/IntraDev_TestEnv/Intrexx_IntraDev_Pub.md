@@ -21,7 +21,8 @@ owner: Team Integration
 guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
-path_entities: "/pub"
+path_entities:
+  - "/pub"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_TestEnv]]"
 last_checked: 2025-08-27

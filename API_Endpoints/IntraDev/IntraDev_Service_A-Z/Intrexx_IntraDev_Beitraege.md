@@ -20,7 +20,8 @@ owner: Team Integration
 guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
-path_entities: "/beitraege"
+path_entities:
+  - "/beitraege"
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Service_A-Z]]"
 last_checked: 2025-08-26

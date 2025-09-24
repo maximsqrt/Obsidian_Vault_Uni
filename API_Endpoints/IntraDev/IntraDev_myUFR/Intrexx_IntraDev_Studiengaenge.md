@@ -20,7 +20,8 @@ owner: Team Integration
 guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
 base_url: "[[BaseURL_IntraDev]]"
 path_prefix: /api/app
-path_entities: /studiengaenge
+path_entities:
+  - /studiengaenge
 method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
