@@ -1,5 +1,5 @@
 
----
+
 
 > [!danger]
 > CHECK COMMUNITY PLUGINS.JSON BEFORE START ->.obsidian/community-plugins.json \
@@ -17,7 +17,7 @@ Die Dokumentation ist **.md-/Plaintext-basiert** und wird im Vault in einer saub
 Eine **vereinfachte** (kompaktierte) Doku der wichtigsten Endpunkte findet sich zusätzlich im Wiki:
 👉 [https://gitlab.rz.uni-freiburg.de/intranet/intranet-allgemein/-/wikis/RESTV2?edit=true](https://gitlab.rz.uni-freiburg.de/intranet/intranet-allgemein/-/wikis/RESTV2?edit=true)
 
----
+
 
 ## Inhalt
 
