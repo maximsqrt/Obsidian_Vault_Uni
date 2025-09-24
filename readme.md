@@ -1,7 +1,7 @@
 
 
 
-> [!danger]
+> [!warning]
 > CHECK COMMUNITY PLUGINS.JSON BEFORE START ->.obsidian/community-plugins.json \
 # REST-API Doku (Obsidian Vault)
 
