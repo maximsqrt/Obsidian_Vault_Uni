@@ -206,3 +206,27 @@ dv.paragraph(md.join("\n"));
 
 
 ```
+
+### Response Body
+```json
+{
+  "information": {
+    "limit": 150,
+    "offset": 0,
+    "orderBy": [{ "field": "id", "order": "asc" }],
+    "total": 1234,
+    "count": 150,
+    "next": "/api/app/fundsachen?limit=150&offset=150"
+  },
+  "data": [
+    {
+      "id": 1,
+      "fundnummer": 1,
+      "fundsache": "Handy",
+      "funddatum": "2014-03-09T23:00:00Z",
+      "fundort": "Haus zur lieben Hand",
+      "aufbewahrungsort": "Rektorat",
+      "beschreibung": "schwarz, Marke: iPhone"
+    }
+  ]
+}

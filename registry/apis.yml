@@ -1,4 +1,53 @@
 apis:
+- name: OData — Hinweise & Erläuterungen
+  family: ''
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status: []
+  tags:
+  - collection/datendrehscheibe
+  - guideline
+  - lang/de
+  - spec/odata-v4
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\OData_Hinweise_und_Erläuterungen.md
+  owner: Team Integration
+- name: OData-Dienste
+  family: ''
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status: []
+  tags: []
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\OData-Dienste.md
+- name: BaseURL_IntraDev
+  family: intradev
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status: []
+  tags:
+  - api
+  - baseurl
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\BaseURL_IntraDev.md
+- name: BaseURL_OData_IntraDev
+  family: intradev
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status: []
+  tags:
+  - api
+  - baseurl
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\BaseURL_OData_IntraDev.md
 - name: Datendrehscheibe - User (IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
@@ -6,7 +55,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Datendrehscheibe\Intrexx_IntraDev_Datendrehscheibe.md
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
   path_entities:
@@ -19,7 +82,22 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - endpoint/eucor_odata
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_eucor_odata.md
   method: GET
   path_entities:
   - /eucor_view
@@ -31,7 +109,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_fahradverwaltung_odata.md
   method: GET
   path_entities:
   - /FAH_FAHRRAEDER
@@ -43,7 +135,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Fahrradverwaltung\Intrexx_IntraDev_Fahrraeder.md
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   path_entities:
@@ -56,11 +162,52 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Fundsachen\Intrexx_IntraDev_Fundsachen.md
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   path_entities:
   - /fundsachen
+  owner: Team Integration
+- name: fundsachen (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: x-api-key
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status:
+  - status/http-4xx
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/http-4xx
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_fundsachen_odata.md
+  method: GET
+  path_entities:
+  - FUN_FUNDSACHEN
+  - FUN_STANDORTE
   owner: Team Integration
 - name: myUFR — abschluesse (IntraDev)
   family: intradev
@@ -69,7 +216,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/abschluesse
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Abschluesse.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -82,7 +245,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/apptexte
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Apptexte.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -95,7 +274,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/fachberater
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Fachberater.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -108,7 +303,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/fachschaften
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Fachschaften.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -121,7 +332,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/faecher
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Faecher.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -134,7 +361,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/geodaten
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Geodaten.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -147,7 +390,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/glossar
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Glossar.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -160,7 +419,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/abschluesse
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Studiengaenge.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -173,7 +448,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/studienganggruppen
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Studienganggruppen.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -186,7 +477,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/termingruppe
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Termingruppe.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -199,7 +506,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/myufr
+  - endpoint/veranstaltungen
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_myUFR\Intrexx_IntraDev_Veranstaltungen.md
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -212,7 +535,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Amtlbek\Intrexx_IntraDev_Amtbek.md
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
   path_entities:
@@ -225,10 +562,50 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_nachrichtenredaktion_odata.md
   method: GET
   path_entities:
   - /zuv_nachrichten
+  owner: Team Integration
+- name: odata_gefaerdungshandbuch (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: x-api-key
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status:
+  - status/http-4xx
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/http-4xx
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_gefaerdungshandbuch.md
+  method: GET
+  path_entities:
+  - /RISIKOFAELLE
   owner: Team Integration
 - name: OdataAuthTest (IntraDev)
   family: intradev
@@ -237,10 +614,54 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/http-4xx
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/http-4xx
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_OdataAuthTest.md
   method: GET
   path_entities:
   - /OdataAuthTest
+  owner: Team Integration
+- name: ODataTest (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: x-api-key
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status:
+  - status/http-5xx
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/http-5xx
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_ODataTest.md
+  method: GET
+  path_entities:
+  - /OdataTest
+  - /stud_studiengaenge_fg
+  - /SCS_HISIONESTUDIENGANG
   owner: Team Integration
 - name: Portal — download (IntraDev)
   family: intradev
@@ -249,7 +670,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/download
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_Download.md
   method: GET
   path_entities:
   - /download
@@ -261,7 +698,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/getauthenticationtokentypes
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_GetAuthenticationTokenTypes.md
   method: GET
   path_entities:
   - /getAuthenticationTokenTypes
@@ -273,7 +726,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/getlogindomains
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_GetLoginDomains.md
   method: GET
   path_entities:
   - /getLoginDomains
@@ -285,7 +754,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/getsessioninfo
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_GetSessionInfo.md
   method: GET
   path_entities:
   - /getSessionInfo
@@ -297,7 +782,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/login
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_Login.md
   method: POST
   path_entities:
   - /login
@@ -309,7 +810,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/logout
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_Logout.md
   method: POST
   path_entities:
   - /logout
@@ -321,7 +838,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/portal
+  - endpoint/upload
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Portal_API\Intrexx_IntraDev_Upload.md
   method: POST
   path_entities:
   - /upload
@@ -333,8 +866,27 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/publikationen
+  - endpoint/publikationen
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Publikationen\Intrexx_IntraDev_Publikationen.md
+  method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
+  path_entities:
+  - /publikationen
   owner: Team Integration
 - name: Publikationen — publikationenf (IntraDev)
   family: intradev
@@ -343,7 +895,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/publikationen
+  - endpoint/publikationenf
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Publikationen\Intrexx_IntraDev_PublikationenF.md
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   path_entities:
@@ -356,7 +924,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/scs-studiengangverwaltung
+  - endpoint/studibesch
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_SCS_Studiengangverwaltung\Intrexx_IntraDev_Studibesch.md
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -369,7 +953,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/scs-studiengangverwaltung
+  - endpoint/studig
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_SCS_Studiengangverwaltung\Intrexx_IntraDev_Studig.md
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -382,11 +982,53 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/scs-studiengangverwaltung
+  - endpoint/studigaenge
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_SCS_Studiengangverwaltung\Intrexx_IntraDev_Studiengaenge.md
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
   - /studigaenge
+  owner: Team Integration
+- name: scs_erhebung_v4 (IntraDev)
+  family: intradev
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: x-api-key
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status:
+  - status/http-4xx
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/http-4xx
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_scs_erhebung_v4.md
+  method: GET
+  path_entities:
+  - /SCSV4_VERANSTALTUNG$4
   owner: Team Integration
 - name: Service A–Z — beitraege (IntraDev)
   family: intradev
@@ -395,7 +1037,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/service-a-z
+  - endpoint/beitraege
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Service_A-Z\Intrexx_IntraDev_Beitraege.md
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -408,7 +1066,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/service-a-z
+  - endpoint/beitrag
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Service_A-Z\Intrexx_IntraDev_Beitrag_StrId.md
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -421,7 +1095,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/service-a-z
+  - endpoint/formular
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Service_A-Z\Intrexx_IntraDev_Formular_StrId.md
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -434,7 +1124,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/service-a-z
+  - endpoint/formulare
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Service_A-Z\Intrexx_IntraDev_Formulare.md
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -447,7 +1153,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/service-a-z
+  - endpoint/gbeitraege
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Service_A-Z\Intrexx_IntraDev_GBeitraege.md
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -460,7 +1182,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/service-a-z
+  - endpoint/gformulare
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Service_A-Z\Intrexx_IntraDev_GFormulare.md
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -473,7 +1211,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Fundsachen\Intrexx_IntraDev_Standorte.md
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   path_entities:
@@ -486,7 +1238,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_stellenauschreibungen_odata.md
   method: GET
   path_entities:
   - STA_STELLEN
@@ -503,7 +1269,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/stellenausschreibungen
+  - endpoint/einstellungen
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Stellenausschreibungen\Intrexx_IntraDev_Einstellungen.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -516,7 +1299,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/stellenausschreibungen
+  - endpoint/kategorien
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Stellenausschreibungen\Intrexx_IntraDev_Kategorien.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -529,7 +1329,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/stellenausschreibungen
+  - endpoint/stelle
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Stellenausschreibungen\Intrexx_IntraDev_Stelle.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -542,7 +1359,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/stellenausschreibungen
+  - endpoint/stellen
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Stellenausschreibungen\Intrexx_IntraDev_Stellen.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -555,7 +1389,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/stellenausschreibungen
+  - endpoint/textbausteine
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Stellenausschreibungen\Intrexx_intraDev_Textbausteine.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -568,7 +1419,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/abschluss
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Abschluss.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -581,7 +1448,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/auswahlverfahren
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Auswahlverfahren.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -594,7 +1477,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/bewerbungszeit
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Bewerbungszeit.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -607,7 +1506,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/fachberatung
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Fachberatung.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -620,7 +1535,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/faechergruppe
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Faechergruppe.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -633,7 +1564,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/fakultaet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Fakultaet.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -646,7 +1593,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/infolinks
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Infolinks.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -659,7 +1622,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/modulhandbuecher
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Modulhandbuecher.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -672,7 +1651,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/satzungen
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Satzungen.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -685,7 +1680,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/sprache
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Sprache.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -698,7 +1709,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/studienbeginn
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Studienbeginn.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -711,7 +1738,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/studienbereich
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Studienbereich.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -724,7 +1767,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/studiengaenge
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_intraDev_Studiengaenge.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -737,7 +1796,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/studiengaengfullview
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Studiengangfullview.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -750,7 +1825,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/studientyp
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Studientyp.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -763,7 +1854,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/texte
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Texte.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -776,7 +1883,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/studiengaenge
+  - endpoint/zulassung
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Studiengaenge\Intrexx_IntraDev_Zulassung.md
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -789,13 +1912,63 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\IntraDev\OData_IntraDev_termine_odata.md
   method: GET
   path_entities:
   - VER_VERANSTALTUNGEN
   - THEMENGEBIETE
   - DAT_ORGASTRUKTUR
   - VER_VERANSTALTUNGSARTEN
+  owner: Team Integration
+- name: TEST — alle Tags (IntraDev)
+  family: intradev
+  base: '[[BaseURL_intraDev]]'
+  auth: x-api-key
+  stage: Dev
+  spec: ''
+  path_prefix: /api/app
+  status:
+  - status/active
+  - status/deprecated
+  - status/http-4xx
+  - status/http-5xx
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/test-collection
+  - endpoint/test-endpoint
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - spec/odata-v4
+  - status/active
+  - status/deprecated
+  - status/http-4xx
+  - status/http-5xx
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_TESTFOLDER\Intrexx_IntraDev_THETAGTESTERFILER.md
+  method: GET
+  guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
+  path_entities:
+  - /themen
   owner: Team Integration
 - name: Tests — new_pub (IntraDev)
   family: intradev
@@ -804,7 +1977,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/tests
+  - endpoint/new_pub
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_TestEnv\Intrexx_intraDev_New_Pub.md
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -817,7 +2007,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/tests
+  - endpoint/projekte
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_TestEnv\Intrexx_IntraDev_Projekte.md
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -830,7 +2037,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/tests
+  - endpoint/pub
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_TestEnv\Intrexx_IntraDev_Pub.md
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -843,7 +2067,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/tests
+  - endpoint/study
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_TestEnv\Intrexx_intraDev_Study.md
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -856,7 +2097,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/termin
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_IntraDev_Termin_StrId.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -869,7 +2126,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/termine
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_IntraDev_Termine.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -882,7 +2155,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/themen
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_IntraDev_Themen.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -895,7 +2185,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/vart
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_IntraDev_Vart_StrId.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -908,7 +2215,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/varten
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_IntraDev_Varten.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -921,7 +2245,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/veranstaltung
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_intraDev_Veranstaltungen_StrId.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -934,7 +2275,24 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/veranstaltungen-und-termine
+  - endpoint/veranstaltungen
+  - env/dev
+  - exposure/internal-nonprod
+  - flag/method-unclear
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Veranstaltungen_und_Termine\Intrexx_intraDev_Veranstaltungen.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -947,7 +2305,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/vergebene-auftraege
+  - endpoint/binnenmarkt
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Vergebene_Aufträge\Intrexx_IntraDev_Binnenmarkt.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -960,7 +2334,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/vergebene-auftraege
+  - endpoint/rahmenvertraege
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Vergebene_Aufträge\Intrexx_IntraDev_Rahmenverträge.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -973,7 +2363,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/vergebene-auftraege
+  - endpoint/vergeben
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Vergebene_Aufträge\Intrexx_IntraDev_Vergeben.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -986,7 +2392,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intradev
+  - collection/vergebene-auftraege
+  - endpoint/vob
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\IntraDev\IntraDev_Vergebene_Aufträge\Intrexx_IntraDev_VOB.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -999,7 +2421,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_amtlbek_odata.md
   method: GET
   path_entities:
   - /BEKANNTMACHUNGEN$4
@@ -1011,11 +2447,51 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_eucor_odata.md
   method: GET
   path_entities:
   - /eucor_view
   owner: Team Integration
+- name: BaseURL_Intranet
+  family: intranet
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status: []
+  tags:
+  - baseurl
+  - intranet
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\BaseURL_Intranet.md
+  path_entities:
+  - https://intranet.uni-freiburg.de
+- name: BaseURL_OData_Intranet
+  family: intranet
+  base: ''
+  auth: ''
+  stage: Dev
+  spec: ''
+  path_prefix: ''
+  status: []
+  tags:
+  - api
+  - baseurl
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\BaseURL_OData_Intranet.md
 - name: Binnenmarkt — binnenmarkt (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
@@ -1023,7 +2499,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/vergabewesen
+  - endpoint/binnenmarkt
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Vergebene_Aufträge\Intrexx_Intranet_Binnenmarkt.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1036,7 +2528,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/stellen
+  - endpoint/einstellungen
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Stellenausschreibungen\Intrexx_Intranet_Einstellungen.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1049,7 +2557,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_fachberater_odata.md
   method: GET
   path_entities:
   - /fb_view$4
@@ -1061,7 +2583,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_fahrradverwaltung_odata.md
   method: GET
   path_entities:
   - /FAH_FAHRRAEDER
@@ -1073,7 +2609,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/fahrraeder
+  - endpoint/fahrraeder
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Fahrraeder\Intrexx_Intranet_Fahrraeder.md
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   path_entities:
@@ -1086,7 +2638,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/fundsachen
+  - endpoint/fundsachen
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\intranet_Fundsachen\Intrexx_Intranet_Fundsachen.md
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   path_entities:
@@ -1099,7 +2667,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_fundsachen_odata.md
   method: GET
   path_entities:
   - /FAH_FUNDSACHEN
@@ -1112,7 +2694,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/stellen
+  - endpoint/kategorien
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Stellenausschreibungen\Intrexx_intranet_Kategorien.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1125,7 +2723,19 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/prod
+  - exposure/internal-live
+  - method/get
+  - project/intrexx-rest-discovery
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Amtliche_Bekanntmachungen\Intrexx_Intranet_amtlbk.md
   method: GET
   guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
   path_entities:
@@ -1138,7 +2748,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/download
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_Intranet_download.md
   method: GET
   path_entities:
   - /download
@@ -1150,7 +2776,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/getauthenticationtokentypes
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_Intranet_getAuthenticationTokenTypes.md
   method: POST
   path_entities:
   - /getAuthenticationTokenTypes
@@ -1162,7 +2804,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/getlogindomains
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_intranet_getLoginDomains.md
   method: POST
   path_entities:
   - /getLoginDomains
@@ -1174,7 +2832,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/getsessioninfo
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_Intranet_getSessionInfo.md
   method: POST
   path_entities:
   - /getSessionInfo
@@ -1186,7 +2860,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/login
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_Intranet_login.md
   method: POST
   path_entities:
   - /login
@@ -1198,7 +2888,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/logout
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_Intranet_logout.md
   method: POST
   path_entities:
   - /logout
@@ -1210,7 +2916,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/portal
+  - endpoint/upload
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/post
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Portal_Endpunkte\Intrexx_Intranet_Upload.md
   method: POST
   path_entities:
   - /upload
@@ -1222,7 +2944,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/vergabewesen
+  - endpoint/rahmenvertraege
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Vergebene_Aufträge\Intrexx_Intranet_Rahmenverträge.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1235,7 +2973,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/vergabewesen
+  - endpoint/rahmenvertraege
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Vergebene_Aufträge\Intrexx_intranet_VOB.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1248,7 +3002,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_scs_erhebung.md
   method: GET
   path_entities:
   - /SCS_VERANSTALTUNG
@@ -1270,7 +3038,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_scs_erhebung_v2.md
   method: GET
   path_entities:
   - /SCS_VERANSTALTUNG1
@@ -1289,7 +3071,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_scs_erhebung_v3.md
   method: GET
   path_entities:
   - /SCS_VERANSTALTUNG1
@@ -1308,7 +3104,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_scs_erhebung_v4.md
   method: GET
   owner: Team Integration
 - name: Stelle — stelle (Intranet)
@@ -1318,7 +3128,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/stellen
+  - endpoint/stelle
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Stellenausschreibungen\Intrexx_Intranet_Stelle.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1331,7 +3157,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/stellen
+  - endpoint/stellen
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Stellenausschreibungen\Intrexx_Intranet_Stellen.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1344,7 +3186,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_stellenausschreibungen_odata.md
   method: GET
   owner: Team Integration
 - name: Studiengänge — studibesch (Intranet)
@@ -1354,7 +3210,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/studiengaenge
+  - endpoint/studibesch
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Studiengaenge\Intrexx_Intranet_Studibesch.md
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -1367,7 +3239,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/studiengaenge
+  - endpoint/studig
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Studiengaenge\Intrexx_Intranet_Studig.md
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -1380,7 +3268,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/studiengaenge
+  - endpoint/studigaenge
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Studiengaenge\Intrexx_Intranet_Studiengaenge.md
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -1393,7 +3297,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/termin
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_Termin_Strid.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1406,7 +3326,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/termine
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_Termine.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1419,7 +3355,21 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_termine_odata.md
   method: GET
   owner: Team Integration
 - name: Textbausteine — textbausteine (Intranet)
@@ -1429,7 +3379,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/stellen
+  - endpoint/textbausteine
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Stellenausschreibungen\Intrexx_intranet_Textbausteine.md
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1442,7 +3408,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/themen
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_Themen.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1455,7 +3437,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/vart
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_Vart_Strid.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1468,7 +3466,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/varten
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_varten.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1481,7 +3495,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/veranstaltung
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_Veranstaltungen_StrId.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1494,7 +3524,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/veranstaltungen
+  - endpoint/veranstaltungen
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Veranstaltungen\Intrexx_Intranet_Veranstaltungen.md
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1507,7 +3553,23 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: /api/app
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - collection/vergabewesen
+  - endpoint/vergeben
+  - env/prod
+  - exposure/internal-live
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/none
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\Intranet\Intranet_Vergebene_Aufträge\Intrexx_intranet_Vergeben.md
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1520,6 +3582,20 @@ apis:
   stage: Dev
   spec: ''
   path_prefix: ''
-  status: status/active
+  status:
+  - status/active
+  - status/wip
+  tags:
+  - app/intranet
+  - env/dev
+  - exposure/internal-nonprod
+  - lang/de
+  - method/get
+  - project/intrexx-rest-discovery
+  - spec/odata-v4
+  - status/active
+  - status/wip
+  - system/intrexx
+  path: C:\Users\ms2637\Documents\Obsidian Vault\API_Endpoints\OData-Dienste\Intranet\OData_Intranet_vergebene_auftraege_odata.md
   method: GET
   owner: Team Integration
