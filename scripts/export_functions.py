@@ -1,8 +1,10 @@
 from __future__ import annotations
+
 from pathlib import Path
-import os, re, sys, yaml
-from typing import Iterable, Any
-import hashlib, re
+from typing import Iterable, Any, List, Dict
+from collections.abc import Iterable as CollIterable
+import os, re, sys, yaml, json, hashlib
+
 # ----------------------------- Pfade & IO ------------------------------------
 def can_read(p: Path) -> bool:
     """Schneller, toleranter Read-Check (z. B. auf Netzlaufwerken)."""
@@ -21,6 +23,7 @@ FM_RE = re.compile(
     r"^\s*\ufeff?\s*---\s*\r?\n(.*?)\r?\n---\s*(?:\r?\n|$)",
     re.DOTALL,
 )
+
 def read_frontmatter(p: Path) -> dict | None:
     """
     Liest YAML-Frontmatter aus einer Markdown-Datei.
@@ -88,46 +91,12 @@ def _normalize_tags(val) -> set[str]:
                 add_one(t)
     return out
 
-# Priorität (anpassen, falls gewünscht)
-_STATUS_PRIORITY = (
-    "status/http-5xx",
-    "status/http-4xx",
-    "status/deprecated",
-    "status/wip",
-    "status/active",
-)
-
-def get_status_tag(fm: dict) -> str | None:
-    """Gibt den ersten gefundenen Status-Tag nach Priorität zurück oder None."""
-    raw = _extract_tags(fm)
-    tags = _normalize_tags(raw)
-    for s in _STATUS_PRIORITY:
-        if s in tags:
-            return s
-    return None
-def has_allowed_status(fm: dict, allowed: set[str]) -> tuple[bool, set[str], str | None]:
-    raw  = _extract_tags(fm)
-    norm = _normalize_tags(raw)
-    present_allowed = norm & allowed
-    if not present_allowed:
-        return False, norm, None
-    # matched = höchst-priorisierter Status *innerhalb* der erlaubten, die auch gesetzt sind
-    matched = next((s for s in _STATUS_PRIORITY if s in present_allowed), next(iter(present_allowed)))
-    return True, norm, matched
-
-
 def _extract_tags(fm: dict):
     """Findet 'tags' key in beliebiger Groß-/Kleinschreibung."""
     for k, v in fm.items():
         if str(k).lower() == "tags":
             return v
     return None
-
-def has_status_active(fm: dict) -> tuple[bool, set[str]]:
-    """Prüft auf Tag 'status/active'. Gibt (bool, normalisierte_tags) zurück."""
-    raw = _extract_tags(fm)
-    norm = _normalize_tags(raw)
-    return ("status/active" in norm), norm
 
 # ----------------------------- Family / Gruppen ------------------------------
 FAMILY_CANON = {
@@ -138,6 +107,7 @@ FAMILY_CANON = {
     "intranet-rest": "intranet",
     "odata": "odata",
 }
+
 def derive_family(md_path: Path, fm_family: str | None) -> str:
     """
     Bestimmt die Family:
@@ -165,6 +135,7 @@ STAGE_BADGE_COLOR = {
     "Dev": "blue",
     "Deprecated": "lightgrey",
 }
+
 def stage_badge(stage: str) -> str:
     """Markdown-Image für Shields.io Stage-Badge."""
     color = STAGE_BADGE_COLOR.get(stage, "inactive")
@@ -185,23 +156,13 @@ GROUP_TITLES = {
     "odata":    "OData-Schnittstellen",
 }
 
-import json
-from typing import List, Dict
-
 def render_group_table(group_key: str, rows: List[Dict]) -> str:
     """
     Baut eine Markdown-Tabelle für eine Gruppe.
 
-    Spalten: API | Base | Auth | Stage | Spec | Method | guid_hash | path_entities
-    Erwartet rows mit Keys: name, base, auth, stage, spec, method, guid_hash, path_entities.
-    Fehlende/leer Werte werden als '–' dargestellt.
-    - Strings werden auf '|' und '\n' bereinigt.
-    - Listen/Tuples werden ', '-verknüpft.
-    - Dicts werden kompakt als JSON ausgegeben.
-    - method wird uppercased.
-    - guid_hash wird nicht verändert (ggf. hier optional kürzen).
+    Spalten: API | Base | Auth | Stage | Spec | Method | guid_hash | path_entities | path_prefix
+    Erwartet rows mit Keys: name, base, auth, stage, spec, method, guid_hash, path_entities, path_prefix.
     """
-
     if not rows:
         return ""
 
@@ -230,17 +191,17 @@ def render_group_table(group_key: str, rows: List[Dict]) -> str:
     lines = [f"## {title}\n", header, sep]
 
     for r in rows:
-        name         = fmt(r.get("name") or "–")
-        base         = fmt(r.get("base"), code=True)
-        auth         = fmt(r.get("auth") or "–")
-        badge        = stage_badge(r.get("stage", "Dev"))  # Badge kann Markdown/HTML sein
-        spec_url     = r.get("spec")
-        spec         = md_link(spec_url, spec_url) if spec_url else "–"
-        method       = fmt((r.get("method") or "–"))
-        method       = f"`{method.upper().strip('`')}`" if method != "–" else "–"
-        guid_hash    = fmt(r.get("guid_hash") or "–")
-        path_prefix = fmt(r.get("path_prefix")),  
-        path_ents    = fmt(r.get("path_entities"))
+        name        = fmt(r.get("name") or "–")
+        base        = fmt(r.get("base"), code=True)
+        auth        = fmt(r.get("auth") or "–")
+        badge       = stage_badge(r.get("stage", "Dev"))  # Badge kann Markdown/HTML sein
+        spec_url    = r.get("spec")
+        spec        = md_link(spec_url, spec_url) if spec_url else "–"
+        method      = fmt((r.get("method") or "–"))
+        method      = f"`{method.upper().strip('`')}`" if method != "–" else "–"
+        guid_hash   = fmt(r.get("guid_hash") or "–")
+        path_prefix = fmt(r.get("path_prefix"))
+        path_ents   = fmt(r.get("path_entities"))
 
         lines.append(
             f"| {name} | {base} | {auth} | {badge} | {spec} | {method} | {guid_hash} | {path_ents} | {path_prefix} | "
@@ -248,7 +209,6 @@ def render_group_table(group_key: str, rows: List[Dict]) -> str:
 
     lines.append("")  # trailing newline
     return "\n".join(lines)
-
 
 def write_overview_md(grouped: dict[str, list[dict]], out_path: Path) -> None:
     """
@@ -292,10 +252,6 @@ def _extract_path_entities(*texts: Any) -> list[str] | None:
     return seen or None
 
 # ----------------------------- Scan / Build Rows -----------------------------
-from collections.abc import Iterable
-from pathlib import Path
-import re
-
 def _as_list(v):
     if v is None:
         return []
@@ -308,11 +264,14 @@ def _as_list(v):
 
 def build_rows_from_sources(
     sources: Iterable[Path],
-    allowed_status: Iterable[str] = ("status/active",),  # Default: wie bisher
 ) -> tuple[list[dict], int, int]:
+    """
+    Traversiert source-Ordner, liest Frontmatter und baut Zeilen.
+    Exportiert **alle** Tags und **alle** status/*-Tags (keine Filterung).
+    Return: (rows, scanned_count, kept_count)
+    """
     rows: list[dict] = []
     scanned = kept = 0
-    allowed = set(allowed_status)
 
     for src in sources:
         if not src.exists():
@@ -325,10 +284,9 @@ def build_rows_from_sources(
             if not fm:
                 continue
 
-            ok, norm, matched = has_allowed_status(fm, allowed)
-            if not ok:
-                skip(f"no allowed status tag: {md} | tags={sorted(norm) or '<none>'}")
-                continue
+            # Alle Tags normalisieren und Status-Tags ableiten (keine Filterung)
+            norm_tags: set[str] = _normalize_tags(_extract_tags(fm))
+            status_list = sorted(t for t in norm_tags if t.startswith("status/"))
 
             family = derive_family(md, fm.get("family"))
             row = {
@@ -336,13 +294,13 @@ def build_rows_from_sources(
                 "family":      family,
                 "base":        fm.get("base") or fm.get("base_url") or "",
                 "auth":        fm.get("auth") or "",
-                "stage":       fm.get("stage") or "Dev",  # unverändert
+                "stage":       fm.get("stage") or "Dev",
                 "spec":        fm.get("spec") or "",
                 "path_prefix": fm.get("path_prefix") or "",
-                "status":      matched or "",             # (neu) für Ausgabe/Debug/Tabellen
+                "status":      status_list,          # alle status/* als Liste
+                "tags":        sorted(norm_tags),    # alle Tags (normalisiert)
+                "path":        str(md),
             }
-            # ... (Rest deiner Funktion unverändert)
-
 
             # method → String (bei Liste kommasepariert)
             m = fm.get("method")
@@ -392,6 +350,8 @@ def build_rows_from_sources(
 
             rows.append(row)
             kept += 1
+            if "THETAGTESTERFILER" in md.name:
+                info(f"[APPEND] added row for tester: {row.get('name')} | family={row.get('family')} | status={row.get('status')}")
 
     # Primär: Family, sekundär: Stage (definierte Ordnung), tertiär: Name
     rows.sort(key=lambda r: (
@@ -400,7 +360,6 @@ def build_rows_from_sources(
         r.get("name", "").lower()
     ))
     return rows, scanned, kept
-
 
 def group_rows(rows: list[dict]) -> dict[str, list[dict]]:
     """Gruppiert rows nach 'family' und sortiert jede Gruppe konsistent."""
