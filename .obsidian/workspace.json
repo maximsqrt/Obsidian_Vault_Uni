@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_myUFR.md",
+                "file": "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitrag_StrId.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrexx_IntraDev_myUFR"
+              "title": "Intrexx_IntraDev_Beitrag_StrId"
             }
           }
         ]
@@ -87,7 +87,7 @@
             }
           },
           {
-            "id": "3874e319389f66f0",
+            "id": "945f55bc243cdf3b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -97,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -232,44 +232,44 @@
   },
   "active": "d824e8114020d264",
   "lastOpenFiles": [
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formular_StrId.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachschaften.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Glossar.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Apptexte.md",
+    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fahrradverwaltung.md",
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GBeitraege.md",
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GFormulare.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Faecher.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studiengaenge.md",
     "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Fachberater.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
-    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studienganggruppen.md",
-    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
-    "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Pub.md",
-    "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_intraDev_New_Pub.md",
-    "API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Projekte.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Geodaten.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_myUFR.md",
+    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Standorte.md",
+    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen.md",
     "API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung/Intrexx_IntraDev_Fahrraeder.md",
-    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_fundsachen_odata.md",
-    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fahradverwaltung_odata.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Abschluesse.md",
+    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare.md",
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitraege.md",
+    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitrag_StrId.md",
+    "API_Map.md",
+    "Intrexx-IntraDev-Endpoint-Service-A-Z-gbeitraege.md",
+    "readme.md",
+    "TagViewFancySort.md",
+    "Team Integration.md",
+    "TestCanvas.canvas",
+    "Uni_Freiburg_Intranet_Canvas.canvas",
+    "Development_Stuff/Broken_APIs.base",
+    "API_Endpoints/OData-Dienste/Intranet/BaseURL_OData_Intranet.md",
+    "API_Endpoints/OData-Dienste/Intranet/OData_Intranet_scs_erhebung_v2.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_fundsachen_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_eucor_odata.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_nachrichtenredaktion_odata.md",
+    "Tags/#collection+datendrehscheibe",
     "Tags/#endpoint+getlogindomains",
     "Tags/#endpoint+download",
-    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
-    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen.md",
-    "API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Termingruppe.md",
-    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Standorte.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitraege.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare.md",
     "Tags/#endpoint+getsessioninfo",
     "Tags/#collection+portal",
     "Tags/#collection+fahrradverwaltung",
     "registry/overview.md.bak",
     "scripts/sort_overview_md.py",
-    "Development_Stuff/Broken_APIs.base",
-    "TestCanvas.canvas",
     "Development_Stuff",
-    "Uni_Freiburg_Intranet_Canvas.canvas",
-    "Development_Stuff/Intranet_IntraDev_Compare.base",
     "Pasted image 20250903145736.png",
     "Intrexx Map.canvas.canvas"
   ]

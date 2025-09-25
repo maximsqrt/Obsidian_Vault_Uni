@@ -8,9 +8,6 @@ Ohne Argumente (z. B. VS Code "Run Code"):
     - YAML wird automatisch unter ../registry/{apis.yml|apis.yaml} gesucht
     - Ausgabe: flache Gesamttabelle (ohne Owner-Spalte)
 
-Optional (wenn du doch im Terminal aufrufst):
-    python yaml_to_md.py --grouped --owner            # nutzt weiterhin ../registry/…
-    python yaml_to_md.py /pfad/zu/apis.yml --grouped  # expliziter Pfad überschreibt Auto-Suche
 """
 
 import sys, re, json, yaml
@@ -42,6 +39,45 @@ STAGE_COLOR = {
     "Deprecated": "lightgrey",
 }
 STAGE_ORDER = {"GA": 0, "Prod": 0, "Beta": 1, "Alpha": 2, "Dev": 3, "Deprecated": 9}
+
+# Neu: Mapping Status-Tag -> Stage
+_STATUS_TO_STAGE = {
+    "status/active":     "Prod",
+    "status/wip":        "Dev",
+    "status/deprecated": "Deprecated",
+    "status/http-4xx":   "Alpha",
+    "status/http-5xx":   "Alpha",
+}
+
+def _normalize_status(v) -> list[str]:
+    """Akzeptiert String oder Liste; gibt normalisierte (lowercase) Liste zurück."""
+    if not v:
+        return []
+    if isinstance(v, str):
+        return [v.strip().lower()]
+    if isinstance(v, (list, tuple, set)):
+        return [str(x).strip().lower() for x in v if str(x).strip()]
+    return [str(v).strip().lower()]
+
+def _stage_from_status_or_default(a: dict) -> str:
+    """
+    Erzeugt stage aus 'status' (falls vorhanden) über Mapping.
+    Fallback: vorhandene 'stage' oder 'Dev'.
+    Wenn mehrere Status vorhanden sind, nimm den 'besten' gem. Priorität unten.
+    """
+    statuses = _normalize_status(a.get("status"))
+    if statuses:
+        # Priorität innerhalb der bekannten Status
+        prio = ["status/http-5xx", "status/http-4xx", "status/deprecated", "status/wip", "status/active"]
+        for key in prio:
+            if key in statuses:
+                return _STATUS_TO_STAGE.get(key, a.get("stage") or "Dev")
+        # falls unbekannter Status-String reinläuft
+        for s in statuses:
+            if s in _STATUS_TO_STAGE:
+                return _STATUS_TO_STAGE[s]
+    return a.get("stage") or "Dev"
+
 
 def esc(s) -> str:
     """Markdown-escapes für Tabellen; robust für beliebige Typen."""
@@ -112,7 +148,7 @@ def load_apis_from_path(path: Path) -> list[dict]:
             "family":        canon_family(a.get("family")),
             "base":          a.get("base") or a.get("base_url") or "",
             "auth":          a.get("auth") or "",
-            "stage":         a.get("stage") or "Dev",
+            "stage":         _stage_from_status_or_default(a),  
             "spec":          a.get("spec") or "",
             "method":        a.get("method") or a.get("methods"),
             "guid_hash":     a.get("guid_hash") or "",

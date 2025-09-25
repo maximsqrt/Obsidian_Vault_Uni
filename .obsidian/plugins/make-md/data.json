@@ -75,7 +75,6 @@
     "//API_Endpoints/API_Endpoints/Intranet/API_Endpoints/Intranet/Intranet_Amtliche_Bekanntmachungen",
     "//Templates",
     "//Tags",
-    "//API_Endpoints",
     "//Intrexx_Rest_Documentation",
     "//Intrexx_Rest_Documentation/Intrexx_Rest_Documentation/Intrexx_Rest_Legacy",
     "//API_Endpoints/API_Endpoints/OData-Dienste",
@@ -83,7 +82,9 @@
     "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fahrradverwaltung",
     "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Fundsachen",
     "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_myUFR",
-    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Service_A-Z"
+    "//API_Endpoints/API_Endpoints/IntraDev/API_Endpoints/IntraDev/IntraDev_Service_A-Z",
+    "//Intrexx_Rest_Documentation/Intrexx_Rest_Documentation/Collections",
+    "//API_Endpoints"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

@@ -2,10 +2,11 @@ apis:
 - name: Datendrehscheibe - User (IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
   path_entities:
@@ -14,21 +15,23 @@ apis:
 - name: eucor_odata (IntraDev)
   family: intradev
   base: '[[BaseURL_OData_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /eucor_view
   owner: Team Integration
 - name: fahrradverwaltung_odata
   family: intradev
-  base: ''
-  auth: ''
+  base: '[[BaseURL_OData_IntraDev]]'
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /FAH_FAHRRAEDER
@@ -36,10 +39,11 @@ apis:
 - name: Fahrräder — fahrraeder (IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   path_entities:
@@ -48,10 +52,11 @@ apis:
 - name: fundsachen
   family: intradev
   base: '[[BaseURL_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   path_entities:
@@ -60,10 +65,11 @@ apis:
 - name: myUFR — abschluesse (IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -72,10 +78,11 @@ apis:
 - name: myUFR — apptexte (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -84,10 +91,11 @@ apis:
 - name: myUFR — fachberater (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -96,10 +104,11 @@ apis:
 - name: myUFR — fachschaften (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -108,10 +117,11 @@ apis:
 - name: myUFR — faecher (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -120,10 +130,11 @@ apis:
 - name: myUFR — geodaten (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -132,10 +143,11 @@ apis:
 - name: myUFR — glossar (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -144,10 +156,11 @@ apis:
 - name: myUFR — studiengaenge(IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -156,10 +169,11 @@ apis:
 - name: myUFR — studienganggruppen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -168,10 +182,11 @@ apis:
 - name: myUFR — termingruppe (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -180,10 +195,11 @@ apis:
 - name: myUFR — veranstaltungen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
   path_entities:
@@ -192,10 +208,11 @@ apis:
 - name: Nachrichten — amtlbek (IntraDev)
   family: intradev
   base: '[[BaseURL_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
   path_entities:
@@ -204,10 +221,11 @@ apis:
 - name: nachrichtenredaktion (IntraDev)
   family: intradev
   base: '[[BaseURL_OData_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /zuv_nachrichten
@@ -215,10 +233,11 @@ apis:
 - name: OdataAuthTest (IntraDev)
   family: intradev
   base: '[[BaseURL_OData_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /OdataAuthTest
@@ -226,10 +245,11 @@ apis:
 - name: Portal — download (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   path_entities:
   - /download
@@ -237,10 +257,11 @@ apis:
 - name: Portal — getAuthenticationTokenTypes (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   path_entities:
   - /getAuthenticationTokenTypes
@@ -248,10 +269,11 @@ apis:
 - name: Portal — getLoginDomains (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   path_entities:
   - /getLoginDomains
@@ -259,10 +281,11 @@ apis:
 - name: Portal — getSessionInfo (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   path_entities:
   - /getSessionInfo
@@ -270,10 +293,11 @@ apis:
 - name: Portal — login (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /login
@@ -281,10 +305,11 @@ apis:
 - name: Portal — logout (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /logout
@@ -292,10 +317,11 @@ apis:
 - name: Portal — upload (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /upload
@@ -303,19 +329,21 @@ apis:
 - name: Publikationen — publikationen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   owner: Team Integration
 - name: Publikationen — publikationenf (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
   path_entities:
@@ -324,10 +352,11 @@ apis:
 - name: SCS Studiengangverwaltung — studibesch (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -336,10 +365,11 @@ apis:
 - name: SCS Studiengangverwaltung — studig (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -348,10 +378,11 @@ apis:
 - name: SCS Studiengangverwaltung — studigaenge (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -360,10 +391,11 @@ apis:
 - name: Service A–Z — beitraege (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -372,10 +404,11 @@ apis:
 - name: Service A–Z — beitrag/{strid} (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -384,10 +417,11 @@ apis:
 - name: Service A–Z — formular/{strid} (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -396,10 +430,11 @@ apis:
 - name: Service A–Z — formulare (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -408,10 +443,11 @@ apis:
 - name: Service A–Z — gbeitraege (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -420,10 +456,11 @@ apis:
 - name: Service A–Z — gformulare (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
   path_entities:
@@ -431,11 +468,12 @@ apis:
   owner: Team Integration
 - name: standorte
   family: intradev
-  base: ''
-  auth: ''
+  base: '[[BaseURL_IntraDev]]'
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   path_entities:
@@ -444,10 +482,11 @@ apis:
 - name: stellenausschreibungen (IntraDev)
   family: intradev
   base: '[[BaseURL_OData_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - STA_STELLEN
@@ -460,10 +499,11 @@ apis:
 - name: Stellenausschreibungen — einstellungen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -472,10 +512,11 @@ apis:
 - name: Stellenausschreibungen — kategorien (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -484,10 +525,11 @@ apis:
 - name: Stellenausschreibungen — stelle (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -496,10 +538,11 @@ apis:
 - name: Stellenausschreibungen — stellen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -508,10 +551,11 @@ apis:
 - name: Stellenausschreibungen — Textbausteine (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -520,10 +564,11 @@ apis:
 - name: Studiengänge — abschluss (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -532,10 +577,11 @@ apis:
 - name: Studiengänge — auswahlverfahren (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -544,10 +590,11 @@ apis:
 - name: Studiengänge — bewerbungszeit (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -556,10 +603,11 @@ apis:
 - name: Studiengänge — fachberatung (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -568,10 +616,11 @@ apis:
 - name: Studiengänge — faechergruppe (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -580,10 +629,11 @@ apis:
 - name: Studiengänge — fakultaet (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -592,10 +642,11 @@ apis:
 - name: Studiengänge — infolinks (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -604,10 +655,11 @@ apis:
 - name: Studiengänge — modulhandbuecher (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -616,10 +668,11 @@ apis:
 - name: Studiengänge — satzungen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -628,10 +681,11 @@ apis:
 - name: Studiengänge — sprache (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -640,10 +694,11 @@ apis:
 - name: Studiengänge — studienbeginn (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -652,10 +707,11 @@ apis:
 - name: Studiengänge — studienbereich (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -664,10 +720,11 @@ apis:
 - name: Studiengänge — studiengaenge (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -676,10 +733,11 @@ apis:
 - name: Studiengänge — studiengaengfullview (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -688,10 +746,11 @@ apis:
 - name: Studiengänge — studientyp (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -700,10 +759,11 @@ apis:
 - name: Studiengänge — texte (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -712,10 +772,11 @@ apis:
 - name: Studiengänge — zulassung (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
   path_entities:
@@ -724,10 +785,11 @@ apis:
 - name: termine (IntraDev)
   family: intradev
   base: '[[BaseURL_OData_IntraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - VER_VERANSTALTUNGEN
@@ -738,10 +800,11 @@ apis:
 - name: Tests — new_pub (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -750,10 +813,11 @@ apis:
 - name: Tests — projekte (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -762,10 +826,11 @@ apis:
 - name: Tests — pub (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -774,10 +839,11 @@ apis:
 - name: Tests — study (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
   path_entities:
@@ -786,10 +852,11 @@ apis:
 - name: Veranstaltungen & Termine — termin/{strid} (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -798,10 +865,11 @@ apis:
 - name: Veranstaltungen & Termine — termine (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -810,10 +878,11 @@ apis:
 - name: Veranstaltungen & Termine — themen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -822,10 +891,11 @@ apis:
 - name: Veranstaltungen & Termine — vart/{strid} (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -834,10 +904,11 @@ apis:
 - name: Veranstaltungen & Termine — varten (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -846,10 +917,11 @@ apis:
 - name: Veranstaltungen & Termine — veranstaltung/{strid} (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -858,10 +930,11 @@ apis:
 - name: Veranstaltungen & Termine — veranstaltungen (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -870,10 +943,11 @@ apis:
 - name: Vergebene Aufträge — binnenmarkt (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -882,10 +956,11 @@ apis:
 - name: Vergebene Aufträge — rahmenvertraege (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -894,10 +969,11 @@ apis:
 - name: Vergebene Aufträge — vergeben (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -906,10 +982,11 @@ apis:
 - name: Vergebene Aufträge — vob (IntraDev)
   family: intradev
   base: '[[BaseURL_intraDev]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -918,10 +995,11 @@ apis:
 - name: amtlbek_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /BEKANNTMACHUNGEN$4
@@ -929,10 +1007,11 @@ apis:
 - name: amtlbek_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /eucor_view
@@ -940,10 +1019,11 @@ apis:
 - name: Binnenmarkt — binnenmarkt (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -952,10 +1032,11 @@ apis:
 - name: Einstellungen — einstellungen (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -964,10 +1045,11 @@ apis:
 - name: fachberater_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /fb_view$4
@@ -975,10 +1057,11 @@ apis:
 - name: fahrradverwaltung_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /FAH_FAHRRAEDER
@@ -986,10 +1069,11 @@ apis:
 - name: Fahrräder — fahrraeder (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
   path_entities:
@@ -998,10 +1082,11 @@ apis:
 - name: Fundsachen — fundsachen (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
   path_entities:
@@ -1010,10 +1095,11 @@ apis:
 - name: fundsachen_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /FAH_FUNDSACHEN
@@ -1022,10 +1108,11 @@ apis:
 - name: Kategorien — kategorien (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1034,10 +1121,11 @@ apis:
 - name: Nachrichten — amtlbek (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
   path_entities:
@@ -1046,10 +1134,11 @@ apis:
 - name: Portal — download (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   path_entities:
   - /download
@@ -1057,10 +1146,11 @@ apis:
 - name: Portal — getAuthenticationTokenTypes (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /getAuthenticationTokenTypes
@@ -1068,10 +1158,11 @@ apis:
 - name: Portal — getLoginDomains (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /getLoginDomains
@@ -1079,10 +1170,11 @@ apis:
 - name: Portal — getSessionInfo (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /getSessionInfo
@@ -1090,10 +1182,11 @@ apis:
 - name: Portal — login (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /login
@@ -1101,10 +1194,11 @@ apis:
 - name: Portal — logout (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /logout
@@ -1112,10 +1206,11 @@ apis:
 - name: Portal — upload (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: POST
   path_entities:
   - /upload
@@ -1123,10 +1218,11 @@ apis:
 - name: Rahmenverträge — rahmenvertraege (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1135,10 +1231,11 @@ apis:
 - name: Rahmenverträge — rahmenvertraege (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1147,10 +1244,11 @@ apis:
 - name: scs_erhebung
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /SCS_VERANSTALTUNG
@@ -1168,10 +1266,11 @@ apis:
 - name: scs_erhebung_v2
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /SCS_VERANSTALTUNG1
@@ -1186,10 +1285,11 @@ apis:
 - name: scs_erhebung_v3
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   path_entities:
   - /SCS_VERANSTALTUNG1
@@ -1204,19 +1304,21 @@ apis:
 - name: scs_erhebung_v4
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   owner: Team Integration
 - name: Stelle — stelle (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1225,10 +1327,11 @@ apis:
 - name: Stellen — stellen (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1237,19 +1340,21 @@ apis:
 - name: stellenausschreibungen_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   owner: Team Integration
 - name: Studiengänge — studibesch (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -1258,10 +1363,11 @@ apis:
 - name: Studiengänge — studig (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -1270,10 +1376,11 @@ apis:
 - name: Studiengänge — studigaenge (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
   path_entities:
@@ -1282,10 +1389,11 @@ apis:
 - name: Termin — termin (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1294,10 +1402,11 @@ apis:
 - name: Termine — termine (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1306,19 +1415,21 @@ apis:
 - name: termine_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   owner: Team Integration
 - name: Textbausteine — textbausteine (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 335908426702A4A4DE952E12187206B841B691C4
   path_entities:
@@ -1327,10 +1438,11 @@ apis:
 - name: Themen — themen (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1339,10 +1451,11 @@ apis:
 - name: Vart — vart (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1351,10 +1464,11 @@ apis:
 - name: Varten — varten (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1363,10 +1477,11 @@ apis:
 - name: Veranstaltung — veranstaltung (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1375,10 +1490,11 @@ apis:
 - name: Veranstaltungen — veranstaltungen (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
   path_entities:
@@ -1387,10 +1503,11 @@ apis:
 - name: Vergeben — vergeben (Intranet)
   family: intranet
   base: '[[BaseURL_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: /api/app
+  status: status/active
   method: GET
   guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
   path_entities:
@@ -1399,9 +1516,10 @@ apis:
 - name: vergebene_auftraege_odata
   family: intranet
   base: '[[BaseURL_OData_Intranet]]'
-  auth: ''
+  auth: x-api-key
   stage: Dev
   spec: ''
   path_prefix: ''
+  status: status/active
   method: GET
   owner: Team Integration

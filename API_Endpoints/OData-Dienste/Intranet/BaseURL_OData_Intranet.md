@@ -48,27 +48,3 @@ tags: [api, baseurl]
 
 ---
 
-
-
-#  Contract
-
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
-> ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
-# BaseURL_OData_IntraDev
-
-> ![ ](https://img.shields.io/badge/ODATA%20Base%20URL-%20-7e57c2?style=for-the-badge)
->
-> **Basis-URL:** `https://10.184.8.94:1246`  
-> 🔗 <https://10.184.8.94:1246>
-
----
-
-# BaseURL_OData_Intranet
-
-> ![ ](https://img.shields.io/badge/ODATA%20Base%20URL-%20-7e57c2?style=for-the-badge)
->
-> **Basis-URL:** `https://10.184.8.116:1246`  
-> 🔗 <https://10.184.8.116:1246>

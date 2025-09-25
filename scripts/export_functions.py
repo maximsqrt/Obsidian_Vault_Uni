@@ -88,6 +88,34 @@ def _normalize_tags(val) -> set[str]:
                 add_one(t)
     return out
 
+# Priorität (anpassen, falls gewünscht)
+_STATUS_PRIORITY = (
+    "status/http-5xx",
+    "status/http-4xx",
+    "status/deprecated",
+    "status/wip",
+    "status/active",
+)
+
+def get_status_tag(fm: dict) -> str | None:
+    """Gibt den ersten gefundenen Status-Tag nach Priorität zurück oder None."""
+    raw = _extract_tags(fm)
+    tags = _normalize_tags(raw)
+    for s in _STATUS_PRIORITY:
+        if s in tags:
+            return s
+    return None
+def has_allowed_status(fm: dict, allowed: set[str]) -> tuple[bool, set[str], str | None]:
+    raw  = _extract_tags(fm)
+    norm = _normalize_tags(raw)
+    present_allowed = norm & allowed
+    if not present_allowed:
+        return False, norm, None
+    # matched = höchst-priorisierter Status *innerhalb* der erlaubten, die auch gesetzt sind
+    matched = next((s for s in _STATUS_PRIORITY if s in present_allowed), next(iter(present_allowed)))
+    return True, norm, matched
+
+
 def _extract_tags(fm: dict):
     """Findet 'tags' key in beliebiger Groß-/Kleinschreibung."""
     for k, v in fm.items():
@@ -280,14 +308,11 @@ def _as_list(v):
 
 def build_rows_from_sources(
     sources: Iterable[Path],
+    allowed_status: Iterable[str] = ("status/active",),  # Default: wie bisher
 ) -> tuple[list[dict], int, int]:
-    """
-    Traversiert source-Ordner, liest Frontmatter und baut Zeilen.
-    Nur Einträge mit Tag 'status/active'.
-    Return: (rows, scanned_count, kept_count)
-    """
     rows: list[dict] = []
     scanned = kept = 0
+    allowed = set(allowed_status)
 
     for src in sources:
         if not src.exists():
@@ -300,9 +325,9 @@ def build_rows_from_sources(
             if not fm:
                 continue
 
-            ok, norm = has_status_active(fm)
+            ok, norm, matched = has_allowed_status(fm, allowed)
             if not ok:
-                skip(f"no 'status/active' tag: {md} | tags={sorted(norm) or '<none>'}")
+                skip(f"no allowed status tag: {md} | tags={sorted(norm) or '<none>'}")
                 continue
 
             family = derive_family(md, fm.get("family"))
@@ -311,10 +336,13 @@ def build_rows_from_sources(
                 "family":      family,
                 "base":        fm.get("base") or fm.get("base_url") or "",
                 "auth":        fm.get("auth") or "",
-                "stage":       fm.get("stage") or "Dev",
+                "stage":       fm.get("stage") or "Dev",  # unverändert
                 "spec":        fm.get("spec") or "",
                 "path_prefix": fm.get("path_prefix") or "",
+                "status":      matched or "",             # (neu) für Ausgabe/Debug/Tabellen
             }
+            # ... (Rest deiner Funktion unverändert)
+
 
             # method → String (bei Liste kommasepariert)
             m = fm.get("method")

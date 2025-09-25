@@ -28,7 +28,7 @@ last_checked: 2025-08-26
 ---
 #  Contract
 
-> [!abstract] API OVERVIEW
+> [!danger] API OVERVIEW
 > **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
 > ---
 > **QUERY** _tbd_  
