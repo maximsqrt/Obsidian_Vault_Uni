@@ -24,12 +24,12 @@ path_prefix: /api/app
 
 
 #  Contract
-
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # Stellenausschreibungen — Analyse (IntraDev)
 
 ## Endpoints
@@ -39,26 +39,7 @@ path_prefix: /api/app
 - [[Intrexx_IntraDev_Stellen]]
 - [[Intrexx_intraDev_Textbausteine]]
 
-## Status & Health
-- [ ] 200 OK je Endpoint
-- [ ] Auth / Rollen (Session/Cookie/Token) geklärt
-- [ ] Pagination/Filter (Listen)
-- [ ] Fehlermodell konsistent
-- [ ] Rate Limits/Quotas dokumentiert
 
-## Auth & Keys
-- Typ: _(oauth2 | bearer | basic | apikey | none)_  
-- Übergabe/Scopes: _…_
-
-## Nutzung & Owner
-- Consumer: _…_  
-- Nutzung: _aktiv / selten / unklar_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen / Nächste Schritte
-- _…_
 
 ## Relations
 > [!tip]

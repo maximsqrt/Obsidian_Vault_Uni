@@ -1,6 +1,6 @@
 ---
 type: key
-title: "Key Allgemein — Rahmenverträge (Intranet Prod)"
+title: Key Allgemein — Rahmenverträge (Intranet Prod)
 tags:
   - project/intrexx-rest-discovery
   - auth/key
@@ -10,19 +10,15 @@ tags:
   - env/prod
   - exposure/internal-live
   - role/allgemein
-owner: "Team Integration"
-key_id: "Rahmenverträge"
-key_type: "tbd"
-auth_flow: "tbd"
-secret_ref: "vault://intrexx/intranet/prod/vergebene-auftraege/Rahmenvertraege"
+  - TODO
+owner: Team Integration
+key_id: Rahmenverträge
+key_type: tbd
+auth_flow: tbd
+secret_ref: vault://intrexx/intranet/prod/vergebene-auftraege/Rahmenvertraege
 endpoints_count: 4
-usage_refs:
-  - [[Intrexx-Intranet-API-Vergebene-Auftraege]]
+usage_refs: "[[STATUS UNKNOWN]]"
 endpoint_refs:
-  - /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/rahmenvertraege
-  - /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vob
-  - /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/binnenmarkt
-  - /api/app/E14074D19E1FB8644E124BC295F886FDED6CBE51/vergeben
 last_checked: YYYY-MM-DD
 ---
 

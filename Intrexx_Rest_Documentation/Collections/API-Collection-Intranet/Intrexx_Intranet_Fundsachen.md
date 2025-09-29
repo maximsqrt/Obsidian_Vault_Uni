@@ -24,34 +24,16 @@ path_prefix: /api/app
 
 #  Contract
 
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # Fundsachen — Analyse
 
 ## Endpoints
-- `GET` <[[BaseURL_Intranet]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen>
-
-## Status & Health
-- [ ] 200 OK
-- [ ] Auth / Rollen
-- [ ] Pagination
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ: _…_ — Ort/Parameter: _…_
-
-## Nutzung & Owner
-- _…_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen
-- _…_
+- [[API_Endpoints/Intranet/intranet_Fundsachen/Intrexx_Intranet_Fundsachen|Intrexx_Intranet_Fundsachen]]
 
 ## Relations
 > [!tip]

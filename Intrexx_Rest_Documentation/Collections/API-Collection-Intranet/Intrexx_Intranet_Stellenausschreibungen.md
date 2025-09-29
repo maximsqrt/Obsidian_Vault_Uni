@@ -23,20 +23,21 @@ path_prefix: /api/app
 
 
 #  Contract
-
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # Stellenausschreibungen — Analyse
 
+
 ## Endpoints
-- `GET` <[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/stellen>
-- `GET` <[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/stelle>
-- `GET` <[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/textbausteine>
-- `GET` <[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/kategorien>
-- `GET` <[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4/einstellungen>
+- [[Intrexx_Intranet_Einstellungen]]
+- [[Intrexx_Intranet_Kategorien]]
+- [[Intrexx_Intranet_Stelle]]
+- [[Intrexx_Intranet_Stellen]]
+- [[Intrexx_intranet_Textbausteine]]
 
 ## Status & Health
 - [ ] 200 OK alle Endpunkte
@@ -45,17 +46,7 @@ path_prefix: /api/app
 - [ ] Fehlermodell konsistent
 - [ ] Rate Limits / Throttling
 
-## Auth & Keys
-- Typ: _…_ — Ort/Parameter: _…_
 
-## Nutzung & Owner
-- Consumer: _…_ — Nutzung: _aktiv/selten/unklar_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen
-- _…_
 ## Relations
 > [!tip]
 > [[Intrexx_Intranet_Legacy]]

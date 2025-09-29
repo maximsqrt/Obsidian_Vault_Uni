@@ -24,15 +24,16 @@ path_prefix: /api/app
 
 #  Contract
 
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # Fahrradverwaltung — Analyse
 
 ## Endpoints
-- `GET` <[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder>
+- [[Intrexx_Intranet_Fahrradverwaltung]]
 
 ## Status & Health
 - [ ] 200 OK  – Schema plausibel

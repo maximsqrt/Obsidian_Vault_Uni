@@ -11,10 +11,10 @@ tags:
   - spec/none
   - auth/tbd
 owner: Team Integration
-service_owner: "\n"
+service_owner:
 status: active
 version_primary: v1
-service_url: https://intranet.example.tld/<pfad>
+service_url:
 openapi_url: ""
 postman_collection: ""
 last_reviewed: YYYY-MM-DD

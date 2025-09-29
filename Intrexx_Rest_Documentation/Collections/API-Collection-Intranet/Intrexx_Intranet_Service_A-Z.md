@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx IntraDev API — Tests
+title: Intrexx_Intranet_Service_A-Z
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -10,13 +10,13 @@ tags:
   - status/wip
   - spec/none
   - lang/de
-  - collection/tests
+  - collection/service-a-z
   - api/collection
 owner: Team Integration
-guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
-api_base: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3"
-endpoints_count: 4
+guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+base_url: "[[BaseURL_Intranet]]"
+api_base: "[[BaseURL_Intranet]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173"
+endpoints_count: 6
 last_checked: YYYY-MM-DD
 path_prefix: /api/app
 ---
@@ -31,17 +31,20 @@ path_prefix: /api/app
 > **QUERY** _tbd_ `¯\_(ツ)_/¯`  
 > **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
 
-# Tests — Analyse (IntraDev)
+# Service A–Z — Analyse
 
-## Endpoints
 
-- [[API_Endpoints/IntraDev/IntraDev_TestEnv/Intrexx_IntraDev_Projekte|Intrexx_IntraDev_Projekte]]
-
-- [[Intrexx_IntraDev_Pub]]
-
-- [[Intrexx_intraDev_New_Pub]]
+- [[Intranet_beitraege]]
     
-- [[Intrexx_intraDev_Study]]
+- [[Intrexx_IntraDev_Beitrag_StrId]]
+    
+- [[Intrexx_IntraDev_Formular_StrId]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GFormulare]]
+    
+- [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GBeitraege]]
 
 ## Status & Health
 - [ ] 200 OK je Endpoint
@@ -52,11 +55,11 @@ path_prefix: /api/app
 
 ## Auth & Keys
 - Typ: _(oauth2 | bearer | basic | apikey | none)_  
-- Übergabe/Scopes: _…_  
-- Cookies/Headers (Namen, SameSite, Domain): _…_
+- Übergabe: _(Header `Authorization`, Cookie, Query …)_  
+- Scopes/Rollen: _…_
 
 ## Nutzung & Owner
-- Consumer/Use-Cases: _…_  
+- Consumer: _…_  
 - Nutzung: _aktiv / selten / unklar_
 
 ## Probleme / Risiken

@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
 auth: x-api-key
-
 title: Studiengänge — studigaenge (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -21,9 +20,9 @@ guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
 base_url: "[[BaseURL_Intranet]]"
 path_prefix: /api/app
 path_entities:
-  - "/studigaenge"
+  - /studigaenge
 method: GET
-collection_ref: "[[Intrexx_intranet_Studiengaenge]]"
+collection_ref: "[[Intrexx_Intranet_Studiengaenge]]"
 last_checked: YYYY-MM-DD
 ---
 

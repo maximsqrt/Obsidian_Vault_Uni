@@ -21,11 +21,12 @@ last_checked: YYYY-MM-DD
 
 #  Contract
 
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # Portal API (Dev) — Analyse
 
 ## Endpoints

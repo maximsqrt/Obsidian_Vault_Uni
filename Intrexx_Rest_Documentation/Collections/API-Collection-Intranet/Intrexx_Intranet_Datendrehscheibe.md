@@ -1,20 +1,23 @@
 ---
 type: api-collection
-title: Intrexx Intranet — Portal API (Prod)
+title: Intrexx_intranet_Amtliche_Bekanntmachungen
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
-  - app/portal
+  - app/intranet
   - env/prod
   - exposure/internal-live
   - status/wip
   - spec/none
   - lang/de
-  - collection/portal
+  - collection/amtliche-bekanntmachungen
   - api/collection
 owner: Team Integration
-base_url: https://<intranet-domain>
+guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
+api_base: "[[BaseURL_Intranet]]/api/app/6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5"
+endpoints_count: 1
 last_checked: YYYY-MM-DD
+path_prefix: /api/app
 ---
 
 
@@ -27,17 +30,10 @@ last_checked: YYYY-MM-DD
 > **QUERY** _tbd_ `¯\_(ツ)_/¯`  
 > **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
 
-# Portal API (Prod) — Analyse
+# Amtliche Bekanntmachungen — Analyse
 
 ## Endpoints
-- [[Intrexx_Intranet_getAuthenticationTokenTypes]]
-- [[Intrexx_intranet_getLoginDomains]]
-- [[Intrexx_Intranet_GetSessionInfo|Intrexx_intraDev_GetSessionInfo]]
-- [[Intrexx_Intranet_login]]
-- [[Intrexx_Intranet_logout]]
-- [[Intrexx_Intranet_Upload]]
-- [[Intrexx_Intranet_download]]
-
+- [[Intrexx_Intranet_amtlbk]]
 
 
 ## Relations

@@ -7,9 +7,9 @@ tags:
   - key/status/review
   - system/intrexx
   - app/intranet
-  - env/prod
   - exposure/internal-live
   - role/service-a-z
+  - TODO
 owner: Team Integration
 key_id: APIKEY SAZ
 key_type: tbd
@@ -18,8 +18,7 @@ auth_flow: tbd
 secret_ref: vault://intrexx/intranet/prod/service-a-z/APIKEY-SAZ
 endpoints_count: 7
 usage_refs:
-  - - - Intrexx-Intranet-API-Service-A-Z
-  - - - Intrexx_IntraDev_Service_A-Z
+  - Intrexx_intranet_S
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

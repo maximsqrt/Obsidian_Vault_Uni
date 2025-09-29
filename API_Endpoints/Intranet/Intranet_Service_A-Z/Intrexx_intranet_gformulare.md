@@ -1,32 +1,30 @@
 ---
 type: api-endpoint
 auth: x-api-key
-title: Vergebene Aufträge — rahmenvertraege (IntraDev)
+title: Service A–Z — beitraege (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
   - app/intradev
   - env/dev
   - exposure/internal-nonprod
-  - collection/vergebene-auftraege
+  - collection/service-a-z
   - status/wip
   - spec/none
   - lang/de
-  - endpoint/rahmenvertraege
+  - endpoint/beitraege
   - method/get
   - status/active
 owner: Team Integration
-guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
-base_url: "[[BaseURL_intraDev]]"
+guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+base_url: "[[BaseURL_Intranet]]"
 path_prefix: /api/app
 path_entities:
-  - /rahmenvertraege
+  - /beitraege
 method: GET
-collection_ref: "[[Intrexx_IntraDev_Vergebene_Aufträge]]"
-last_checked: 2025-08-27
+collection_ref: "[[Intrexx_Intranet_Service_A-Z]]"
+last_checked: 2025-08-26
 ---
-
-
 #  Contract
 
 > [!danger] API OVERVIEW
@@ -34,6 +32,10 @@ last_checked: 2025-08-27
 > ---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
+
+
+
+
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

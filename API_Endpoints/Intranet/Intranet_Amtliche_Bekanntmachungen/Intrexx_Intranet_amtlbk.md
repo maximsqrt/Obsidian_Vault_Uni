@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
 auth: x-api-key
-
 title: Nachrichten — amtlbek (Intranet)
 tags:
   - project/intrexx-rest-discovery
@@ -18,7 +17,7 @@ base_url: "[[BaseURL_Intranet]]"
 path_entities:
   - /amtlbek
 method: GET
-collection_ref: "[[Intrexx_intranet_Amtliche_Bekanntmachungen]]"
+collection_ref: "[[Intrexx_Intranet_Datendrehscheibe]]"
 last_checked: YYYY-MM-DD
 path_prefix: /api/app
 ---

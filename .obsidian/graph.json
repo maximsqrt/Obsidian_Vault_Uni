@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#TODO",
+      "color": {
+        "a": 1,
+        "rgb": 16711914
+      }
+    },
+    {
       "query": "tag:#api/root",
       "color": {
         "a": 1,
@@ -50,13 +57,6 @@
       }
     },
     {
-      "query": "tag:#placeholder2",
-      "color": {
-        "a": 1,
-        "rgb": 16096779
-      }
-    },
-    {
       "query": "tag:#placeholder3",
       "color": {
         "a": 1,
@@ -74,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.38684730028198955,
+  "scale": 0.3868473002819885,
   "close": false
 }

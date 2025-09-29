@@ -10,14 +10,14 @@ tags:
   - env/prod
   - exposure/internal-live
   - role/fundsachen
-owner: "Team Integration"
-key_id: "Fundsachen"
-key_type: "tbd"
-auth_flow: "tbd"
-secret_ref: "vault://intrexx/intranet/prod/fundsachen/Fundsachen"
+  - "#TODO"
+owner: Team Integration
+key_id: Fundsachen
+key_type: tbd
+auth_flow: tbd
+secret_ref: vault://intrexx/intranet/prod/fundsachen/Fundsachen
 endpoints_count: 1
-usage_refs:
-  - [[Intrexx-Intranet-API-Fundsachen]]
+usage_refs: "[[API_Endpoints/Intranet/intranet_Fundsachen/Intrexx_Intranet_Fundsachen|Intrexx_Intranet_Fundsachen]]"
 endpoint_refs:
   - /api/app/56E423A507C34F76FD114442921B0AF44BA57B88/fundsachen
 last_checked: YYYY-MM-DD

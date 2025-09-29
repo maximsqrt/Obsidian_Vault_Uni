@@ -25,35 +25,19 @@ path_prefix: /api/app
 
 #  Contract
 
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # SCS Studiengangverwaltung — Analyse
 
 ## Endpoints
 - [[Intrexx_IntraDev_Studibesch]]
 - [[Intrexx_IntraDev_Studig]]
 - [[API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studiengaenge|Intrexx_IntraDev_Studiengaenge]]
-## Status & Health
-- [ ] 200 OK (alle)
-- [ ] Auth / Rollen
-- [ ] Pagination/Filter
-- [ ] Fehlermodell
-- [ ] Rate Limits
 
-## Auth & Keys
-- Typ / Ort: _tbd_
-
-## Nutzung & Owner
-- _tbd_
-
-## Probleme / Risiken
-- _tbd_
-
-## Maßnahmen
-- _tbd_
 
 ## Relations
 > [!tip]

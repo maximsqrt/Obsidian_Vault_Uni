@@ -10,14 +10,15 @@ tags:
   - env/prod
   - exposure/internal-live
   - role/studiengangverwaltung
-owner: "Team Integration"
-key_id: "Studiengangverwaltung"
-key_type: "tbd"
-auth_flow: "tbd"
-secret_ref: "vault://intrexx/intranet/prod/studiengaenge/Studiengangverwaltung"
+owner: Team Integration
+key_id: Studiengangverwaltung
+key_type: tbd
+auth_flow: tbd
+secret_ref: vault://intrexx/intranet/prod/studiengaenge/Studiengangverwaltung
 endpoints_count: 3
 usage_refs:
-  - [[Intrexx-Intranet-API-Studiengaenge]]
+  - ""
+  - "[[Intrexx_Studiengangv"
 endpoint_refs: []
 last_checked: YYYY-MM-DD
 ---

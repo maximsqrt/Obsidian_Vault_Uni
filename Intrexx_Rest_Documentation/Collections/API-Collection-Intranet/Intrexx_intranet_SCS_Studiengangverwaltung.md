@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx Intranet API — Studiengänge
+title: Intrexx_intranet_Studiengaenge
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -23,39 +23,21 @@ path_prefix: /api/app
 
 
 #  Contract
-
-> [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
+> [!danger] API OVERVIEW `¯\_(ツ)_/¯`
+> **API_BASE** `=upper(this.api_base)`
 > ---
-> **QUERY** _tbd_  
-> **RESPONSE** _tbd_
+> **QUERY** _tbd_ `¯\_(ツ)_/¯`  
+> **RESPONSE** _tbd_ `¯\_(ツ)_/¯`
+
 # Studiengänge — Analyse
 
-## Endpoints
+
 ## Endpoints
 - [[Intrexx_Intranet_Studibesch]]
-- [[API_Endpoints/Intranet/Intranet_Studiengaenge/Intrexx_Intranet_Studiengaenge]]
+- [[Intrexx_Intranet_Studiengaenge]]
 - [[Intrexx_Intranet_Studig]]
 
 
-## Status & Health
-- [ ] 200 OK
-- [ ] Auth / Rollen
-- [ ] Pagination/Filter
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ / Ort: _…_
-
-## Nutzung & Owner
-- _…_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen
-- _…_
 
 ## Relations
 > [!tip]
