@@ -1,6 +1,6 @@
 ---
 type: doc-link
-title: "Intrexx IntraDev REST — External Docs"
+title: Intrexx_IntraDev_REST_DocLink
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -8,10 +8,10 @@ tags:
   - env/dev
   - status/wip
   - doc/external
-  - spec/openapi             # falls Postman: spec/postman
+  - spec/openapi
   - lang/en
-owner: "Team Integration"
-doc_url: "https://<swagger-oder-confluence-url-dev>"
+owner: Team Integration
+doc_url:
 last_checked: YYYY-MM-DD
 path_prefix: /api/app
 ---
@@ -27,8 +27,6 @@ path_prefix: /api/app
 > **RESPONSE** _tbd_
 # Intrexx IntraDev REST — External Docs
 
-**Primary link:** <https://<swagger-oder-confluence-url-dev>>
 
 ## Relations
-Parents:: [[Intrexx-REST-Discovery]], [[Inventory-Intrexx]]
-Links:: [[Intrexx-REST-3Wochen]], [[Dashboard_API_BASE]], [[Intrexx-Intradev-Docu]]
+

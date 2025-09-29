@@ -11,10 +11,13 @@
             "id": "d824e8114020d264",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "bases",
+              "state": {
+                "file": "Development_Stuff/Broken_APIs.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Broken_APIs"
             }
           }
         ]
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "base_url",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,14 +89,29 @@
             "id": "62ea254c3d34b42d",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
+              "type": "mk-space",
+              "state": {
+                "path": "Intrexx_Rest_Documentation/Collections/Intrexx_GUID"
+              },
+              "icon": "lucide-file",
+              "title": "Intrexx_GUID"
+            }
+          },
+          {
+            "id": "2d3443a6133c181e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -228,35 +246,34 @@
   },
   "active": "d824e8114020d264",
   "lastOpenFiles": [
+    "Development_Stuff/CompareAPI.base",
+    "Intrexx_Rest_Documentation/Intrexx-Intranet-Documentation.md",
+    "Intrexx_Rest_Documentation/Intrexx-Intradev-Documentation.md",
+    "API_Endpoints/OData-Dienste/OData-Dienste.md",
+    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Service_A_Z_Prod.md",
+    "TagViewFancySort.md",
+    "….md",
+    "API_Endpoints/IntraDev/IntraDev_Vergebene_Aufträge/Intrexx_IntraDev_Vergeben.md",
+    "API_Endpoints/IntraDev/IntraDev_Vergebene_Aufträge/Intrexx-IntraDev-API-Vergebene-Auftraege.md",
+    "API_Endpoints/IntraDev/IntraDev_Vergebene_Aufträge/Intrexx_IntraDev_Rahmenverträge.md",
+    "Intrexx_Rest_Documentation/Collections/Intrexx_GUID/IntraDev_SCS_Studiengangverwaltung.md",
+    "API_Endpoints/IntraDev/IntraDev_Vergebene_Aufträge/Intrexx_IntraDev_Binnenmarkt.md",
+    "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx_IntraDev_REST_DocLink.md",
+    "Team Integration.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fahrradverwaltung.md",
     "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Fundsachen.md",
     "API_Endpoints/IntraDev/IntraDev_Vergebene_Aufträge/Intrexx_IntraDev_VOB.md",
     "API_Endpoints/OData-Dienste/OData_Hinweise_und_Erläuterungen.md",
-    "TagViewFancySort.md",
     "Intrexx_Rest_Documentation/Intrexx_Rest_Legacy/Intrexx_IntraDev/Intrexx_Intradev_Legacy.md",
     "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Nachrichten.md",
     "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intexx_IntraDev_SCS_Studiengangverwaltung.md",
     "API_Map.md",
-    "Development_Stuff/CompareAPI.base",
     "Development_Stuff/Broken_APIs.base",
     "Development_Stuff/Flowchart.md",
     "Development_Stuff/DataView Compare.md",
     "API_Endpoints/_Env_IntraDev.md",
     "Tags/#api",
     "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_IntraDev_Service_A_Z_Dev.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Test_Dev.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_IntraDev_Service_A_Z_Apikey_SAZ_Dev.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Publikationen_Dev.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Projekte_Dev.md",
-    "Intrexx-IntraDev-Endpoint-Service-A-Z-beitraege.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Service_A-Z.md",
-    "Intrexx_IntraDev_.md",
-    "Intrexx-IntraDev-API-Vergebene-Auftraege.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Untitled.md",
-    "registry/overview.md",
-    "Templates/API Endpoints.md",
-    "API_Endpoints/OData-Dienste/Intranet/BaseURL_OData_Intranet.md",
-    "API_Endpoints/OData-Dienste/OData-Dienste.md",
-    "Intrexx_Rest_Documentation/Collections/Intrexx_GUID/IntraDev_SCS_Studiengangverwaltung.md",
     "Development_Stuff/Intranet_IntraDev_Compare.base",
     "WIP_APIS.base",
     "TestCanvas.canvas",

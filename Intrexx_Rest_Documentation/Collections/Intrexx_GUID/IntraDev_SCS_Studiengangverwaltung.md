@@ -9,7 +9,7 @@ tags:
 owner: "[[Team Integration]]"
 guid_hash: 07B8BAFC83EF90BE995EC565B0EFB7512E0538E3
 guid_hash_format: hex160
-guid_hash_source: "[[Intrexx_IntraDev_REST_DocLink]]"
+guid_hash_source:
 last_verified: 2025-09-16
 info: https://help.intrexx.com/intrexx/steady/de-de/Content/OH/glossary/glossary-guid.html
 path_prefix: /api/app

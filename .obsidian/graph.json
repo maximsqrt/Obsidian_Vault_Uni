@@ -11,49 +11,56 @@
       "query": "tag:#api/root",
       "color": {
         "a": 1,
-        "rgb": 9830619
+        "rgb": 9647082
       }
     },
     {
       "query": "tag:#status/http-5xx",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 16007006
       }
     },
     {
       "query": "tag:#status/http-4xx  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 16007006
       }
     },
     {
       "query": "tag:#status/active",
       "color": {
         "a": 1,
-        "rgb": 7981891
-      }
-    },
-    {
-      "query": "tag:#status/deprecated",
-      "color": {
-        "a": 1,
-        "rgb": 6908265
-      }
-    },
-    {
-      "query": "tag:#risk/high",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
+        "rgb": 1096065
       }
     },
     {
       "query": "tag:#api/collection  ",
       "color": {
         "a": 1,
-        "rgb": 255
+        "rgb": 6514417
+      }
+    },
+    {
+      "query": "tag:#devXperiamental",
+      "color": {
+        "a": 1,
+        "rgb": 11600127
+      }
+    },
+    {
+      "query": "tag:#placeholder2",
+      "color": {
+        "a": 1,
+        "rgb": 16096779
+      }
+    },
+    {
+      "query": "tag:#placeholder3",
+      "color": {
+        "a": 1,
+        "rgb": 6583435
       }
     }
   ],
@@ -67,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.2759286870728792,
+  "scale": 0.38684730028198955,
   "close": false
 }
