@@ -11,6 +11,7 @@ tags:
   - lang/de
   - collection/nachrichten
   - exposure/internal-nonprod
+  - api/collection
 owner: Team Integration
 guid_hash: 6731A8BF6579F6E079F2913C8FA92ADC4EACA7C5
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

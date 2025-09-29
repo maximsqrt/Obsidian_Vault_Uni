@@ -11,6 +11,7 @@ tags:
   - lang/de
   - collection/portal
   - exposure/internal-nonprod
+  - api/collection
 owner: Team Integration
 base_url: https://<intradev-domain>
 last_checked: YYYY-MM-DD

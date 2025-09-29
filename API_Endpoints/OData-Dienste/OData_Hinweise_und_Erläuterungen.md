@@ -1,11 +1,12 @@
 ---
 type: note
-title: OData — Hinweise & Erläuterungen
+title: OData_Hinweise_und_Erläuterungen
 tags:
   - spec/odata-v4
   - guideline
   - lang/de
   - collection/datendrehscheibe
+  - api/collection
 owner: Team Integration
 last_reviewed: 2025-09-03
 ---

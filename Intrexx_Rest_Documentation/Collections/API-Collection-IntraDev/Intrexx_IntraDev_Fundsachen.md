@@ -11,6 +11,7 @@ tags:
   - lang/de
   - collection/fundsachen
   - exposure/internal-nonprod
+  - api/collection
 owner: Team Integration
 guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
@@ -33,7 +34,7 @@ path_prefix: /api/app
 
 ## Endpoints
 - [[API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen|Intrexx_IntraDev_Fundsachen]]
-- [[Intrexx_IntraDev_]]
+- [[Intrexx_IntraDev_Standorte]]
 
 ## Status & Health
 - [ ] 200 OK (beide)

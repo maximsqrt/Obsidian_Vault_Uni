@@ -11,6 +11,7 @@ tags:
   - lang/de
   - collection/datendrehscheibe
   - exposure/internal-nonprod
+  - api/collection
 owner: "[[Team Integration]]"
 guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

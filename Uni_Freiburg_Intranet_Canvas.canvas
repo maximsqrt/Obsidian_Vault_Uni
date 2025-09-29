@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"03c1e24b7d94f0ed","type":"link","url":"https://intranet.uni-freiburg.de/#{1}","x":-3520,"y":-800,"width":3880,"height":1140},
-		{"id":"c5c70e4e37b929f3","type":"file","file":"API_Map.md","x":5200,"y":-1440,"width":10480,"height":5560}
-	],
-	"edges":[]
-}

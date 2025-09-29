@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx Intranet API — Fahrradverwaltung"
+title: Intrexx Intranet API — Fahrradverwaltung
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,8 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/fahrradverwaltung
-owner: "Team Integration"
-guid_hash: "43FCB1E50030712AA3E5E8C30402319D1ED66995"
+  - api/collection
+owner: Team Integration
+guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
 api_base: "[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995"
 endpoints_count: 1
 last_checked: YYYY-MM-DD

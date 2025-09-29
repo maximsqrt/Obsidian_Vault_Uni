@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
 auth: x-api-key
-
 title: Vergebene Aufträge — vob (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -21,9 +20,9 @@ guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
 path_entities:
-  - "/vob"
+  - /vob
 method: GET
-collection_ref: "[[Intrexx-IntraDev-API-Vergebene-Auftraege]]"
+collection_ref: "[[Intrexx_IntraDev_Vergebene_Aufträge]]"
 last_checked: 2025-08-27
 ---
 

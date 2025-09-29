@@ -11,6 +11,7 @@ tags:
   - spec/none
   - lang/de
   - collection/vergebene-auftraege
+  - api/collection
 owner: Team Integration
 guid_hash: E14074D19E1FB8644E124BC295F886FDED6CBE51
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

@@ -1,7 +1,11 @@
 ---
-aliases: [BASEURL]
+aliases:
+  - BASEURL
 url: https://intradev.zv.uni-freiburg.de
-tags: [api, baseurl]
+tags:
+  - api
+  - baseurl
+  - api/root
 ---
 
 # BASEURL

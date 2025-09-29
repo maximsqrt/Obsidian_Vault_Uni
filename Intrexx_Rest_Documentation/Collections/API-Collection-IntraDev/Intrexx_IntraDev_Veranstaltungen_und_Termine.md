@@ -11,6 +11,7 @@ tags:
   - spec/none
   - lang/de
   - collection/veranstaltungen-und-termine
+  - api/collection
 owner: Team Integration
 guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

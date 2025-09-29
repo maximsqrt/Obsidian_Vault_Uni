@@ -11,6 +11,7 @@ tags:
   - spec/none
   - lang/de
   - collection/myufr
+  - api/collection
 owner: Team Integration
 guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
 base_url: "[[BaseURL_IntraDev]]"

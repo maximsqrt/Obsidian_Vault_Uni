@@ -8,10 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#api/root",
+      "color": {
+        "a": 1,
+        "rgb": 9830619
+      }
+    },
+    {
       "query": "tag:#status/http-5xx",
       "color": {
         "a": 1,
-        "rgb": 10027263
+        "rgb": 16711680
       }
     },
     {
@@ -25,7 +32,7 @@
       "query": "tag:#status/active",
       "color": {
         "a": 1,
-        "rgb": 6749952
+        "rgb": 7981891
       }
     },
     {
@@ -36,13 +43,6 @@
       }
     },
     {
-      "query": "tag:#status/retired",
-      "color": {
-        "a": 1,
-        "rgb": 3552822
-      }
-    },
-    {
       "query": "tag:#risk/high",
       "color": {
         "a": 1,
@@ -50,15 +50,15 @@
       }
     },
     {
-      "query": "tag:#risk/medium",
+      "query": "tag:#api/collection  ",
       "color": {
         "a": 1,
-        "rgb": 13464867
+        "rgb": 255
       }
     }
   ],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": -1.3,
   "nodeSizeMultiplier": 1.91197916666667,
   "lineSizeMultiplier": 2.85625,
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.27592868707287976,
+  "scale": 0.2759286870728792,
   "close": false
 }

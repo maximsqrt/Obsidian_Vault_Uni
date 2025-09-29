@@ -11,6 +11,7 @@ tags:
   - spec/none
   - lang/de
   - collection/tests
+  - api/collection
 owner: Team Integration
 guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

@@ -1,8 +1,13 @@
 ---
-aliases: [INTRANET_BASEURL, INTRANET]
+aliases:
+  - INTRANET_BASEURL
+  - INTRANET
 path_entities:
   - https://intranet.uni-freiburg.de
-tags: [intranet, baseurl]
+tags:
+  - intranet
+  - baseurl
+  - api/root
 ---
 
 

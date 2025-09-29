@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx Intranet API — Fundsachen"
+title: Intrexx Intranet API — Fundsachen
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,8 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/fundsachen
-owner: "Team Integration"
-guid_hash: "56E423A507C34F76FD114442921B0AF44BA57B88"
+  - api/collection
+owner: Team Integration
+guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 api_base: "[[BaseURL_Intranet]]/api/app/56E423A507C34F76FD114442921B0AF44BA57B88"
 endpoints_count: 1
 last_checked: YYYY-MM-DD

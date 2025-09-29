@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx Intranet API — Stellenausschreibungen"
+title: Intrexx Intranet API — Stellenausschreibungen
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,8 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/stellenausschreibungen
-owner: "Team Integration"
-guid_hash: "335908426702A4A4DE952E12187206B841B691C4"
+  - api/collection
+owner: Team Integration
+guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 api_base: "[[BaseURL_Intranet]]/api/app/335908426702A4A4DE952E12187206B841B691C4"
 endpoints_count: 5
 last_checked: YYYY-MM-DD

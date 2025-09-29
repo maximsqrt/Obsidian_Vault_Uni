@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx IntraDev API — Service A–Z
+title: Intrexx_IntraDev_Service_A-Z
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,6 +11,7 @@ tags:
   - spec/none
   - lang/de
   - collection/service-a-z
+  - api/collection
 owner: Team Integration
 guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

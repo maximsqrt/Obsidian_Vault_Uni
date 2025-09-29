@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: "Intrexx Intranet API — Veranstaltungen und Termine"
+title: Intrexx Intranet API — Veranstaltungen und Termine
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -11,8 +11,9 @@ tags:
   - spec/none
   - lang/de
   - collection/veranstaltungen-und-termine
-owner: "Team Integration"
-guid_hash: "1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
+  - api/collection
+owner: Team Integration
+guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 api_base: "[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A"
 endpoints_count: 7
 last_checked: YYYY-MM-DD

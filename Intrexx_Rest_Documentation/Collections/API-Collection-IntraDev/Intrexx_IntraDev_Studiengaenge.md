@@ -11,6 +11,7 @@ tags:
   - spec/none
   - lang/de
   - collection/studiengaenge
+  - api/collection
 owner: Team Integration
 guid_hash: EC0FC1578BEB59BB5BA7B1A9C0102593E74FAB1F
 base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"

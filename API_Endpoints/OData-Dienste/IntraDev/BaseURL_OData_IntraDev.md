@@ -1,7 +1,11 @@
 ---
-aliases: [BASEURL]
+aliases:
+  - BASEURL
 url: https://10.184.8.94:1246
-tags: [api, baseurl]
+tags:
+  - api
+  - baseurl
+  - api/root
 ---
 
 

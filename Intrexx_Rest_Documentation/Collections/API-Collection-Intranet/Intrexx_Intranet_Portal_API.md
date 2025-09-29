@@ -1,18 +1,19 @@
 ---
 type: api-collection
-title: "Intrexx Intranet — Portal API (Prod)"
+title: Intrexx Intranet — Portal API (Prod)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
   - app/portal
   - env/prod
-  - exposure/internal-live     # lila, falls in Groups priorisiert
-  - status/wip                 # nach Analyse ggf. auf status/active
+  - exposure/internal-live
+  - status/wip
   - spec/none
   - lang/de
   - collection/portal
-owner: "Team Integration"
-base_url: "https://<intranet-domain>"         # z. B. [[BaseURL_Intranet]]
+  - api/collection
+owner: Team Integration
+base_url: https://<intranet-domain>
 last_checked: YYYY-MM-DD
 ---
 
