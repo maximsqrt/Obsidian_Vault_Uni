@@ -11,13 +11,32 @@
             "id": "d824e8114020d264",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Datendrehscheibe.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Intrexx_Intranet_Datendrehscheibe"
+            }
+          },
+          {
+            "id": "4dfe9e1330f81542",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Intrexx_IntraDev_Amtbek"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,28 +102,13 @@
             }
           },
           {
-            "id": "62ea254c3d34b42d",
+            "id": "14e564b647abcc87",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Intrexx_Rest_Documentation/Collections/Intrexx_GUID"
-              },
-              "icon": "lucide-file",
-              "title": "Intrexx_GUID"
-            }
-          },
-          {
-            "id": "2d3443a6133c181e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
         ],
@@ -112,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 319.5
   },
   "right": {
     "id": "50b686ce88c7f880",
@@ -241,46 +245,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d824e8114020d264",
+  "active": "4dfe9e1330f81542",
   "lastOpenFiles": [
-    "API_Endpoints/Intranet/Intranet_Service_A-Z/Intrexx_Intranet_formulare.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GBeitraege.md",
-    "API_Endpoints/Intranet/Intranet_Service_A-Z/Intrexx_Intranet_beitraege.md",
-    "API_Endpoints/Intranet/Intranet_Service_A-Z/Intrexx_Intranet_beitrag_Strid.md",
-    "API_Endpoints/Intranet/Intranet_Service_A-Z/Intrexx_intranet_formular_Strid.md",
-    "API_Endpoints/Intranet/Intranet_Service_A-Z/Intrexx_intranet_gbeitraege.md",
-    "API_Endpoints/Intranet/Intranet_Service_A-Z/Intrexx_intranet_gformulare.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Service_A-Z.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitraege.md",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Beitrag_StrId.md",
-    "API_Endpoints/Intranet/Intranet_Service_A-Z",
-    "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare.md",
-    "API_Endpoints/Intranet/BaseURL_Intranet.md",
-    "API_Endpoints/Intranet/Intranet_Service",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Service_A-Z.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_intranet_SCS_Studiengangverwaltung.md",
-    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen.md",
+    "Intrexx_Rest_Documentation/Keys/Intranet_Key_Webkey.md",
+    "Intrexx_Rest_Documentation/Keys/Role Web.md",
+    "Development_Stuff/DataView Compare.md",
+    "Tags/#role+web",
+    "Tags/#key+status+review",
+    "Tags/#auth+key",
     "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Service_A_Z_APIKEY_SAZ_Prod.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Fundsachen_Prod.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Allgemein_Rahmenverträge_Prod.md",
-    "Development_Stuff/STATUS UNKNOWN.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Projekte_Dev.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Publikationen_Dev.md",
+    "Intrexx_Rest_Documentation/Keys/_Index.md",
+    "API_Endpoints/OData-Dienste/IntraDev/OData_IntraDev_scs_erhebung_v4.md",
+    "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Datendrehscheibe.md",
     "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_IntraDev_Service_A_Z_Dev.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Stellen_Prod.md",
+    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Projekte_Dev.md",
     "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Studiengangverwaltung_Prod.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Veranstaltungen_und_Termine_Prod.md",
-    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Webkey_1_Prod.md",
-    "Development_Stuff/Broken_APIs.base",
-    "WIP_APIS.base",
+    "Intrexx_Rest_Documentation/Keys/Intrexx_Intranet/Key_Allgemein_Rahmenverträge_Prod.md",
+    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Test_Dev.md",
+    "Intrexx_Rest_Documentation/Keys/Intrexx_IntraDev/Key_Intradev_Tester_Dev.md",
+    "Development_Stuff/Flowchart.md",
+    "Development_Stuff/Tag Glossar.md",
+    "API_Endpoints/Intranet/Intranet_Amtliche_Bekanntmachungen/Intrexx_Intranet_amtlbk.md",
+    "notiz 30.09.25 meeting todo.md",
+    "API_Endpoints/IntraDev/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
+    "API_Endpoints/IntraDev/IntraDev_Amtlbek/Intrexx_IntraDev_Amtbek.md",
     "Development_Stuff/CompareAPI.base",
+    "inventur prozessplan schnittstelle .md",
+    "API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen.md",
+    "API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe.md",
+    "readme.md",
+    "Intrexx_IntraDev_.md",
+    "Development_Stuff/Broken_APIs.base",
+    "TagViewFancySort.md",
+    "API_Map.md",
+    "API_Endpoints/Intranet/Intranet_Service_A-Z",
+    "API_Endpoints/Intranet/Intranet_myUFR",
+    "WIP_APIS.base",
     "Tags/#api",
     "Development_Stuff/Intranet_IntraDev_Compare.base",
     "TestCanvas.canvas",
     "Uni_Freiburg_Intranet_Canvas.canvas",
-    "scripts/testsort.py",
-    "API_Endpoints/IntraDev/IntraDev_TESTFOLDER",
-    "API_Endpoints/IntraDev/TESTFOLDER",
     "Pasted image 20250903145736.png",
     "Intrexx Map.canvas.canvas"
   ]

@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 6583435
       }
+    },
+    {
+      "query": "tag:#auth/key",
+      "color": {
+        "a": 1,
+        "rgb": 14810880
+      }
     }
   ],
   "collapse-display": false,
@@ -74,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.3868473002819885,
+  "scale": 0.2759286870728779,
   "close": false
 }

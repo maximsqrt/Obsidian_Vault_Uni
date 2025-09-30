@@ -34,7 +34,7 @@ path_prefix: /api/app
 
 ## Endpoints
 - [[Intrexx_Intranet_Studibesch]]
-- [[Intrexx_Intranet_Studiengaenge]]
+- [[API_Endpoints/Intranet/Intranet_Studiengaenge/Intrexx_Intranet_Studiengaenge]]
 - [[Intrexx_Intranet_Studig]]
 
 

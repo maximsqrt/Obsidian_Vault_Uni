@@ -29,6 +29,6 @@
     "base_url": "text",
     "path_entities": "multitext",
     "path_prefix": "multitext",
-    "usage_refs": "text"
+    "usage_refs": "multitext"
   }
 }
