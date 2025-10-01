@@ -14,7 +14,7 @@ tags:
   - api/collection
 owner: "[[Team Integration]]"
 guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995/fahrraeder"
 endpoints_count: 1
 last_checked: YYYY-MM-DD

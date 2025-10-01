@@ -13,7 +13,7 @@ tags:
   - collection/portal
   - api/collection
 owner: Team Integration
-base_url: https://<intranet-domain>
+base_url: "[[BaseURL_Intranet]]"
 last_checked: YYYY-MM-DD
 ---
 

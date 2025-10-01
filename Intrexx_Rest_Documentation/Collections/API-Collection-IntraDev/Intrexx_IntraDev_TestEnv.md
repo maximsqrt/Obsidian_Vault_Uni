@@ -14,7 +14,7 @@ tags:
   - api/collection
 owner: Team Integration
 guid_hash: 88B66AF9F56B3E785C0527589ACD282E2F19BED3
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/88B66AF9F56B3E785C0527589ACD282E2F19BED3"
 endpoints_count: 4
 last_checked: YYYY-MM-DD

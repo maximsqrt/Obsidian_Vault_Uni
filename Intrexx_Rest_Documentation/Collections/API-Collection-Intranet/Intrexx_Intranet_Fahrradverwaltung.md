@@ -14,7 +14,7 @@ tags:
   - api/collection
 owner: Team Integration
 guid_hash: 43FCB1E50030712AA3E5E8C30402319D1ED66995
-api_base: "[[BaseURL_Intranet]]/api/app/43FCB1E50030712AA3E5E8C30402319D1ED66995"
+base_url: "[[BaseURL_Intranet]]"
 endpoints_count: 1
 last_checked: YYYY-MM-DD
 path_prefix: /api/app

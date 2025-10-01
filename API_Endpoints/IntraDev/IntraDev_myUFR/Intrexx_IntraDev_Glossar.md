@@ -22,7 +22,7 @@ path_prefix: /api/app
 path_entities:
   - /glossar
 method: GET
-collection_ref: "[[Intrexx_Intranet_myUFR]]"
+collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
 ---
 #  Contract

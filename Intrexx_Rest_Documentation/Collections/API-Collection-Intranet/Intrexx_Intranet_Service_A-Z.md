@@ -4,7 +4,6 @@ title: Service_A-Z
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
-  - app/intradev
   - env/dev
   - exposure/internal-nonprod
   - status/wip
@@ -12,6 +11,7 @@ tags:
   - lang/de
   - collection/service-a-z
   - api/collection
+  - app/intranet
 owner: Team Integration
 guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
 base_url: "[[BaseURL_Intranet]]"
@@ -36,9 +36,9 @@ path_prefix: /api/app
 
 - [[Intrexx_Intranet_beitraege]]
     
-- [[Intrexx_IntraDev_Beitrag_StrId]]
+- [[Intrexx_Intranet_Beitrag_StrId]]
     
-- [[Intrexx_IntraDev_Formular_StrId]]
+- [[Intrexx_Intranet_Formular_StrId]]
     
 - [[Intrexx_Intranet_formulare]]
     
@@ -49,4 +49,4 @@ path_prefix: /api/app
 
 ## Relations
 > [!tip]
-> [[Intrexx_Intradev_Legacy]]
+> [[Intrexx_Intranet_Legacy]]

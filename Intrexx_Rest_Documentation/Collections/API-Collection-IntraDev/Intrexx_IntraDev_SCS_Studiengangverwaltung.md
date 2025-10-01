@@ -14,7 +14,7 @@ tags:
   - api/collection
 owner: "[[Team Integration]]"
 guid_hash: "[[IntraDev_SCS_Studiengangverwaltung]]"
-base_url: "[[API_Endpoints/IntraDev/BaseURL_IntraDev]]"
+base_url: "[[BaseURL_IntraDev]]"
 api_base: "[[BaseURL_intraDev]]/api/app/07B8BAFC83EF90BE995EC565B0EFB7512E0538E3"
 endpoints_count: 3
 last_checked: YYYY-MM-DD

@@ -1,20 +1,15 @@
 filters:
   and:
-    - file.hasTag("status/wip")
+    - file.hasTag("api/collection")
 views:
   - type: table
     name: Table
     order:
       - title
-      - guid_hash
       - base_url
-      - system
-    sort:
-      - property: guid_hash
-        direction: DESC
-      - property: url
-        direction: ASC
+      - file.path
+    sort: []
     columnSize:
-      note.title: 323
-      note.guid_hash: 316
-      note.url: 192
+      note.title: 329
+      note.base_url: 144
+      file.basename: 294

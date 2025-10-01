@@ -50,4 +50,4 @@ path_prefix: /api/app
 
 ## Relations
 > [!tip]
-> [[Intrexx_Intradev_Legacy]]
+> [[Intrexx_Intranet_Legacy]]

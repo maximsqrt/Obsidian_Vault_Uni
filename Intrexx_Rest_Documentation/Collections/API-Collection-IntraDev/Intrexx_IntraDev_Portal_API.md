@@ -13,7 +13,7 @@ tags:
   - exposure/internal-nonprod
   - api/collection
 owner: Team Integration
-base_url: https://<intradev-domain>
+base_url: "[[BaseURL_IntraDev]]"
 last_checked: YYYY-MM-DD
 ---
 
