@@ -36,24 +36,7 @@ path_prefix: /api/app
 ## Endpoints
 - [[Intrexx_IntraDev_Amtbek]]
 
-## Status & Health
-- [ ] 200 OK
-- [ ] Auth / Rollen
-- [ ] Pagination/Filter
-- [ ] Fehlermodell
-- [ ] Rate Limits
 
-## Auth & Keys
-- Typ / Ort: _tbd_
-
-## Nutzung & Owner
-- _tbd_
-
-## Probleme / Risiken
-- _tbd_
-
-## Maßnahmen
-- _tbd_
 
 ## Relations
 > [!tip]

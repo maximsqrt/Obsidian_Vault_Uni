@@ -1,3 +1,6 @@
+---
+color: var(--mk-color-pink)
+---
 - sender, empfänger hinzufügen api endpoints
 - owner daten / owner schnittstelle hinzu
 - neues gitlab proj. anlegen d/createGroup

@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
+auth: "[[IntraDev_Key_Webkey]]"
 title: Datendrehscheibe - User (IntraDev)
 guid_hash: E8F7687AE12876495F0A5B3C43321B695AA48561
 path_prefix: /api/app

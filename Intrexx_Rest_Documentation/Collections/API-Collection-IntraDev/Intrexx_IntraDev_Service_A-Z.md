@@ -46,27 +46,6 @@ path_prefix: /api/app
     
 - [[API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_GBeitraege]]
 
-## Status & Health
-- [ ] 200 OK je Endpoint
-- [ ] Auth / Rollen (Session/Cookie/Token) geklärt
-- [ ] Pagination/Filter (falls Listen)
-- [ ] Fehlermodell konsistent (z. B. problem+json)
-- [ ] Rate Limits/Quotas dokumentiert
-
-## Auth & Keys
-- Typ: _(oauth2 | bearer | basic | apikey | none)_  
-- Übergabe: _(Header `Authorization`, Cookie, Query …)_  
-- Scopes/Rollen: _…_
-
-## Nutzung & Owner
-- Consumer: _…_  
-- Nutzung: _aktiv / selten / unklar_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen / Nächste Schritte
-- _…_
 
 ## Relations
 > [!tip]

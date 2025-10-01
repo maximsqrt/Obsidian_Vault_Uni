@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: Portal — getAuthenticationTokenTypes (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -20,7 +19,7 @@ owner: Team Integration
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
 path_entities:
-  - "/getAuthenticationTokenTypes"
+  - /getAuthenticationTokenTypes
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Portal_API]]"
 last_checked: 2025-08-26

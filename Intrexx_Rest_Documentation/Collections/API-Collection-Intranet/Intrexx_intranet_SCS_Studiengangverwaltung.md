@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx_intranet_Studiengaenge
+title: Studiengaenge
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx

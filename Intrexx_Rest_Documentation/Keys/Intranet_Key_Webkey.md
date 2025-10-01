@@ -16,7 +16,7 @@ key_type: x-api-key
 auth_flow: tbd
 secret_ref: intrexx-manager
 usage_refs:
-  - "[[Intrexx_Intranet_Datendrehscheibe]]"
+  - "[[Intrexx_Intranet_Nachrichten]]"
   - "[[Intrexx_Intranet_Fahrradverwaltung]]"
   - "[[Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen|Intrexx_Intranet_Fundsachen]]"
   - "[[Intrexx_Intranet_myUFR]]"

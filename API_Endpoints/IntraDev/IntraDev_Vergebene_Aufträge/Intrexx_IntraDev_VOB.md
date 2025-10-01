@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
+auth: "[[IntraDev_Key_Webkey]]"
 title: Vergebene Aufträge — vob (IntraDev)
 tags:
   - project/intrexx-rest-discovery

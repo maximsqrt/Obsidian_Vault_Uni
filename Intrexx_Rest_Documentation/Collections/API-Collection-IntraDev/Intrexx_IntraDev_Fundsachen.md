@@ -36,24 +36,6 @@ path_prefix: /api/app
 - [[API_Endpoints/IntraDev/IntraDev_Fundsachen/Intrexx_IntraDev_Fundsachen|Intrexx_IntraDev_Fundsachen]]
 - [[Intrexx_IntraDev_Standorte]]
 
-## Status & Health
-- [ ] 200 OK (beide)
-- [ ] Auth / Rollen
-- [ ] Pagination
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ / Ort: _tbd_
-
-## Nutzung & Owner
-- _tbd_
-
-## Probleme / Risiken
-- _tbd_
-
-## Maßnahmen
-- _tbd_
 
 ## Relations
 > [!tip]

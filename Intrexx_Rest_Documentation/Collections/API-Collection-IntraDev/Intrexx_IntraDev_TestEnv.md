@@ -43,27 +43,6 @@ path_prefix: /api/app
     
 - [[Intrexx_intraDev_Study]]
 
-## Status & Health
-- [ ] 200 OK je Endpoint
-- [ ] Auth / Rollen (Session/Cookie/Token) geklärt
-- [ ] Pagination/Filter (falls Listen)
-- [ ] Fehlermodell konsistent (z. B. problem+json)
-- [ ] Rate Limits/Quotas dokumentiert
-
-## Auth & Keys
-- Typ: _(oauth2 | bearer | basic | apikey | none)_  
-- Übergabe/Scopes: _…_  
-- Cookies/Headers (Namen, SameSite, Domain): _…_
-
-## Nutzung & Owner
-- Consumer/Use-Cases: _…_  
-- Nutzung: _aktiv / selten / unklar_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen / Nächste Schritte
-- _…_
 
 ## Relations
 > [!tip]

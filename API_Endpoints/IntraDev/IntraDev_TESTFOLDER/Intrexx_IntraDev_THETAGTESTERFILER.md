@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: TEST — alle Tags (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -15,7 +14,6 @@ tags:
   - collection/test-collection
   - endpoint/test-endpoint
   - method/get
-  # ---- alle Status-Varianten für Badge-Tests ----
   - status/active
   - status/wip
   - status/deprecated
@@ -26,7 +24,7 @@ guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
 path_entities:
-  - "/themen"
+  - /themen
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Veranstaltungen_und_Termine]]"
 last_checked: 2025-08-27

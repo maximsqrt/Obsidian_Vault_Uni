@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx IntraDev API — myUFR
+title: myUFR
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -34,17 +34,17 @@ path_prefix: /api/app
 # myUFR — Analyse (IntraDev)
 
 ## Endpoints
-- [[Intrexx_IntraDev_Abschluesse|abschluesse]]
-- [[Intrexx_IntraDev_Apptexte|apptexte]]
-- [[Intrexx_IntraDev_Fachberater|fachberater]]
-- [[Intrexx_IntraDev_Fachschaften|fachschaften]]
-- [[Intrexx_IntraDev_Faecher|faecher]]
-- [[Intrexx_IntraDev_Geodaten|geodaten]]
-- [[Intrexx_IntraDev_Glossar|glossar]]
-- [[API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Studiengaenge|studiengaenge]]
-- [[Intrexx_IntraDev_Studienganggruppen|studienganggruppen]]
-- [[Intrexx_IntraDev_Termingruppe|termingruppe]]
-- [[API_Endpoints/IntraDev/IntraDev_myUFR/Intrexx_IntraDev_Veranstaltungen|veranstaltungen]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_intranet_Abschluesse]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Apptexte]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Fachberater]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Fachschaften]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Faecher]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Locations]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_intranet_Glossar]]
+- [[API_Endpoints/Intranet/Intranet_Studiengaenge/Intrexx_Intranet_Studiengaenge|Intrexx_Intranet_Studiengaenge]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Studienganggruppen]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Termingruppen]]
+- [[API_Endpoints/Intranet/Intranet_myUFR/Intrexx-intranet_veranstaltungen]]
 
 
 

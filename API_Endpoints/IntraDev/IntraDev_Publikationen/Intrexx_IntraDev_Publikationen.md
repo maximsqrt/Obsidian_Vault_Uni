@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: Publikationen — publikationen (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -21,7 +20,7 @@ guid_hash: 896424333B7D67953799DF367AF3BA1FEA221416
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
 path_entities:
-  - "/publikationen"
+  - /publikationen
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Publikationen|Intrexx_IntraDev_Publikationen]]"
 last_checked: 2025-08-26

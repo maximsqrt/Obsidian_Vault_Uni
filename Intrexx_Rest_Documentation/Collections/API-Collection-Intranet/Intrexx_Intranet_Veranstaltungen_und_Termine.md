@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx Intranet API — Veranstaltungen und Termine
+title: Veranstaltungen und Termine
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -33,32 +33,14 @@ path_prefix: /api/app
 # Veranstaltungen und Termine — Analyse
 
 ## Endpoints
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltungen>
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/veranstaltung/{strid}>
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/varten>
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/vart/{strid}>
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/themen>
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termine>
-- `GET` <[[BaseURL_Intranet]]/api/app/1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A/termin/{strid}>
+- [[Intrexx_Intranet_Termin_Strid]]
+- [[Intrexx_Intranet_Termine]]
+- [[Intrexx_Intranet_Veranstaltungen_StrId]]
+- [[Intrexx_Intranet_Veranstaltungen_StrId]]
+- [[Intrexx_Intranet_Vart_Strid]]
+- [[Intrexx_Intranet_varten]]
+- [[Intrexx_Intranet_Themen]]
 
-## Status & Health
-- [ ] 200 OK (alle)
-- [ ] Auth je Endpoint
-- [ ] Pagination/Filter
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ / Ort / Parameter: _…_
-
-## Nutzung & Owner
-- _…_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen
-- _…_
 
 ## Relations
 > [!tip]

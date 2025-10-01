@@ -22,7 +22,6 @@ path_prefix: /api/app
 ---
 
 
-
 #  Contract
 
 > [!danger] API OVERVIEW `¯\_(ツ)_/¯`
@@ -38,24 +37,6 @@ path_prefix: /api/app
 ## Endpoints
 - [[API_Endpoints/IntraDev/IntraDev_Datendrehscheibe/Intrexx_IntraDev_Datendrehscheibe|Intrexx_IntraDev_Datendrehscheibe]]
 
-## Status & Health
-- [ ] 200 OK / Schema plausibel
-- [ ] Auth / Rollen
-- [ ] Pagination/Filter (falls Liste)
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ / Ort / Scopes: _tbd_
-
-## Nutzung & Owner
-- _tbd_
-
-## Probleme / Risiken
-- _tbd_
-
-## Maßnahmen / Nächste Schritte
-- _tbd_
 
 ## Relations
 > [!tip]

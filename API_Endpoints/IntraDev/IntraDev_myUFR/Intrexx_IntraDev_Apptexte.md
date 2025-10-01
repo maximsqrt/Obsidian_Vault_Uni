@@ -1,24 +1,23 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: myUFR — apptexte (IntraDev)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
-  - app/intradev
   - env/dev
   - exposure/internal-nonprod
-  - collection/myufr
+  - collection/service-a-z
   - status/wip
   - spec/none
   - lang/de
-  - endpoint/apptexte
+  - endpoint/beitraege
   - method/get
   - status/active
+  - app/intradev
 owner: Team Integration
-guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
-base_url: "[[BaseURL_intraDev]]"
+guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+base_url: "[[BaseURL_IntraDev]]"
 path_prefix: /api/app
 path_entities:
   - /apptexte
@@ -26,8 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
 ---
-
-
 #  Contract
 
 > [!danger] API OVERVIEW
@@ -35,6 +32,10 @@ last_checked: 2025-08-26
 > ---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
+
+
+
+
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

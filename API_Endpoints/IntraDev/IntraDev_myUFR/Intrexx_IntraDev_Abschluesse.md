@@ -1,23 +1,23 @@
 ---
 type: api-endpoint
-auth: x-api-key
-title: myUFR — abschluesse (IntraDev)
-guid_hash: 809419535333F08CC2D7CC8BCF2C84115E1E79E7
+auth: "[[IntraDev_Key_Webkey]]"
+title: myUFR — abschluesse (Intranet)
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
-  - app/intradev
   - env/dev
   - exposure/internal-nonprod
-  - collection/myufr
+  - collection/service-a-z
   - status/wip
   - spec/none
   - lang/de
-  - endpoint/abschluesse
+  - endpoint/beitraege
   - method/get
   - status/active
+  - app/intradev
 owner: Team Integration
-base_url: "[[BaseURL_IntraDev]]"
+guid_hash: 99AF5C20962E81CA332D0C3FC64841FE96BE7173
+base_url: "[[BaseURL_OData_IntraDev]]"
 path_prefix: /api/app
 path_entities:
   - /abschluesse
@@ -25,8 +25,6 @@ method: GET
 collection_ref: "[[Intrexx_IntraDev_myUFR]]"
 last_checked: 2025-08-26
 ---
-
-
 #  Contract
 
 > [!danger] API OVERVIEW
@@ -34,6 +32,10 @@ last_checked: 2025-08-26
 > ---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
+
+
+
+
 ```dataviewjs
 // ===== Konfig =====
 const fm = dv.current().file.frontmatter;

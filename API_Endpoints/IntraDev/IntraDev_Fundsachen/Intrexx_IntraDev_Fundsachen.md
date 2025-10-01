@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: fundsachen
 guid_hash: 56E423A507C34F76FD114442921B0AF44BA57B88
 path_prefix: /api/app

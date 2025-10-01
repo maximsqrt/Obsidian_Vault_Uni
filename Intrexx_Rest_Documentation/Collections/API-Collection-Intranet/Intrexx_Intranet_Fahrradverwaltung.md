@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx Intranet API — Fahrradverwaltung
+title: Fahrradverwaltung
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -33,26 +33,8 @@ path_prefix: /api/app
 # Fahrradverwaltung — Analyse
 
 ## Endpoints
-- [[Intrexx_Intranet_Fahrradverwaltung]]
+- [[Intrexx_Intranet_Fahrraeder]]
 
-## Status & Health
-- [ ] 200 OK  – Schema plausibel
-- [ ] Auth / Berechtigungen
-- [ ] Pagination / Filter
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ: _…_ — Ort/Parameter: _…_
-
-## Nutzung & Owner
-- Consumer: _…_ — Nutzung: _…_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen
-- _…_
 
 ## Relations
 > [!tip]

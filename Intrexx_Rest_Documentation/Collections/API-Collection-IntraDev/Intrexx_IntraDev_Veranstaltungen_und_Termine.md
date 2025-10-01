@@ -49,26 +49,7 @@ path_prefix: /api/app
     
 - [[Intrexx_intraDev_Veranstaltungen_StrId]]
 
-## Status & Health
-- [ ] 200 OK je Endpoint
-- [ ] Auth / Rollen (Session/Cookie/Token) geklärt
-- [ ] Pagination/Filter (Listen)
-- [ ] Fehlermodell konsistent
-- [ ] Rate Limits/Quotas dokumentiert
 
-## Auth & Keys
-- Typ: _(oauth2 | bearer | basic | apikey | none)_  
-- Übergabe/Scopes: _…_
-
-## Nutzung & Owner
-- Consumer: _…_  
-- Nutzung: _aktiv / selten / unklar_
-
-## Probleme / Risiken
-- _…_
-
-## Maßnahmen / Nächste Schritte
-- _…_
 ## Relations
 > [!tip]
 > [[Intrexx_Intradev_Legacy]]

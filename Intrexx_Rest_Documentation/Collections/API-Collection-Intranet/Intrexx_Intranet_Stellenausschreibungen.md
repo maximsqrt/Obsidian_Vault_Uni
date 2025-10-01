@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx Intranet API — Stellenausschreibungen
+title: Stellenausschreibungen
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -38,13 +38,6 @@ path_prefix: /api/app
 - [[Intrexx_Intranet_Stelle]]
 - [[Intrexx_Intranet_Stellen]]
 - [[Intrexx_intranet_Textbausteine]]
-
-## Status & Health
-- [ ] 200 OK alle Endpunkte
-- [ ] Auth / Scopes je Endpoint
-- [ ] Pagination/Filter (Listen)
-- [ ] Fehlermodell konsistent
-- [ ] Rate Limits / Throttling
 
 
 ## Relations

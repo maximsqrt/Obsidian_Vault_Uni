@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
+auth: "[[Intranet_Key_Webkey]]"
 title: Service A–Z — formular/{strid} (Intranet)
 tags:
   - project/intrexx-rest-discovery

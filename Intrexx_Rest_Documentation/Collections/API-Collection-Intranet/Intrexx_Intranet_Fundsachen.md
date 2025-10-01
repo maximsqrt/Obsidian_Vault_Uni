@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx Intranet API — Fundsachen
+title: Fundsachen
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx

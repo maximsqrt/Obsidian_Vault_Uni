@@ -36,25 +36,6 @@ path_prefix: /api/app
 ## Endpoints
 - [[Intrexx_IntraDev_Fahrraeder]]
 
-## Status & Health
-- [ ] 200 OK / Schema plausibel
-- [ ] Auth / Rollen
-- [ ] Pagination/Filter (falls Liste)
-- [ ] Fehlermodell
-- [ ] Rate Limits
-
-## Auth & Keys
-- Typ / Ort / Scopes: _tbd_
-
-## Nutzung & Owner
-- _tbd_
-
-## Probleme / Risiken
-- _tbd_
-
-## Maßnahmen / Nächste Schritte
-- _tbd_
-
 ## Relations
 > [!tip]
 > [[Intrexx_Intradev_Legacy]]

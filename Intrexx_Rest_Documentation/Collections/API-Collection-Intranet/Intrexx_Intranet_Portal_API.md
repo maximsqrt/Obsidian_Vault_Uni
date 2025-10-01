@@ -1,6 +1,6 @@
 ---
 type: api-collection
-title: Intrexx Intranet — Portal API (Prod)
+title: Portal API
 tags:
   - project/intrexx-rest-discovery
   - system/intrexx
@@ -32,7 +32,7 @@ last_checked: YYYY-MM-DD
 ## Endpoints
 - [[Intrexx_Intranet_getAuthenticationTokenTypes]]
 - [[Intrexx_intranet_getLoginDomains]]
-- [[Intrexx_Intranet_GetSessionInfo|Intrexx_intraDev_GetSessionInfo]]
+- [[Intrexx_Intranet_getSessionInfo]]
 - [[Intrexx_Intranet_login]]
 - [[Intrexx_Intranet_logout]]
 - [[Intrexx_Intranet_Upload]]

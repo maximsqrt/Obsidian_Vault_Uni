@@ -1,6 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
+auth: "[[Intranet_Key_Webkey]]"
 title: Studiengänge — studigaenge (Intranet)
 tags:
   - project/intrexx-rest-discovery

@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: Stellenausschreibungen — stelle (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -22,7 +21,7 @@ guid_hash: 335908426702A4A4DE952E12187206B841B691C4
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
 path_entities:
-  - "/stelle"
+  - /stelle
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Stellenauschreibungen]]"
 last_checked: 2025-08-26

@@ -1,7 +1,6 @@
 ---
 type: api-endpoint
-auth: x-api-key
-
+auth: "[[IntraDev_Key_Webkey]]"
 title: Veranstaltungen & Termine — termin/{strid} (IntraDev)
 tags:
   - project/intrexx-rest-discovery
@@ -21,7 +20,7 @@ guid_hash: 1CB22DE7420AEC12CCE7B27740A4845F7DB7F16A
 base_url: "[[BaseURL_intraDev]]"
 path_prefix: /api/app
 path_entities:
-  - "/termin/{strid}"
+  - /termin/{strid}
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Veranstaltungen_und_Termine]]"
 last_checked: 2025-08-27
