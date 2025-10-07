@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Vergebene_Aufträge]]"
 last_checked: 2025-08-27
+provider: provider
+consumer: consumer
 ---
 
 

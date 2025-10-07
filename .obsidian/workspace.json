@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Locations.md",
-                "mode": "source",
+                "file": "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_intranet_Glossar.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Intrexx_Intranet_Locations"
+              "title": "Intrexx_intranet_Glossar"
+            }
+          },
+          {
+            "id": "8a31cdf8cae1ab2c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
             }
           },
           {
@@ -27,15 +39,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API_Endpoints/Intranet/Intranet_Vergebene_Aufträge/Intrexx_Intranet_Binnenmarkt.md",
+                "file": "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Locations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrexx_Intranet_Binnenmarkt"
+              "title": "Intrexx_Intranet_Locations"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             }
           },
           {
-            "id": "e247338eb31d4a39",
+            "id": "0928b0a02b54fcca",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -244,11 +257,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "50b3204c97c51ead",
+  "active": "0592c4c8afd8afe8",
   "lastOpenFiles": [
+    "API_Endpoints/Intranet/Intranet_Vergebene_Aufträge/Intrexx_Intranet_Binnenmarkt.md",
+    "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Fachberater.md",
+    "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Locations.md",
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Fachschaften.md",
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_intranet_Glossar.md",
-    "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Fachberater.md",
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Apptexte.md",
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Faecher.md",
     "notiz 30.09.25 meeting todo.md",
@@ -263,14 +278,12 @@
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_intranet_Studiengaenge.md",
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Studienganggruppen.md",
     "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Termingruppen.md",
-    "API_Endpoints/Intranet/Intranet_myUFR/Intrexx_Intranet_Locations.md",
     "API_Endpoints/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studibesch.md",
     "API_Endpoints/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studig.md",
     "API_Endpoints/IntraDev_SCS_Studiengangverwaltung/Intrexx_IntraDev_Studiengaenge.md",
     "API_Endpoints/IntraDev/IntraDev_Service_A-Z/Intrexx_IntraDev_Formulare.md",
     "WIP_APIS.base",
     "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Portal_API.md",
-    "API_Endpoints/Intranet/Intranet_Vergebene_Aufträge/Intrexx_Intranet_Binnenmarkt.md",
     "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen.md",
     "Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fahrradverwaltung.md",
     "API_Endpoints/IntraDev/Intranet_myUFR1",

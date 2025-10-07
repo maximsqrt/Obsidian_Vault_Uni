@@ -25,6 +25,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_Intranet_Stellenausschreibungen]]"
 last_checked: YYYY-MM-DD
+provider: provider
+consumer: consumer
 ---
 
 

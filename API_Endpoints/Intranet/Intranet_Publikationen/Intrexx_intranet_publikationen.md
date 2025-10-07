@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_intranet_Publikationen|Intrexx_intranet_Publikationen]]"
 last_checked: 2025-08-26
+provider: provider
+consumer: consumer
 ---
 #  Contract
 

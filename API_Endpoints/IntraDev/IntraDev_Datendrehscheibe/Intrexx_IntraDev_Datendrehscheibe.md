@@ -22,6 +22,8 @@ path_entities:
 method: GET
 last_checked: 2025-09-02
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Datendrehscheibe|Intrexx_IntraDev_Datendrehscheibe]]"
+provider: provider
+consumer: consumer
 ---
 
 

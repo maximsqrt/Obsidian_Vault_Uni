@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[API_Endpoints/Intranet/Intranet_Studiengaenge/Intrexx_Intranet_Studiengaenge]]"
 last_checked: YYYY-MM-DD
+provider: provider
+consumer: consumer
 ---
 
 

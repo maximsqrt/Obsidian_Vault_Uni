@@ -24,6 +24,8 @@ path_entities:
 method: POST
 collection_ref: "[[Intrexx_Intranet_Portal_API]]"
 last_checked: YYYY-MM-DD
+provider: provider
+consumer: consumer
 ---
 
 

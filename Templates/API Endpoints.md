@@ -20,6 +20,8 @@ entity_paths:
 method: GET
 collection_ref: "[[]]"
 last_checked: <YYYY-MM-DD>
+provider: provider
+consumer: consumer
 ---
 
 

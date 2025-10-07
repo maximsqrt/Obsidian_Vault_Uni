@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[]]"
 last_checked: 2025-09-02
+provider: provider
+consumer: consumer
 ---
 # Contract
 

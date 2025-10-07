@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-IntraDev/Intrexx_IntraDev_Studiengaenge|Intrexx_IntraDev_Studiengaenge]]"
 last_checked: 2025-08-26
+provider: provider
+consumer: consumer
 ---
 
 

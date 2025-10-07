@@ -21,6 +21,8 @@ url: "[[BaseURL_intraDev]]/api/app/99AF5C20962E81CA332D0C3FC64841FE96BE7173/gfor
 method: "GET"
 collection_ref: "[[Intrexx-IntraDev-API-Service-A-Z]]"
 last_checked: 2025-08-26
+provider: provider
+consumer: consumer
 ---
 
 # `gformulare` — Contract

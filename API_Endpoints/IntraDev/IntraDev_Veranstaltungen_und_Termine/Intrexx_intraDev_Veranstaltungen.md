@@ -25,6 +25,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_IntraDev_Veranstaltungen_und_Termine]]"
 last_checked: 2025-08-27
+provider: provider
+consumer: consumer
 ---
 
 

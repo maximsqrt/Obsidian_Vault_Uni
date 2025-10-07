@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_IntraDev_SCS_Studiengangverwaltung]]"
 last_checked: 2025-08-26
+provider: provider
+consumer: consumer
 ---
 
 

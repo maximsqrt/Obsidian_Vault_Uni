@@ -25,6 +25,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_Rest_Documentation/Collections/API-Collection-Intranet/Intrexx_Intranet_Fundsachen|Intrexx_Intranet_Fundsachen]]"
 last_checked: YYYY-MM-DD
+provider: provider
+consumer: consumer
 ---
 
 

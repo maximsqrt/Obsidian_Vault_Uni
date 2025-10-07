@@ -24,6 +24,8 @@ path_entities:
 method: GET
 collection_ref: "[[Intrexx_Intranet_myUFR]]"
 last_checked: 2025-08-26
+provider: provider
+consumer: consumer
 ---
 #  Contract
 

@@ -20,6 +20,8 @@ method: GET
 collection_ref: "[[Intrexx_Intranet_Nachrichten]]"
 last_checked: YYYY-MM-DD
 path_prefix: /api/app
+provider: provider
+consumer: consumer
 ---
 
 
