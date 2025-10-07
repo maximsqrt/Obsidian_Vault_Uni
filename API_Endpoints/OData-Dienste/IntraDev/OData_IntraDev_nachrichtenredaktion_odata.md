@@ -28,8 +28,8 @@ last_checked: 2025-09-02
 #  Contract
 
 > [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
-> ---
+> **METHOD** `=upper(this.method)` · **AUTH** `=this.auth`
+---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
 # `eucor_odata` — Contract

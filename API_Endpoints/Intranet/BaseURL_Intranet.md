@@ -15,8 +15,8 @@ tags:
 #  Contract
 
 > [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
-> ---
+> **METHOD** `=upper(this.method)` · **AUTH** `=this.auth`
+---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
 # INTRANET_BASEURL

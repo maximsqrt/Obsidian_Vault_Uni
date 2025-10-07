@@ -16,8 +16,8 @@ last_reviewed: 2025-09-03
 #  Contract
 
 > [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
-> ---
+> **METHOD** `=upper(this.method)` · **AUTH** `=this.auth`
+---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
 last_reviewed: 2025-09-03
@@ -163,8 +163,8 @@ Accept: application/json
 #  Contract
 
 > [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
-> ---
+> **METHOD** `=upper(this.method)` · **AUTH** `=this.auth`
+---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
 > [!danger] Achtung

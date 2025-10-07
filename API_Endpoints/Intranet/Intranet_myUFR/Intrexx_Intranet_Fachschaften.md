@@ -25,11 +25,12 @@ method: GET
 collection_ref: "[[Intrexx_Intranet_myUFR]]"
 last_checked: 2025-08-26
 ---
+
 #  Contract
 
 > [!danger] API OVERVIEW
-> **METHOD** `=upper(this.method)` · **AUTH** `=upper(this.auth)`
-> ---
+> **METHOD** `=upper(this.method)` · **AUTH** `=this.auth`
+---
 > **QUERY** _tbd_  
 > **RESPONSE** _tbd_
 
